@@ -1,0 +1,405 @@
+/*
+  ==== selected:
+  font-family: 'DM Serif Display', serif; - 1 weight
+  font-family: 'Inter', sans-serif; - 400 / 600
+  font-family: 'Lora', serif; - ital / 400 / 500  
+  ==== explored:
+  font-family: 'Arbutus Slab', serif;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+*/
+:root {
+  --folio-primary: #B5F100;
+  --folio-turq: #20d3c1;
+  --folio-turq-light: #00ffe5;
+  --folio-grey__dark01: #000;
+  --folio-grey__dark02: #333;
+  --folio-grey__dark03: #555;
+  --folio-grey__dark04: #777;
+  --folio-grey__light01: #999;
+  --folio-grey__light02: #BCBCBC;
+  --folio-grey__light03: #D4D4D4;
+  --folio-grey__light04: #E8E8E8;
+  --folio-grey__light05: #F3F3F3;
+  --folio-tint01: #C4D2CF;
+  --text-sans: "Inter", sans-serif;
+  --text-serif: "Lora", serif;
+  --display-serif: "DM Serif Display", serif;
+  --width-reading: 40rem;
+  --width-projects: 60rem;
+  --space025: .25rem;
+  --space05: .5rem;
+  --space075: .75rem;
+  --space1: 1rem;
+  --space125: 1.25rem;
+  --space15: 1.5rem;
+  --space175: 1.75rem;
+  --space2: 2rem;
+  --space225: 2.25rem;
+  --space25: 2.5rem;
+  --space275: 2.75rem;
+  --space3: 3rem;
+  --space325: 3.25rem;
+  --space35: 3.5rem;
+  --space375: 3.75rem;
+  --space4: 4rem;
+  --space5: 5rem;
+  --space6: 6rem;
+  --space7: 7rem;
+  --space8: 8rem;
+}
+
+/*
+    1rem = 16dp
+    .875rem = 14dp
+    .75rem = 12dp
+*/
+.h1 {
+  font-family: var(--display-serif);
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.h2 {
+  font-family: var(--text-sans);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.h3 {
+  font-family: var(--text-sans);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+iframe {
+  border-style: none;
+}
+
+.md-logotype {
+  fill: turquoise;
+}
+
+.mt025 {
+  margin-top: var(--space025);
+}
+
+.mt05 {
+  margin-top: var(--space05);
+}
+
+.mt075 {
+  margin-top: var(--space075);
+}
+
+.mt1 {
+  margin-top: var(--space1);
+}
+
+.mt125 {
+  margin-top: var(--space125);
+}
+
+.mt15 {
+  margin-top: var(--space15);
+}
+
+.mt175 {
+  margin-top: var(--space175);
+}
+
+.mt2 {
+  margin-top: var(--space2);
+}
+
+.mt3 {
+  margin-top: var(--space3);
+}
+
+.mt4 {
+  margin-top: var(--space4);
+}
+
+.mt5 {
+  margin-top: var(--space5);
+}
+
+.mt6 {
+  margin-top: var(--space6);
+}
+
+.mt7 {
+  margin-top: var(--space7);
+}
+
+.mt8 {
+  margin-top: var(--space8);
+}
+
+.mb025 {
+  margin-bottom: var(--space025);
+}
+
+.mb05 {
+  margin-bottom: var(--space05);
+}
+
+.mb075 {
+  margin-bottom: var(--space075);
+}
+
+.mb1 {
+  margin-bottom: var(--space1);
+}
+
+.mb125 {
+  margin-bottom: var(--space125);
+}
+
+.mb15 {
+  margin-bottom: var(--space15);
+}
+
+.mb175 {
+  margin-bottom: var(--space175);
+}
+
+.mb2 {
+  margin-bottom: var(--space2);
+}
+
+.mb3 {
+  margin-bottom: var(--space3);
+}
+
+.mb4 {
+  margin-bottom: var(--space4);
+}
+
+.mb5 {
+  margin-bottom: var(--space5);
+}
+
+.mb6 {
+  margin-bottom: var(--space6);
+}
+
+.mb7 {
+  margin-bottom: var(--space7);
+}
+
+.mb8 {
+  margin-bottom: var(--space8);
+}
+
+.mr025 {
+  margin-right: var(--space025);
+}
+
+.mr05 {
+  margin-right: var(--space05);
+}
+
+.mr075 {
+  margin-right: var(--space075);
+}
+
+.mr1 {
+  margin-right: var(--space1);
+}
+
+.mr125 {
+  margin-right: var(--space125);
+}
+
+.mr15 {
+  margin-right: var(--space15);
+}
+
+.mr175 {
+  margin-right: var(--space175);
+}
+
+.mr2 {
+  margin-right: var(--space2);
+}
+
+.mr3 {
+  margin-right: var(--space3);
+}
+
+.mr4 {
+  margin-right: var(--space4);
+}
+
+.mr5 {
+  margin-right: var(--space5);
+}
+
+.mr6 {
+  margin-right: var(--space6);
+}
+
+.mr7 {
+  margin-right: var(--space7);
+}
+
+.mr8 {
+  margin-right: var(--space8);
+}
+
+.header-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: var(--folio-turq);
+}
+
+.header-video__content {
+  width: 100%;
+  margin: -10rem 0;
+  opacity: 0.4;
+}
+
+.folio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.folio-project__tag, .h3-content_section {
+  font-family: var(--text-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.folio-content__text {
+  width: 100%;
+  max-width: var(--width-reading);
+  font-family: var(--text-sans);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.folio-content__figma {
+  width: 100%;
+  max-width: var(--width-projects);
+}
+.folio-content__figma iframe {
+  width: 100%;
+  height: 30rem;
+  background-color: var(--color-grey__light05);
+  border-radius: 0.5rem;
+}
+
+dcl-process,
+dcl-research,
+dcl-ideation,
+dcl-wireframing,
+dcl-designs,
+dcl-delivery,
+dcl-validation,
+dcl-outcomes,
+dcl-retrospective {
+  width: 100%;
+  max-width: var(--width-reading);
+}
+
+dcl-figma-heuristics {
+  width: 100%;
+  max-width: var(--width-projects);
+}
+
+.color-primary__text {
+  color: var(--folio-primary);
+}
+
+.color-turq__text {
+  color: var(--folio-turq);
+}
+
+.color-turq-light__text {
+  color: var(--folio-turq-light);
+}
+
+.color-grey__dark01 {
+  color: var(--folio-grey__dark01);
+}
+
+.color-grey__dark02 {
+  color: var(--folio-grey__dark02);
+}
+
+.color-grey__dark03 {
+  color: var(--folio-grey__dark03);
+}
+
+.color-grey__dark04 {
+  color: var(--folio-grey__dark04);
+}
+
+.color-grey__light01 {
+  color: var(--folio-grey__light01);
+}
+
+.color-grey__light02 {
+  color: var(--folio-grey__light02);
+}
+
+.color-grey__light03 {
+  color: var(--folio-grey__light03);
+}
+
+.color-grey__light04 {
+  color: var(--folio-grey__light04);
+}
+
+.color-grey__light05 {
+  color: var(--folio-grey__light05);
+}
+
+.color-tint01 {
+  color: var(--folio-tint01);
+}
+
+/*# sourceMappingURL=global.css.map */

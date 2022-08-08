@@ -1,0 +1,71 @@
+/*
+  ==== selected:
+  font-family: 'DM Serif Display', serif; - 1 weight
+  font-family: 'Inter', sans-serif; - 400 / 600
+  font-family: 'Lora', serif; - ital / 400 / 500  
+  ==== explored:
+  font-family: 'Arbutus Slab', serif;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+*/
+
+:root {
+  // color palette
+  --folio-primary: #B5F100;
+  --folio-turq: #20d3c1;
+  --folio-turq-light: #00ffe5;
+  // color palette grayscale
+  --folio-grey__dark01: #000;
+  --folio-grey__dark02: #333;
+  --folio-grey__dark03: #555;
+  --folio-grey__dark04: #777;
+  --folio-grey__light01: #999;
+  --folio-grey__light02: #BCBCBC;
+  --folio-grey__light03: #D4D4D4;
+  --folio-grey__light04: #E8E8E8;
+  --folio-grey__light05: #F3F3F3;
+  // color palette tint
+  --folio-tint01: #C4D2CF;
+  // typography
+  --text-sans: 'Inter', sans-serif;
+  --text-serif: 'Lora', serif;
+  --display-serif: 'DM Serif Display', serif;
+  // widths
+  // 40rem = 640dp
+  --width-reading: 40rem;
+  --width-projects: 60rem;
+  // spacing
+  --space025: .25rem;
+  --space05: .5rem;
+  --space075: .75rem;
+  --space1: 1rem;
+  --space125: 1.25rem;
+  --space15: 1.5rem;
+  --space175: 1.75rem;
+  --space2: 2rem;
+  --space225: 2.25rem;
+  --space25: 2.5rem;
+  --space275: 2.75rem;
+  --space3: 3rem;
+  --space325: 3.25rem;
+  --space35: 3.5rem;
+  --space375: 3.75rem;
+  --space4: 4rem;
+  --space5: 5rem;
+  --space6: 6rem;
+  --space7: 7rem;
+  --space8: 8rem;
+}
+
+// mixins
+@mixin width-reading {
+    width: 100%;
+    max-width: var(--width-reading);
+    }
+@mixin width-figma {
+    width: 100%;
+    max-width: var(--width-projects);
+    }

@@ -1,0 +1,67 @@
+.header-video {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: var(--folio-turq);
+}
+.header-video__content {
+    width: 100%;
+    margin: -10rem 0;
+    opacity:.4;
+}
+//
+.folio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.folio-project__tag {
+    font-family: var(--text-sans);
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.folio-content__text {
+    width: 100%;
+    max-width: var(--width-reading);
+    font-family: var(--text-sans);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.folio-content__figma {
+    @include width-figma;
+
+    iframe {
+        width: 100%;
+        height: 30rem;
+        background-color: var(--color-grey__light05);
+        border-radius: .5rem;
+    }
+}
+.h3-content_section {
+    @extend .folio-project__tag;
+}
+
+dcl-process,
+dcl-research,
+dcl-ideation,
+dcl-wireframing,
+dcl-designs,
+dcl-delivery,
+dcl-validation,
+dcl-outcomes,
+dcl-retrospective {
+    @include width-reading;
+}
+dcl-figma-heuristics {
+    @include width-figma;
+}
