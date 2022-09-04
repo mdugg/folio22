@@ -38,7 +38,8 @@
     line-height: 1.5;
 }
 .folio-content__figma {
-    @include width-figma;
+    // width: 100%;
+    width: var(--width-projects);
 
     iframe {
         width: 100%;
@@ -50,18 +51,37 @@
 .h3-content_section {
     @extend .folio-project__tag;
 }
+// grid
+.folio-grid--2col {
+    width: var(--width-projects);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
 
-dcl-process,
-dcl-research,
-dcl-ideation,
-dcl-wireframing,
-dcl-designs,
-dcl-delivery,
-dcl-validation,
-dcl-outcomes,
-dcl-retrospective {
-    @include width-reading;
+    span {
+        border-radius: var(--radius01);
+        overflow: hidden;
+    }
 }
-dcl-figma-heuristics {
-    @include width-figma;
+
+// content buttons and links
+.btn--figma {
+    font-family: var(--text-sans);
+    font-size: .875rem;
+    font-weight: 600;
+    border: 1px solid var(--folio-grey__light04);
+    border-radius: var(--radius01);
+    padding: 1rem;
+
+    .icon-figma {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: .5rem;
+    }
+
+    &:hover {
+        border-color: var(--folio-turq);
+        background-color: var(--folio-tint02);
+    }
 }

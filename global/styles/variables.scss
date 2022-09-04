@@ -1,22 +1,17 @@
-/*
-  ==== selected:
-  font-family: 'DM Serif Display', serif; - 1 weight
-  font-family: 'Inter', sans-serif; - 400 / 600
-  font-family: 'Lora', serif; - ital / 400 / 500  
-  ==== explored:
-  font-family: 'Arbutus Slab', serif;
-  font-family: 'Bree Serif', serif;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Commissioner', sans-serif;
-  font-family: 'Sarabun', sans-serif;
-  font-family: 'Source Serif Pro', serif;
-*/
 
 :root {
+  // typography
+  --text-sans: 'Inter', sans-serif;
+  --text-serif: 'Lora', serif;
+  --display-serif: 'DM Serif Display', serif;
+  --text-sans-bold: 600;
+  --text-serif-reg: 400;
+  --text-serif-med: 500;
   // color palette
   --folio-primary: #B5F100;
   --folio-turq: #20d3c1;
   --folio-turq-light: #00ffe5;
+  --folio-turq-rgba: rgba(32, 211, 193, 1);
   // color palette grayscale
   --folio-grey__dark01: #000;
   --folio-grey__dark02: #333;
@@ -27,14 +22,13 @@
   --folio-grey__light03: #D4D4D4;
   --folio-grey__light04: #E8E8E8;
   --folio-grey__light05: #F3F3F3;
+  --folio-grey__light06: #F6F6F6;
   // color palette tint
   --folio-tint01: #C4D2CF;
-  // typography
-  --text-sans: 'Inter', sans-serif;
-  --text-serif: 'Lora', serif;
-  --display-serif: 'DM Serif Display', serif;
+  --folio-tint02: #f3fffe;
   // widths
   // 40rem = 640dp
+  --width-minor: 30rem;
   --width-reading: 40rem;
   --width-projects: 60rem;
   // spacing
@@ -58,6 +52,10 @@
   --space6: 6rem;
   --space7: 7rem;
   --space8: 8rem;
+  // border radius
+  --radius01: .5rem;
+  // transitions
+  --transition01: all .3s ease-out;
 }
 
 // mixins

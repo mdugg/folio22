@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400" rel="stylesheet">
+        <!-- Scripts -->
+        <script src="../../global/js/preload.js"></script>
+        <script>
+            // load in JSON content for all components
+        	const getJSON = new Request("../../content/decoupledLive.json");
+        </script>
+        <!-- Components -->
+        <script src="../../global/js/folio-header.js" type="module"></script>
+        <script src="../../global/js/folio-footer.js" type="module"></script>
+        <script src="../common/folio-modal.js" type="module"></script>
+        <script src="./header-video.js" type="module"></script>
+        <script src="./dcl-intro.js" type="module"></script>
+        <script src="./dcl-process.js" type="module"></script>
+        <script src="./dcl-research.js" type="module"></script>
+        <script src="./dcl-ideation.js" type="module"></script>
+        <script src="./dcl-wireframing.js" type="module"></script>
+        <script src="./dcl-designs.js" type="module"></script>
+        <script src="./dcl-delivery.js" type="module"></script>
+        <script src="./dcl-validation.js" type="module"></script>
+        <script src="./dcl-outcomes.js" type="module"></script>
+        <script src="./dcl-retrospective.js" type="module"></script>
+        <script src="./dcl-figma-heuristics.js" type="module"></script>
+        <!-- Styles -->
+        <link href="../../global/styles/global.css" rel="stylesheet">   
+        <title>
+            Decoupled Live Project - Martin Duggan Product Designer - Portfolio 2022
+        </title>
+    </head>
+    <body>
+        <folio-header></folio-header>
+        <main class="folio-content">
+            <header-video></header-video>
+            <dcl-intro></dcl-intro>
+            <dcl-process></dcl-process>
+            <dcl-research></dcl-research>
+            <dcl-ideation></dcl-ideation>
+            <dcl-wireframing></dcl-wireframing>
+            <dcl-designs></dcl-designs>
+            <dcl-delivery></dcl-delivery>
+            <dcl-validation></dcl-validation>
+            <dcl-outcomes></dcl-outcomes>
+            <dcl-retrospective></dcl-retrospective>
+        </main>
+        <folio-footer></folio-footer>
+        <folio-modal></folio-modal>
+        <figure class="spinner-container">
+            <span class="spinner"> </span>
+            <figcaption class="spinner-caption">
+                Loading Figma ...
+            </figcaption>
+        </figure>
+</body>
+</html>

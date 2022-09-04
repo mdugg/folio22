@@ -1,0 +1,49 @@
+// modal to showcase work
+.folio-modal {
+    overflow: hidden;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    top: 4rem;
+    left: 4rem;
+    z-index: 100;
+    width: calc(100vw - 8rem);
+    height: calc(100vh - 8rem);
+    border-radius: var(--radius01);
+
+    &--screen {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: var(--folio-turq);
+        opacity: .5;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: calc(100vw - 4rem);
+        height: calc(100vh - 2rem);
+        padding: 2rem 4rem 0 0;
+        transition: var(--transition01);
+    }
+
+    &--screen:hover {
+        cursor: pointer;
+        opacity: .75;
+    }    
+
+    &--close__button {
+        background-color: transparent;
+    }
+
+    &--close__icon {
+        fill: #fff;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    &--iframe {
+        width: 100%;
+    
+    }
+}

@@ -2,7 +2,7 @@ const folioRoot = window.location.host;
 
 const folioNav = [
 	{
-		id: 1,
+		id: "ds",
 		linkName: "Dropshipping",
 		// linkURL: folioRoot + "/case-studies/dropshipping/index.html",
 		linkURL: "/case-studies/dropshipping/index.html",
@@ -11,7 +11,7 @@ const folioNav = [
 		published: true,
 	},
 	{
-		id: 2,
+		id: "dcl",
 		linkName: "Enterprise Micro-App",
 		linkURL: "/case-studies/decoupled/index.html",
 		desc: "One-liner about the project",
@@ -19,7 +19,7 @@ const folioNav = [
 		published: true,
 	},
 	{
-		id: 3,
+		id: "flex",
 		linkName: "Flexible Shipping Labels",
 		linkURL: "/case-studies/flexlabels/index.html",
 		desc: "One-liner about the project",
@@ -27,7 +27,7 @@ const folioNav = [
 		published: false,
 	},
 	{
-		id: 4,
+		id: "web",
 		linkName: "E-commerce Store Editor",
 		linkURL: "/case-studies/webstore/index.html",
 		desc: "One-liner about the project",
@@ -35,7 +35,7 @@ const folioNav = [
 		published: false,
 	},
 	{
-		id: 5,
+		id: "pos",
 		linkName: "Point-of-Sale Wires",
 		linkURL: "/case-studies/pos/index.html",
 		desc: "One-liner about the project",
@@ -43,7 +43,7 @@ const folioNav = [
 		published: false,
 	},
 	{
-		id: 6,
+		id: "dsm",
 		linkName: "Design System Foundational Work",
 		linkURL: "/case-studies/design-system-work/index.html",
 		desc: "One-liner about the project",
@@ -51,36 +51,36 @@ const folioNav = [
 		published: false,
 	},
 	{
-		id: 7,
+		id: "home",
 		linkName: "Home",
 		linkURL: folioRoot,
 		type: "site nav",
 	},
 	{
-		id: 8,
+		id: "recent",
 		linkName: "Recent Work",
 		linkURL: "/#recent-work",
 		type: "site nav",
 	},
 	{
-		id: 9,
-		linkName: "Professional Profile",
+		id: "profile",
+		linkName: "Profile",
 		linkURL: "/content/professional-profile.html",
 		type: "site nav",
 	},
 	{
-		id: 10,
+		id: "resume",
 		linkName: "Resume",
 		linkURL: "https://www.linkedin.com/in/martinduggan/",
 		type: "site nav",
-		icon: "linkedinLight",
+		icon: "#icon-linkedin",
 	},
 	{
-		id: 11,
-		linkName: "Download Resume",
+		id: "pdf",
+		linkName: "Download",
 		linkURL: "/martin-duggan-resume-2022.pdf",
 		type: "site nav",
-		icon: "pdfLight",
+		icon: "#icon-pdf-solid",
 	},
 ];
 export default folioNav;

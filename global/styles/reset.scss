@@ -1,4 +1,8 @@
 
+// *, *:after, *:before {
+//   box-sizing: border-box;
+// }
+
 html {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -27,3 +31,35 @@ img {
 iframe {
     border-style: none;
 }
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition01);
+    background-color: transparent;
+    border-style: none; 
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+// ::-webkit-scrollbar {
+//   width: 8px;
+//   height: 8px;
+// }
+/* Track */
+// ::-webkit-scrollbar-track {
+//   background: #263238;
+// }
+/* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: #FF3D00;
+// }
+/* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: #fff;
+// }

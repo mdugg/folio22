@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
+        "videoPath": ["https://folio22.s3.amazonaws.com/jennaration_live_setup_noir.mp4"]
+    },
+    "intro": {
+        "project": "Decoupled Live",
+        "title": "Live selling for large retailers",
+        "subtitle": "A new app to help larger retailers find success with live selling",
+        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
+        "section": "context",
+        "text": ["CommentSold software gives super-powers to individual entrepreneurs who want to scale a grass-roots retail practice to be a small to medium sized business.",
+        "Larger and more established retailers in the US market are also determined to enter the live selling domain. Their needs would be different as they would not utilize the CommentSold 'full-stack' software solution offered to 'grass-roots' retailers.",
+        "To address this opportunity I helped the team build the first iteration of a SaaS product that focused on live selling but could integrate with existing retailer software.", "CommentSold uniquely positioned, ahead of the curve, Facebook, Tiktok, Amazon, Instagram, not get same traction, retailers reach out to us"]
+    },
+    "process": {
+        "section": "process",
+        "sectionTitle": "Defining what to build",
+        "text": ["The team already had years of insights from releasing and iterating on the go-live process for smaller retailers.", "The CTO and Product Manager expressed intent via a <a href=\"\" class=\"folio-link\">Shaping Document<\/a>. It was my role to convert this into a concrete product that had the best chance at early success.", 
+        "MVP communicate intention/ not process or solutions"],
+        "quote": "... shaped work indicates what not to do. It tells the team where to stop. There’s a specific appetite—the amount of time the team is allowed to spend on the project",
+        "quoteCite": "Principles of Shaping",
+        "shapeUpQuoteURI": "https://basecamp.com/shapeup/1.1-chapter-02#property-3-its-bounded"
+    },
+    "research": {
+        "section": "research",
+        "sectionTitle": "Understanding the domain",
+        "textResearch": ["The 'Shaping Doc' included business goals as well as technical scope for the initial launch.", "As the Design Lead for the project, my role was to parse these intentions and evisage a product that will succeed. I had earlier compiled general research notes that included the live experience for both retailers and customers.", "I had a wealth of knowledge to tap in to.", "interviewed the QA Managager who had a lot of first-hand knowledge", "comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity"],
+        "sectionSubTitle01": "Something about the warehouse visit",
+        "textWarehouse": ["Something about the warehouse visit, different locations, empathy project, tasks to pick and pack, use our own software in a real context"],
+        "thumb01Path": "https://folio22.s3.amazonaws.com/live-setup-divas-thumb01.jpg",
+        "thumb01Alt": "Discount Divas live studio",
+        "thumb02Path": "https://folio22.s3.amazonaws.com/live-setup-divas-thumb07.jpg",
+        "thumb02Alt": "Discount Divas live studio lighting equipment",
+        "thumb03Path": "https://folio22.s3.amazonaws.com/live-setup-jennaration-thumb01.jpg",
+        "thumb03Alt": "Jennaration Boutique go-live space",
+        "thumb04Path": "https://folio22.s3.amazonaws.com/live-setup-jennaration-thumb04.jpg",
+        "thumb04Alt": "Jennaration Boutique workspace for go-live",
+        "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> showing easy access to products, lighting, and CommentSold dashboard."
+    },
+    "ideation": {
+        "section": "ideation",
+        "sectionTitle": "A foundation for design success",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],        
+        "personaImg01": "https://folio22.s3.amazonaws.com/dcl-persona-maddy.png",
+        "personaImg02": "https://folio22.s3.amazonaws.com/dcl-persona-josh.png",
+        "personasFigmaLink": "https://www.figma.com/file/Br1YJTU9Hy5VOr8e0bHr5K/Folio22-Decoupled-Live?node-id=2557%3A7064",
+        "heuristicsImg": "https://folio22.s3.amazonaws.com/dcl-heuristics.png",
+        "heuristicsImgAlt": "Alt text",
+        "heuristicsFigmaEmbed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A13593",
+        "heuristicsFigmaLink": "https://www.figma.com/file/Br1YJTU9Hy5VOr8e0bHr5K/Folio22-Decoupled-Live?node-id=2419%3A6861",
+        "heuristicsNNGroup": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+        "heuristicsUXLaws": "https://lawsofux.com/en/"
+    },
+    "wireframing": {
+        "section": "wireframing",
+        "sectionTitle": "Iterate on concepts",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "Laddering", "User flows", "information architecture / core screens"]
+    },
+    "designs": {
+        "section": "designs",
+        "sectionTitle": "User interface design",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"]
+    },
+    "delivery": {
+        "section": "delivery",
+        "sectionTitle": "Collaborating with engineers",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "developer handover - state management, components, styleguide", "my involvement continues", "Prototype / Style guides Pattern Library / State management / Figma / Storybook / Walkthroughs", "QA testing"]
+    },
+    "validation": {
+        "section": "validation",
+        "sectionTitle": "First version release",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "release and iterate / ready for use / shutterfly / Structured and unstructured feedback / Beta testing"]
+    },
+    "outcomes": {
+        "section": "outcomes",
+        "sectionTitle": "Some results",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release"],
+        "link": "https://www.videeo.live"
+    },
+    "retrospective": {
+        "section": "retrospective",
+        "sectionTitle": "What could I have done better ?",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication"],
+        "link": "https://www.videeo.live"
+    }
+}
