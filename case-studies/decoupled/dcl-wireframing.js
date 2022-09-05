@@ -37,12 +37,14 @@ export default class DCLwireframing extends HTMLElement {
 							Caption for the personas, what kind are they
 						</figcaption>
                     </figure>
-					<button class="btn--figma width-reading mt2">
+					<button 
+						data-figma="${data.ideation.personasFigmaLink}"
+						class="btn--figma width-reading mt2">
 						<svg class="icon-figma">
 							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 							</use>
 						</svg>
-						View Figma layout
+							View Figma layout
 					</button>
 				`;
 			})

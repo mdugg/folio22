@@ -52,12 +52,17 @@
             <dcl-retrospective></dcl-retrospective>
         </main>
         <folio-footer></folio-footer>
-        <!-- <folio-modal></folio-modal> -->
-        <figure class="spinner-container">
-            <span class="spinner"> </span>
-            <figcaption class="spinner-caption">
-                Loading Figma ...
-            </figcaption>
-        </figure>
+        <folio-modal>
+            <figure slot="spinner" class="spinner-container">
+                <span class="spinner"> </span>
+                <figcaption class="spinner-caption">
+                    Loading Figma ...
+                </figcaption>
+            </figure>
+            <iframe slot="figma"
+                class="folio-modal--iframe"
+                src=""
+            ></iframe>
+        </folio-modal>
 </body>
 </html>

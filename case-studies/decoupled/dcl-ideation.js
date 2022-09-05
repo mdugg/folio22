@@ -31,27 +31,23 @@ export default class DCLideation extends HTMLElement {
 							})
 							.join("")}
 					</div>
-					<figure class="grid-dcl__personas mt2">
+					<figure class="folio-grid--2col mt2">
 						<img 
 							src="${data.ideation.personaImg01}" 
 							alt="${data.research.thumb03Alt}" />
 						<img 
 							src="${data.ideation.personaImg02}" 
 							alt="${data.research.thumb03Alt}" />
-						<figcaption>
-							<svg class="">
-								<use 
-									xlink:href="../../global/assets/icons-sprite.svg#icon-figma-solid">
-								</use>
-							</svg>
-							View on 
-							<a 
-								href="${data.ideation.personasFigmaLink}"
-								target="_blank">
-									Figma
-							</a>
-						</figcaption>
                     </figure>
+					<button 
+						data-figma="${data.ideation.personasFigmaLink}"
+						class="btn-figma width-reading mt2">
+						<svg class="icon-figma">
+							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+							</use>
+						</svg>
+							View Figma layout
+					</button>
 					<figure class="folio-content__figma">
 						<img src="${data.ideation.heuristicsImg}" 
 							alt="${data.ideation.heuristicsImgAlt}" />
@@ -74,6 +70,9 @@ export default class DCLideation extends HTMLElement {
 				`;
 			})
 			.catch(console.error);
+
+		let btnFigma = document.querySelector(".btn-figma");
+		console.log(btnFigma);
 	}
 }
 window.customElements.define("dcl-ideation", DCLideation);

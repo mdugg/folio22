@@ -1,8 +1,6 @@
 export default class FolioModal extends HTMLElement {
 	constructor() {
 		super();
-		this.modalVisible = false;
-		// const root = this.attachShadow({ mode: "open" });
 		this.attachShadow({ mode: "open" });
 		this.shadowRoot.innerHTML = `
             <style>
@@ -17,6 +15,19 @@ export default class FolioModal extends HTMLElement {
                     width: calc(100vw - 8rem);
                     height: calc(100vh - 8rem);
                     border-radius: var(--radius01);
+                    transition: var(--transition01);
+                }
+                .folio-modal[aria-hidden='true'] {
+                    pointer-events: none;
+                    opacity: 0;
+                    -webkit-transform: scale(.95); 
+                        -ms-transform: scale(.95);
+                            transform: scale(.95); 
+                }
+                .folio-modal[aria-hidden='false'] {
+                    -webkit-transform: scale(1); 
+                        -ms-transform: scale(1);
+                            transform: scale(1); 
                 }
                 .folio-modal--screen {
                     display: flex;
@@ -37,8 +48,22 @@ export default class FolioModal extends HTMLElement {
                     cursor: pointer;
                     opacity: .75;
                 }    
+                .folio-modal--screen[aria-hidden='true'] {
+                    pointer-events: none;
+                    opacity: 0;
+                }
+                .folio-modal--screen:hover[aria-hidden='true'] {
+                    cursor: default;
+                    opacity: 0;
+                }
                 .folio-modal--close__button {
+                    height: 2rem;
+                    width: 2rem;
+                    border-style: none;
                     background-color: transparent;
+                }
+                .folio-modal--close__button:hover {
+                    cursor: pointer;
                 }
                 .folio-modal--close__icon {
                     fill: #fff;
@@ -59,47 +84,33 @@ export default class FolioModal extends HTMLElement {
                     </svg>
                 </button>
             </div>
-            <section class="folio-modal" data-content="modal" aria-hidden="true">
-                <iframe class="folio-modal--iframe"
-                    src="/https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064">
-                </iframe>
+            <section class="folio-modal" aria-hidden="true">
+                <slot name="spinner"></slot>
+                <slot name="figma"><slot>
 			</section>
 		`;
 	}
 	connectedCallback() {
-		let modalScreen = this.shadowRoot.querySelector(".folio-modal--screen");
-		console.log(modalScreen);
-		// this.render();
+		this.body = document.querySelector("body");
+		this.modalScreen = this.shadowRoot.querySelector(
+			".folio-modal--screen"
+		);
+		this.modalBtn = this.shadowRoot.querySelector(
+			".folio-modal--close__button"
+		);
+		this.modal = this.shadowRoot.querySelector(".folio-modal");
+		this.modalScreen.addEventListener("click", this.hideModal.bind(this));
+		this.modalBtn.addEventListener("click", this.hideModal.bind(this));
 	}
-	// render() {
-	// 	if (this.modalVisible) {
-	// 		console.log("tru dawg");
-	// 	} else {
-	// 		console.log("false dawg");
-	// 	}
-	// }
-	// showModal() {
-	// 	this.modalVisible = true;
-	// 	this.render();
-	// }
-	// hideModal() {
-	// 	this.modalVisible = false;
-	// 	this.render();
-	// }
+	disconnectedCallback() {
+		this.modalScreen.removeEventListener("click", this.hideModal);
+		this.modalBtn.removeEventListener("click", this.hideModal);
+		this.modal.removeEventListener("click", this.hideModal);
+	}
+	hideModal() {
+		this.modalScreen.ariaHidden = true;
+		this.modal.ariaHidden = true;
+		this.body.classList.remove("lock-scroll");
+	}
 }
 window.customElements.define("folio-modal", FolioModal);
-
-// let modal = root.querySelectorAll("[aria-hidden='true']");
-// modal.forEach((element) => {
-// 	element.addEventListener("click", toggleModal);
-// });
-// function toggleModal() {
-// 	modal.toggleAttribute("false");
-// }
-
-// const button = document.querySelector("button");
-// const input = document.querySelector("input");
-
-// button.addEventListener("click", () => {
-// 	input.toggleAttribute("disabled");
-// });
