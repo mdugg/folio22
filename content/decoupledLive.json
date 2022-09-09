@@ -5,62 +5,91 @@
     },
     "intro": {
         "project": "Decoupled Live",
-        "title": "Live selling for large retailers",
+        "title": "Dominate livestream e-commerce in the US market",
         "subtitle": "A new app to help larger retailers find success with live selling",
         "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
         "section": "context",
         "text": ["CommentSold software gives super-powers to individual entrepreneurs who want to scale a grass-roots retail practice to be a small to medium sized business.",
         "Larger and more established retailers in the US market are also determined to enter the live selling domain. Their needs would be different as they would not utilize the CommentSold 'full-stack' software solution offered to 'grass-roots' retailers.",
-        "To address this opportunity I helped the team build the first iteration of a SaaS product that focused on live selling but could integrate with existing retailer software.", "CommentSold uniquely positioned, ahead of the curve, Facebook, Tiktok, Amazon, Instagram, not get same traction, retailers reach out to us"]
+        "To address this opportunity I helped the team build the first iteration of a SaaS product that focused on live selling but could integrate with the existing software stack for large retailers."]
     },
     "process": {
         "section": "process",
         "sectionTitle": "Defining what to build",
-        "text": ["The team already had years of insights from releasing and iterating on the go-live process for smaller retailers.", "The CTO and Product Manager expressed intent via a <a href=\"\" class=\"folio-link\">Shaping Document<\/a>. It was my role to convert this into a concrete product that had the best chance at early success.", 
-        "MVP communicate intention/ not process or solutions"],
-        "quote": "... shaped work indicates what not to do. It tells the team where to stop. There’s a specific appetite—the amount of time the team is allowed to spend on the project",
+        "text": ["The team already had years of insights from releasing and iterating on the go-live process for smaller retailers.", "The CTO and Product Manager expressed intent via a <a href=\"https://basecamp.com/shapeup\" target=\"_blank\" class=\"folio-link\">Shaping Document<\/a>. It was my role to convert this into a concrete product that had the best chance at success."],
+        "quote": "... the roughness leaves room for the team to resolve all the details, while the solution and boundaries act like guard rails.",
         "quoteCite": "Principles of Shaping",
         "shapeUpQuoteURI": "https://basecamp.com/shapeup/1.1-chapter-02#property-3-its-bounded"
     },
     "research": {
         "section": "research",
-        "sectionTitle": "Understanding the domain",
-        "textResearch": ["The 'Shaping Doc' included business goals as well as technical scope for the initial launch.", "As the Design Lead for the project, my role was to parse these intentions and evisage a product that will succeed. I had earlier compiled general research notes that included the live experience for both retailers and customers.", "I had a wealth of knowledge to tap in to.", "interviewed the QA Managager who had a lot of first-hand knowledge", "comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity"],
-        "sectionSubTitle01": "Something about the warehouse visit",
-        "textWarehouse": ["Something about the warehouse visit, different locations, empathy project, tasks to pick and pack, use our own software in a real context"],
-        "thumb01Path": "https://folio22.s3.amazonaws.com/live-setup-divas-thumb01.jpg",
+        "sectionTitle": "Understanding the 'current solution'",
+        "textResearch": ["I had compiled general research notes that included the live experience for both retailers and their customers. I had a wealth of knowledge to tap in to for 'desk research', from recorded support calls to invite-only user groups on Facebook.", "I had access to a 'sponsor user' to interview regarding process and pain-points using the current go-live solution."],
+        "ethnoSubTitle": "Ethnographic research",
+        "ethnoText": ["The Product Team converged in Alabama to visit a selection of top-tier live selling retailers and directly observe their operations.", "This was a golden opportunity for me to see how our software was used from 'front' to 'back' of the shop - from selling through to logistics."],
+        "thumb01Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb01.jpg",
         "thumb01Alt": "Discount Divas live studio",
-        "thumb02Path": "https://folio22.s3.amazonaws.com/live-setup-divas-thumb07.jpg",
+        "thumb02Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb07.jpg",
         "thumb02Alt": "Discount Divas live studio lighting equipment",
-        "thumb03Path": "https://folio22.s3.amazonaws.com/live-setup-jennaration-thumb01.jpg",
+        "thumb03Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-jennaration-thumb01.jpg",
         "thumb03Alt": "Jennaration Boutique go-live space",
-        "thumb04Path": "https://folio22.s3.amazonaws.com/live-setup-jennaration-thumb04.jpg",
+        "thumb04Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-jennaration-thumb04.jpg",
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
-        "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> showing easy access to products, lighting, and CommentSold dashboard."
+        "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> where the Product Team observed tasks completed using CommentSold in a real environment.",
+        "compareSubTitle": "Big companies enter the space",
+        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets."]
     },
     "ideation": {
         "section": "ideation",
-        "sectionTitle": "A foundation for design success",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],        
-        "personaImg01": "https://folio22.s3.amazonaws.com/dcl-persona-maddy.png",
-        "personaImg02": "https://folio22.s3.amazonaws.com/dcl-persona-josh.png",
+        "sectionTitle": "Consolidate my understanding, explore viewpoints",
+        "problemStatement": "...help larger and more established retailers begin to scale up their live selling capabilities?",
+        "text": ["Starting conceptual work with a problem statement gives me a north star, or at least a central starting point which I change and evolve as needed. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I begin with using UX artifacts and frameworks in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
+        "personaSubTitle": "A sense of empathy for the 'user'",
+        "personaText": ["I use personas as a loose, qualitative tool to help 'think as' users I've directly observed and who could represent a cohort or archetype. Two helpful cohorts at the outset of this project were the successful 'grass-roots' live seller and the influencer hired by a large retailer.", "The range of personas for this product will grow to include strategic partners to logistics staff to the end consumer."],        
+        "personaImg01": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-maddy.png",
+        "personaImg01Alt": "Persona for Maddy, a grass-roots live seller",
+        "personaImg02": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-josh.png",
+        "personaImg02Alt": "Persona for Josh, influencer live selling on Shutterfly channels",
         "personasFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064",
-        "heuristicsImg": "https://folio22.s3.amazonaws.com/dcl-heuristics.png",
+        "jtbdSubTitle": "Shift focus to 'motivations'",
+        "jtbdText": ["Personas are good to achieve a baseline level of empathy, but there is a danger the focus is too much on features and attributes rather than motivations.", "Understanding what 'jobs' a retailer will hire our product for to successfully complete will be a more insightful driver of my design efforts. Hence, the Jobs-To-Be-Done framework is a great tool in determining what to build."], 
+        "jtbdImg": "https://folio22.s3.amazonaws.com/dcl/dcl-jtbd.png",
+        "jtbdImgAlt": "Diagram of jobs-to-be-done for the project",
+        "jtbdFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2685%253A7063", 
+        "heuristicsSubTitle": "Heading about heuristics",
+        "heuristicsText": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Text about heuristics"],  
+        "heuristicsImg": "https://folio22.s3.amazonaws.com/dcl/dcl-heuristics.png",
         "heuristicsImgAlt": "Alt text",
-        "heuristicsFigmaEmbed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A13593",
-        "heuristicsFigmaLink": "https://www.figma.com/file/Br1YJTU9Hy5VOr8e0bHr5K/Folio22-Decoupled-Live?node-id=2419%3A6861",
+        "heuristicsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2419%253A6861",
         "heuristicsNNGroup": "https://www.nngroup.com/articles/ten-usability-heuristics/",
         "heuristicsUXLaws": "https://lawsofux.com/en/"
     },
     "wireframing": {
         "section": "wireframing",
-        "sectionTitle": "Iterate on concepts",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "Laddering", "User flows", "information architecture / core screens"]
+        "sectionTitle": "Iterate on concepts heading about wireframing",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "Laddering", "User flows", "information architecture / core screens"],
+        "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
+        "appFlowAlt": "Application flow diagram showing functionality and constraints for v1 build",
+        "appFlowLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKNdV9SVBCiKUahEuRt7aJY%2FDecoupled-UX-Flow%3Fnode-id%3D580%253A190",
+        "wires01dash": "https://folio22.s3.amazonaws.com/dcl/wires-v1-dash.png",
+        "wires01dashAlt": "Alt for dash",
+        "wires01setup": "https://folio22.s3.amazonaws.com/dcl/wires-v1-setup.png",
+        "wires01setupAlt": "Alt for setup",
+        "wires01live": "https://folio22.s3.amazonaws.com/dcl/wires-v1-live.png",
+        "wires01liveAlt": "Alt for live",
+        "wiresFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A5859"
     },
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"]
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],
+        "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
+        "designStartAlt": "Alt for design start page",
+        "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
+        "designDashAlt": "Alt for design dash",
+        "subTitleMobile": "Something about mobile",
+        "textMobile": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],        
+        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1249%253A11511"
     },
     "delivery": {
         "section": "delivery",
@@ -75,7 +104,8 @@
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release"],
+        "text": ["support - CS are the experts, accounts, sales, not just a software solution", "This is a filler sentence to push the full width of the layout more words to run at least one line", "SDK / GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release", "magento / shopify / salesforce"],
+        "hbrArticle": "https://hbr.org/2022/09/selling-on-tiktok-and-taobao",
         "link": "https://www.videeo.live"
     },
     "retrospective": {
@@ -83,5 +113,13 @@
         "sectionTitle": "What could I have done better ?",
         "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication"],
         "link": "https://www.videeo.live"
+    },
+    "snippets": {
+        "1": ["CommentSold uniquely positioned, ahead of the curve, Facebook, Tiktok, Amazon, Instagram, not get same traction, retailers reach out to us"],
+        "2": ["MVP communicate intention/ not process or solutions"],
+        "3": ["comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity"],
+        "4": ["All are trying to find their route to success massive popularity across the Chinese and Indian markets, influencers, facebook youtube instagram tiktok amazon. are they successful? any metrics traction market share growing. too top-down hierarchical, not community driven like grass-roots engagement return business customer lifetime value"],
+        "5": ["'How might we...' help larger, established retailers achieve success at live selling?"],
+        "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"]
     }
 }

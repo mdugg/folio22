@@ -86,11 +86,15 @@ export default class FolioModal extends HTMLElement {
             </div>
             <section class="folio-modal" aria-hidden="true">
                 <slot name="spinner"></slot>
-                <slot name="figma"><slot>
+                <iframe
+                    class="folio-modal--iframe" 
+                    src="">
+                </iframe>
 			</section>
 		`;
 	}
 	connectedCallback() {
+		// get
 		this.body = document.querySelector("body");
 		this.modalScreen = this.shadowRoot.querySelector(
 			".folio-modal--screen"
@@ -99,6 +103,10 @@ export default class FolioModal extends HTMLElement {
 			".folio-modal--close__button"
 		);
 		this.modal = this.shadowRoot.querySelector(".folio-modal");
+		this.modalIframe = this.shadowRoot.querySelector(
+			".folio-modal--iframe"
+		);
+		// set
 		this.modalScreen.addEventListener("click", this.hideModal.bind(this));
 		this.modalBtn.addEventListener("click", this.hideModal.bind(this));
 	}
@@ -108,9 +116,10 @@ export default class FolioModal extends HTMLElement {
 		this.modal.removeEventListener("click", this.hideModal);
 	}
 	hideModal() {
+		this.body.classList.remove("lock-scroll");
+		this.modalIframe.src = "";
 		this.modalScreen.ariaHidden = true;
 		this.modal.ariaHidden = true;
-		this.body.classList.remove("lock-scroll");
 	}
 }
 window.customElements.define("folio-modal", FolioModal);

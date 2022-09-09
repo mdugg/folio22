@@ -86,6 +86,10 @@
   align-items: center;
 }
 
+.grid {
+  display: grid;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -100,6 +104,10 @@
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .col-span-1 {
@@ -138,8 +146,20 @@
   justify-self: stretch;
 }
 
+.border01 {
+  border-radius: var(--radius01);
+}
+
 .lock-scroll {
   overflow: hidden;
+}
+
+[aria-hidden=true] {
+  display: none;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
 }
 
 html {
@@ -219,12 +239,14 @@ button:hover {
   font-family: var(--text-sans);
   font-weight: 700;
   font-size: 2rem;
+  line-height: 1.3;
 }
 
 .h3 {
   font-family: var(--text-sans);
   font-weight: 700;
   font-size: 1.5rem;
+  line-height: 1.3;
 }
 
 .folio-link {
@@ -444,6 +466,22 @@ button:hover {
   margin-right: var(--space8);
 }
 
+.p05 {
+  padding: var(--space05);
+}
+
+.p1 {
+  padding: var(--space1);
+}
+
+.p15 {
+  padding: var(--space15);
+}
+
+.p2 {
+  padding: var(--space2);
+}
+
 .color-primary__text {
   color: var(--folio-primary);
 }
@@ -496,8 +534,12 @@ button:hover {
   color: var(--folio-grey__light06);
 }
 
-.color-tint01 {
-  color: var(--folio-tint01);
+.back-tint01 {
+  background-color: var(--folio-tint01);
+}
+
+.back-grey__light06 {
+  background-color: var(--folio-grey__light06);
 }
 
 .folio-header {
@@ -631,14 +673,19 @@ button:hover {
   border-radius: 0.5rem;
 }
 
-.folio-grid--2col {
+.folio-grid {
   width: var(--width-projects);
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 1rem;
 }
-.folio-grid--2col span {
+.folio-grid--2col {
+  grid-template-columns: 1fr 1fr;
+}
+.folio-grid--3col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.folio-grid span {
   border-radius: var(--radius01);
   overflow: hidden;
 }
@@ -659,6 +706,38 @@ button:hover {
 .btn-figma:hover {
   border-color: var(--folio-turq);
   background-color: var(--folio-tint02);
+}
+
+.dcl-brands {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 1rem;
+}
+.dcl-brands span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid var(--folio-grey__light05);
+}
+.dcl-brands .brand-amazon {
+  height: 2rem;
+}
+.dcl-brands .brand-instagram {
+  height: 3rem;
+}
+.dcl-brands .brand-facebook {
+  height: 3rem;
+}
+.dcl-brands .brand-tiktok {
+  height: 3rem;
+}
+.dcl-brands .brand-youtube {
+  height: 3rem;
+}
+.dcl-brands .brand-ebay {
+  height: 2rem;
 }
 
 .folio-modal {
@@ -711,12 +790,14 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(32, 211, 193, 0.2);
   border-radius: var(--radius01);
+}
+.spinner-container[aria-hidden=false] {
+  display: flex;
 }
 
 .spinner {

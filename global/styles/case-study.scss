@@ -52,12 +52,18 @@
     @extend .folio-project__tag;
 }
 // grid
-.folio-grid--2col {
+.folio-grid {
     width: var(--width-projects);
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 1rem;
+
+    &--2col {
+        grid-template-columns: 1fr 1fr;
+    }
+    &--3col {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     span {
         border-radius: var(--radius01);
@@ -83,5 +89,39 @@
     &:hover {
         border-color: var(--folio-turq);
         background-color: var(--folio-tint02);
+    }
+}
+
+// DCL specific
+.dcl-brands {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 1rem;
+
+    span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        border: 1px solid var(--folio-grey__light05);
+    }
+    .brand-amazon {
+        height: 2rem;
+    }
+    .brand-instagram {
+        height: 3rem;
+    }
+    .brand-facebook {
+        height: 3rem;
+    }
+    .brand-tiktok {
+        height: 3rem;
+    }
+    .brand-youtube {
+        height: 3rem;
+    }
+    .brand-ebay {
+        height: 2rem;
     }
 }

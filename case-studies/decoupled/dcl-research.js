@@ -24,14 +24,14 @@ export default class DCLresearch extends HTMLElement {
 								return "<p>" + value + "</p>";
 							})
 							.join("")}
-						<h3 class="h3 mt3 mb025">${data.research.sectionSubTitle01}</h3>
-						${Object.values(data.research.textWarehouse)
+						<h3 class="h3 mt3 mb025">${data.research.ethnoSubTitle}</h3>
+						${Object.values(data.research.ethnoText)
 							.map((value) => {
 								return "<p>" + value + "</p>";
 							})
 							.join("")}
 					</div>
-					<figure class="folio-grid--2col mt2">
+					<figure class="folio-grid folio-grid--2col mt2">
 						<span>
 							<img 
 								src="${data.research.thumb01Path}" 
@@ -56,6 +56,52 @@ export default class DCLresearch extends HTMLElement {
 							${data.research.thumbsCaption}
 						</figcaption>
 					</figure>
+					<div class="folio-content__text mt1">
+						<h3 class="h3 mt3 mb025">${data.research.compareSubTitle}</h3>
+						${Object.values(data.research.compareText)
+							.map((value) => {
+								return "<p>" + value + "</p>";
+							})
+							.join("")}
+						<figure class="dcl-brands">
+							<span>
+								<svg class="brand-amazon">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-amazon">
+									</use>
+								</svg>
+							</span>
+							<span>
+								<svg class="brand-instagram">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-instagram">
+									</use>
+								</svg>
+							</span>
+							<span>
+								<svg class="brand-facebook">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-facebook">
+									</use>
+								</svg>
+							</span>
+							<span>
+								<svg class="brand-tiktok">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-tiktok">
+									</use>
+								</svg>
+							</span>
+							<span>
+								<svg class="brand-youtube">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-youtube">
+									</use>
+								</svg>
+							</span>
+							<span>
+								<svg class="brand-ebay">
+									<use xlink:href="../../global/assets/logos-sprite.svg#logo-ebay">
+									</use>
+								</svg>
+							</span>
+						</figure>
+					</div>
 				`;
 			})
 			.catch(console.error);

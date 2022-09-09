@@ -6,12 +6,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgba(32, 211, 193, .2);
     border-radius: var(--radius01);
+
+    &[aria-hidden="false"] {
+        display:flex;
+    }
 }
 .spinner {
     width: 48px;
