@@ -68,7 +68,7 @@ export default class DCLideation extends HTMLElement {
 				</figure>
 				<button 
 					data-figma="${data.ideation.personasFigmaLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
@@ -91,7 +91,7 @@ export default class DCLideation extends HTMLElement {
 				</div>
 				<button 
 					data-figma="${data.ideation.jtbdFigmaLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
@@ -107,27 +107,15 @@ export default class DCLideation extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
-					<ul>
-						<li>
-							<a href="${data.ideation.heuristicsNNGroup}" 
-								target="_blank">NNGroup Heuristics</a>
-						</li>
-						<li>
-							<a href="${data.ideation.heuristicsUXLaws}" 
-								target="_blank">
-									Laws of UX Heuristics
-							</a>
-						</li>
-					</ul>
 				</div>
-				<figure class="folio-content__figma p2 border01 back-grey__light06">
+				<figure class="folio-content__figma p2 border-r01 back-grey__light06">
 					<img src="${data.ideation.heuristicsImg}" 
 						alt="${data.ideation.heuristicsImgAlt}" />
 				</figure>
 				<button 
 					id="ideationHeuristics"
 					data-figma="${data.ideation.heuristicsFigmaLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
@@ -138,7 +126,7 @@ export default class DCLideation extends HTMLElement {
 		`;
 	}
 	getButtons() {
-		this.btnFigma = this.querySelectorAll(".btn-figma");
+		this.btnFigma = this.querySelectorAll(".btn-primary");
 		// this.btnFigmaLink = this.btnFigma.getAttribute("data-figma");
 		this.btnFigma.forEach((btn) => {
 			btn.addEventListener("click", this.showModal.bind(this));

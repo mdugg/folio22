@@ -35,10 +35,7 @@ export default class DCLdesigns extends HTMLElement {
 						})
 						.join("")}
 				</div>	
-				<figure class="folio-grid folio-grid--2col p2 border01 back-grey__light06">
-					<img 
-						src="${data.designs.designStart}" 
-						alt="${data.designs.designStartAlt}" />
+				<figure class="folio-grid p2 border-r01 back-grey__light06">
 					<img 
 						src="${data.designs.designDash}" 
 						alt="${data.designs.designDashAlt}" />
@@ -49,18 +46,55 @@ export default class DCLdesigns extends HTMLElement {
 				</figure>
 				<button 
 					data-figma="${data.designs.designsFigmaLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
 					</svg>
-						View Figma layout
+						View Designs
+				</button>
+				<div class="folio-content__text mt3">
+					<h3 class="h3 mb025">${data.designs.subTitleMobile}</h3>
+					${Object.values(data.designs.textMobile)
+						.map((value) => {
+							return "<p>" + value + "</p>";
+						})
+						.join("")}
+				</div>	
+				<figure class="folio-grid folio-grid--2col p2 border-r01 back-grey__light06">
+					<div class="folio-mobile__device justify-self-center">
+						<span>
+							<img 
+								src="${data.designs.mobileStart}" 
+								alt="${data.designs.mobileStartAlt}" />
+						</span>
+					</div>
+					<div class="folio-mobile__device justify-self-center">
+						<span>
+							<img 
+								src="${data.designs.mobileLiveDash}" 
+								alt="${data.designs.mobileLiveDashAlt}" />
+						</span>
+					</div>
+					<figcaption 
+						class="folio-caption width-minor justify-self-center col-span-2">
+						Caption for the responsive layouts
+					</figcaption>
+				</figure>								
+				<button 
+					data-figma="${data.designs.mobileFigmaLink}"
+					class="btn-primary width-reading mt2">
+					<svg class="icon-figma">
+						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+						</use>
+					</svg>
+						Responsive Layouts
 				</button>				
 			</section>
 		`;
 	}
 	getButtons() {
-		this.btnFigma = this.querySelectorAll(".btn-figma");
+		this.btnFigma = this.querySelectorAll(".btn-primary");
 		this.btnFigma.forEach((btn) => {
 			btn.addEventListener("click", this.showModal.bind(this));
 		});

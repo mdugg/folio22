@@ -80,6 +80,10 @@
   flex-direction: row;
 }
 
+.flex--row__center {
+  justify-content: center;
+}
+
 .flex--col__center {
   display: flex;
   flex-direction: column;
@@ -146,7 +150,7 @@
   justify-self: stretch;
 }
 
-.border01 {
+.border-r01 {
   border-radius: var(--radius01);
 }
 
@@ -538,6 +542,26 @@ button:hover {
   background-color: var(--folio-tint01);
 }
 
+.back-grey__light01 {
+  background-color: var(--folio-grey__light01);
+}
+
+.back-grey__light02 {
+  background-color: var(--folio-grey__light02);
+}
+
+.back-grey__light03 {
+  background-color: var(--folio-grey__light03);
+}
+
+.back-grey__light04 {
+  background-color: var(--folio-grey__light04);
+}
+
+.back-grey__light05 {
+  background-color: var(--folio-grey__light05);
+}
+
 .back-grey__light06 {
   background-color: var(--folio-grey__light06);
 }
@@ -673,6 +697,19 @@ button:hover {
   border-radius: 0.5rem;
 }
 
+.h3-content_section {
+  position: relative;
+}
+.h3-content_section:before {
+  position: absolute;
+  top: 0.5rem;
+  left: -2.5rem;
+  width: 2rem;
+  height: 0.3rem;
+  background-color: var(--folio-primary);
+  content: "";
+}
+
 .folio-grid {
   width: var(--width-projects);
   display: grid;
@@ -690,7 +727,7 @@ button:hover {
   overflow: hidden;
 }
 
-.btn-figma {
+.btn-primary, .btn-primary--link {
   font-family: var(--text-sans);
   font-size: 0.875rem;
   font-weight: 600;
@@ -698,14 +735,52 @@ button:hover {
   border-radius: var(--radius01);
   padding: 1rem;
 }
-.btn-figma .icon-figma {
+.btn-primary .icon-figma, .btn-primary--link .icon-figma {
   height: 1.5rem;
   width: 1.5rem;
   margin-right: 0.5rem;
 }
-.btn-figma:hover {
+.btn-primary:hover, .btn-primary--link:hover {
   border-color: var(--folio-turq);
   background-color: var(--folio-tint02);
+}
+.btn-primary--group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.btn-primary .icon-external, .btn-primary--link .icon-external {
+  height: 1rem;
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.btn-primary--link {
+  color: var(--folio-grey__dark01);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition01);
+  text-decoration: none;
+}
+
+.folio-mobile__device {
+  display: flex;
+  width: 20rem;
+  height: 40rem;
+  overflow: hidden;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: var(--folio-grey__light06);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16);
+}
+.folio-mobile__device span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  cursor: url("https://folio22.s3.amazonaws.com/folio-cursor-scroll.png"), move;
 }
 
 .dcl-brands {

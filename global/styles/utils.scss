@@ -12,6 +12,7 @@
 
 // display
 .flex--row {display:flex; flex-direction: row;}
+.flex--row__center {justify-content: center;}
 .flex--col__center {display:flex; flex-direction: column; align-items: center;}
 .grid {display: grid;}
 
@@ -35,7 +36,7 @@
 .justify-self-stretch {justify-self: stretch;}
 
 // border radius
-.border01 {border-radius: var(--radius01)}
+.border-r01 {border-radius: var(--radius01)}
 
 // lock scroll of <body> when modal is displaying
 .lock-scroll { overflow: hidden; }

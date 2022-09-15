@@ -34,8 +34,13 @@ export default class DCLwireframing extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<h3 class="h3 mt3 mb025">${data.wireframing.appFlowSubTitle}</h3>
+					${Object.values(data.wireframing.appFlowText)
+						.map((value) => {
+							return "<p>" + value + "</p>";
+						})
+						.join("")}
 				</div>
-				<h3 class="h3 mt3 mb025">logic flow chart</h3>
 				<figure class="folio-content__figma">
 					<img 
 						src="${data.wireframing.appFlow}" 
@@ -43,14 +48,22 @@ export default class DCLwireframing extends HTMLElement {
 				</figure>
 				<button 
 					data-figma="${data.wireframing.appFlowLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
 					</svg>
-						View App Flow Diagram
+						View App Flow
 				</button>
-				<figure class="folio-grid folio-grid--2col p2 border01 back-grey__light06">
+				<div class="folio-content__text mt2">
+					<h3 class="h3 mb025">${data.wireframing.wiresSubTitle}</h3>
+					${Object.values(data.wireframing.wiresText)
+						.map((value) => {
+							return "<p>" + value + "</p>";
+						})
+						.join("")}
+				</div>
+				<figure class="folio-grid folio-grid--2col p2 border-r01 back-grey__light05">
 					<img 
 						src="${data.wireframing.wires01dash}" 
 						alt="${data.wireframing.wires01dashAlt}" />
@@ -59,23 +72,52 @@ export default class DCLwireframing extends HTMLElement {
 						alt="${data.wireframing.wires01liveAlt}" />
 					<figcaption 
 						class="folio-caption width-minor justify-self-center col-span-2">
-						Caption for the personas, what kind are they
+						${data.wireframing.wires01liveCaption}
 					</figcaption>
 				</figure>
 				<button 
 					data-figma="${data.wireframing.wiresFigmaLink}"
-					class="btn-figma width-reading mt2">
+					class="btn-primary width-reading mt2">
 					<svg class="icon-figma">
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
 					</svg>
-						View Figma layout
+						View v1 wires
+				</button>
+				<div class="folio-content__text mt2">
+					<h3 class="h3 mb025">${data.wireframing.wires02SubTitle}</h3>
+					${Object.values(data.wireframing.wires02Text)
+						.map((value) => {
+							return "<p>" + value + "</p>";
+						})
+						.join("")}
+				</div>
+				<figure class="folio-grid folio-grid--2col p2 border-r01 back-grey__light05">
+					<img 
+						src="${data.wireframing.wires02dash}" 
+						alt="${data.wireframing.wires02dashAlt}" />
+					<img 
+						src="${data.wireframing.wires02live}" 
+						alt="${data.wireframing.wires02liveAlt}" />
+					<figcaption 
+						class="folio-caption width-minor justify-self-center col-span-2">
+						${data.wireframing.wires01liveCaption}
+					</figcaption>
+				</figure>
+				<button 
+					data-figma="${data.wireframing.wires02FigmaLink}"
+					class="btn-primary width-reading mt2">
+					<svg class="icon-figma">
+						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+						</use>
+					</svg>
+						View v2 wires
 				</button>
 			</section>
 		`;
 	}
 	getButtons() {
-		this.btnFigma = this.querySelectorAll(".btn-figma");
+		this.btnFigma = this.querySelectorAll(".btn-primary");
 		this.btnFigma.forEach((btn) => {
 			btn.addEventListener("click", this.showModal.bind(this));
 		});

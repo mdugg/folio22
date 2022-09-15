@@ -37,12 +37,12 @@
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
         "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> where the Product Team observed tasks completed using CommentSold in a real environment.",
         "compareSubTitle": "Big companies enter the space",
-        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets."]
+        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets.", "{link to articles ?? }https://www.amazon.com/live // https://business.instagram.com/shopping // "]
     },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Consolidate my understanding, explore viewpoints",
-        "problemStatement": "...help larger and more established retailers begin to scale up their live selling capabilities?",
+        "problemStatement": "...create a tool that helps larger and more established retailers begin to scale up their live selling capabilities?",
         "text": ["Starting conceptual work with a problem statement gives me a north star, or at least a central starting point which I change and evolve as needed. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I begin with using UX artifacts and frameworks in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
         "personaSubTitle": "A sense of empathy for the 'user'",
         "personaText": ["I use personas as a loose, qualitative tool to help 'think as' users I've directly observed and who could represent a cohort or archetype. Two helpful cohorts at the outset of this project were the successful 'grass-roots' live seller and the influencer hired by a large retailer.", "The range of personas for this product will grow to include strategic partners to logistics staff to the end consumer."],        
@@ -56,62 +56,86 @@
         "jtbdImg": "https://folio22.s3.amazonaws.com/dcl/dcl-jtbd.png",
         "jtbdImgAlt": "Diagram of jobs-to-be-done for the project",
         "jtbdFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2685%253A7063", 
-        "heuristicsSubTitle": "Heading about heuristics",
-        "heuristicsText": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Text about heuristics"],  
+        "heuristicsSubTitle": "Initial review based on principles",
+        "heuristicsText": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Text about heuristics <a href=\"https://www.nngroup.com/articles/ten-usability-heuristics\" class=\"folio-link\" target=\"_blank\">NNGroup Heuristics<\/a> and <a href=\"https://lawsofux.com/en/\" class=\"folio-link\" target=\"_blank\">Laws of UX Heuristics<\/a>"],  
         "heuristicsImg": "https://folio22.s3.amazonaws.com/dcl/dcl-heuristics.png",
         "heuristicsImgAlt": "Alt text",
-        "heuristicsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2419%253A6861",
-        "heuristicsNNGroup": "https://www.nngroup.com/articles/ten-usability-heuristics/",
-        "heuristicsUXLaws": "https://lawsofux.com/en/"
+        "heuristicsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2419%253A6861"
     },
     "wireframing": {
         "section": "wireframing",
-        "sectionTitle": "Iterate on concepts heading about wireframing",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "Laddering", "User flows", "information architecture / core screens"],
+        "sectionTitle": "'Laddering' the resolutions of the wireframes'",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "appFlowSubTitle": "Application flow chart",
+        "appFlowText": ["Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
         "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
         "appFlowAlt": "Application flow diagram showing functionality and constraints for v1 build",
         "appFlowLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKNdV9SVBCiKUahEuRt7aJY%2FDecoupled-UX-Flow%3Fnode-id%3D580%253A190",
+        "wiresSubTitle": "Diverge and converge with wireframes",
+        "wiresText": ["Diverge and converge with wireframes / current feature set / refactor / question process"],
         "wires01dash": "https://folio22.s3.amazonaws.com/dcl/wires-v1-dash.png",
         "wires01dashAlt": "Alt for dash",
         "wires01setup": "https://folio22.s3.amazonaws.com/dcl/wires-v1-setup.png",
         "wires01setupAlt": "Alt for setup",
         "wires01live": "https://folio22.s3.amazonaws.com/dcl/wires-v1-live.png",
         "wires01liveAlt": "Alt for live",
-        "wiresFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A5859"
+        "wires01liveCaption": "Caption about v1 wires divergent",
+        "wiresFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A5859",
+        "wires02SubTitle": "Wireframes iterations",
+        "wires02Text": ["Iterations / simplified / Diverge and converge with wireframes / current feature set / refactor / question process"],
+        "wires02dash": "https://folio22.s3.amazonaws.com/dcl/dcl-wires-v2-setup.png",
+        "wires02dashAlt": "Alt for dash",
+        "wires02live": "https://folio22.s3.amazonaws.com/dcl/dcl-wires-v2-live.png",
+        "wires02liveAlt": "Alt for live",
+        "wires02liveCaption": "Caption about v1 wires divergent",
+        "wires02FigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3216%253A8122"
     },
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback / temporary branding "],
         "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
         "designStartAlt": "Alt for design start page",
         "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
         "designDashAlt": "Alt for design dash",
+        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1995%253A21909",
         "subTitleMobile": "Something about mobile",
-        "textMobile": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],        
-        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1249%253A11511"
+        "textMobile": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],     
+        "mobileStart": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-start.png",  
+        "mobileStartAlt": "Alt text",  
+        "mobileLiveDash": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-live-dash.png",  
+        "mobileLiveDashAlt": "Alt text",  
+        "mobileFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1523%253A12388"
     },
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "developer handover - state management, components, styleguide", "my involvement continues", "Prototype / Style guides Pattern Library / State management / Figma / Storybook / Walkthroughs", "QA testing"]
+        "text": ["design hand-off and continued testing / comment harvesting and automated invoicing - 3 streams, testing with products, shopify integrations, product upload CSV, barcode scanning This is a filler sentence to push the full width of the layout more words to run at least one line", "development time, team of engineers, re-using functionality from CommentSold core developer handover - state management, components, styleguide , , facebook commenting, website commenting, admin comments", "my involvement continues / ", "Prototype / Style guides Pattern Library / State management / Figma / Storybook / Walkthroughs", "QA testing"],
+        "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
+        "imgStyleGuideAlt": "Alt for this image",
+        "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
     },
     "validation": {
         "section": "validation",
         "sectionTitle": "First version release",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "release and iterate / ready for use / shutterfly / Structured and unstructured feedback / Beta testing"]
+        "text": ["tuned in for the first test run with Shutterfly - comment harvesting was working great / final brand videeo live // This is a filler sentence to push the full width of the layout more words to run at least one line", "release and iterate / ready for use / shutterfly / Structured and unstructured feedback / Beta testing / lean startup test and iterate, enough user feedback to proceed with confidence"],
+        "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
+        "imgShutterPostAlt": "Alt text",
+        "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
+        "imgShutterCommentAlt": "Alt text"
     },
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
         "text": ["support - CS are the experts, accounts, sales, not just a software solution", "This is a filler sentence to push the full width of the layout more words to run at least one line", "SDK / GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release", "magento / shopify / salesforce"],
         "hbrArticle": "https://hbr.org/2022/09/selling-on-tiktok-and-taobao",
-        "link": "https://www.videeo.live"
+        "linkSite": "https://www.videeo.live",
+        "linkApp": "https://videeo.com/login"
     },
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication"],
+        "text": ["some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing"],
         "link": "https://www.videeo.live"
     },
     "snippets": {
