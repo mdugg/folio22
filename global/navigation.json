@@ -1,0 +1,86 @@
+{
+	"home": {
+		"id": "home",
+		"linkName": "Home",
+		"linkURL": "/",
+		"type": "page",
+		"published": false
+	},
+	"work": {
+		"linkName": "Recent Work",
+		"linkURL": "/#recent-work",
+		"type": "page",
+		"published": false
+	},
+	"profile": {
+		"linkName": "Profile",
+		"linkURL": "/content/professional-profile.html",
+		"type": "page",
+		"published": false
+	},
+	"resume": {
+		"linkName": "Resume",
+		"linkURL": "/pages/martin-duggan-resume.html",
+		"type": "page",
+		"published": false
+	},
+	"linkedin": {
+		"linkName": "Linkedin",
+		"linkURL": "https://www.linkedin.com/in/martinduggan/",
+		"type": "external"
+	},
+	"github": {
+		"linkName": "Github",
+		"linkURL": "https://github.com/mdugg",
+		"type": "external"
+	},
+	"dropship": {
+		"linkName": "Dropshipping",
+		"linkURL": "/case-studies/dropshipping/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": true
+	},
+	"dcl": {
+		"linkName": "Enterprise Micro-App",
+		"linkURL": "/case-studies/decoupled/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": true
+	},
+	"flexlabel": {
+		"linkName": "Flexible Shipping Labels",
+		"linkURL": "/case-studies/flexlabels/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": false
+	},
+	"webstore": {
+		"linkName": "E-commerce Store Editor",
+		"linkURL": "/case-studies/webstore/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": false
+	},
+	"influencer": {
+		"linkName": " ",
+		"linkURL": " ",
+		"desc": " ",
+		"type": "project",
+		"published": false
+	},
+	"pos": {
+		"linkName": "Point-of-Sale Wires",
+		"linkURL": "/case-studies/pos/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": false
+	},
+	"dsm": {
+		"linkName": "Design System Foundational Work",
+		"linkURL": "/case-studies/design-system-work/index.html",
+		"desc": "One-liner about the project",
+		"type": "project",
+		"published": false
+	}
+}

@@ -4,7 +4,7 @@ export default class DCLintro extends HTMLElement {
 		// this.attachShadow({ mode: "open" });
 		// this.shadowRoot.innerHTML = `
 		this.innerHTML = `
-            <section class="flex--col__center" data-content="intro">
+            <section class="flex-col--center" data-content="intro">
 			</section>
 		`;
 	}

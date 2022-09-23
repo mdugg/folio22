@@ -1,0 +1,37 @@
+{
+    "intro": {
+        "headline": "strategy driven product designer for e-commerce and software projects",
+        "para1" : ["Hello, welcome, and thank you for taking the time to review my latest portfolio. This folio includes case studies of projects I advanced and completed while working with <a class=\"folio-link\" href=\"https://try.commentsold.com\" target=\"_blank\">CommentSold</a>. These projects were in the exciting new domain of 'Livestreaming Ecommerce' which involves integration with social media platforms, patterns of e-commerce, and design for web apps and native mobile applications."]
+    },
+    "dcl": {
+        "video": "https://folio22.s3.amazonaws.com/dcl/live-selling-maddy-compressed.mp4",
+        "thumb": "https://folio22.s3.amazonaws.com/dcl/design-live-dash-thumb.jpg",
+        "thumbAlt": "Alt text"
+    },
+    "flexlabel": {
+        "thumb01": "https://folio22.s3.amazonaws.com/flex/home-card-thumb01.jpg",
+        "thumb01Alt": "Thumb alt",
+        "thumb02": "https://folio22.s3.amazonaws.com/flex/home-card-thumb02.jpg",
+        "thumb02Alt": "Thumb alt",
+        "thumb03": "https://folio22.s3.amazonaws.com/flex/home-card-thumb03.jpg",
+        "thumb03Alt": "Thumb alt",
+        "thumb04": "https://folio22.s3.amazonaws.com/flex/home-card-thumb04.jpg",
+        "thumb04Alt": "Thumb alt",
+        "thumb05": "https://folio22.s3.amazonaws.com/flex/home-card-thumb05.jpg",
+        "thumb05Alt": "Thumb alt"
+    },
+    "webstore": {
+        "thumb01": "https://folio22.s3.amazonaws.com/webstore/home-illus02-thumb.jpg",
+        "thumb01Alt": "Thumb alt"
+    },
+    "dropship": {
+        "": ""
+    },
+    "dsm": {
+        "": ""
+    },
+    "snippets": {
+        "1": "about this portfolio // This portfolio showcases selected work from my time with CommentSold, applying my skills in Product Design and User Experience. I live with my family in Atlanta, Georgia but I am from Ireland. artisan lead strategy product technical",
+        "2":  "The case studies showcase product design for livestream e-commerce is an exciting domain for a product designer to work in."
+    }
+}

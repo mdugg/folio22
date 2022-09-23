@@ -1,13 +1,13 @@
 {
     "meta": {
         "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
+        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
         "videoPath": ["https://folio22.s3.amazonaws.com/jennaration_live_setup_noir.mp4"]
     },
     "intro": {
         "project": "Decoupled Live",
-        "title": "Dominate livestream e-commerce in the US market",
+        "title": "Scaling livestream e-commerce in the US market",
         "subtitle": "A new app to help larger retailers find success with live selling",
-        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
         "section": "context",
         "text": ["CommentSold software gives super-powers to individual entrepreneurs who want to scale a grass-roots retail practice to be a small to medium sized business.",
         "Larger and more established retailers in the US market are also determined to enter the live selling domain. Their needs would be different as they would not utilize the CommentSold 'full-stack' software solution offered to 'grass-roots' retailers.",
@@ -135,7 +135,7 @@
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing"],
+        "text": ["some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing / some of the divergence not necessary - no need add in so many features"],
         "link": "https://www.videeo.live"
     },
     "snippets": {
@@ -144,6 +144,8 @@
         "3": ["comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity"],
         "4": ["All are trying to find their route to success massive popularity across the Chinese and Indian markets, influencers, facebook youtube instagram tiktok amazon. are they successful? any metrics traction market share growing. too top-down hierarchical, not community driven like grass-roots engagement return business customer lifetime value"],
         "5": ["'How might we...' help larger, established retailers achieve success at live selling?"],
-        "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"]
+        "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],
+        "7": "Dominate livestream e-commerce in the US market",
+        "8": "Bringing livestream e-commerce capabilities to all levels of retail in the US market"
     }
 }

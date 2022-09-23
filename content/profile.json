@@ -1,5 +1,5 @@
 {
     "intro": {
-            "para1" : "My name is Martin Duggan, I am a Product Designer with experience working on eCommerce and Software projects. I am both creative and technical, facilitating design thinking sessions and helping engineers execute designs in code. This portfolio showcases selected work from my time with CommentSold, applying my skills in Product Design and User Experience. I live with my family in Atlanta, Georgia but I am from Ireland."
+        "para1" : ["My name is Martin Duggan, I am a Product Designer with experience working on eCommerce and Software projects. I am both creative and technical, facilitating design thinking sessions and helping engineers execute designs in code.", "This portfolio showcases selected work from my time with CommentSold, applying my skills in Product Design and User Experience. I live with my family in Atlanta, Georgia but I am from Ireland."]
     }
 }

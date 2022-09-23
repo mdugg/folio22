@@ -22,7 +22,7 @@ export default class DCLdelivery extends HTMLElement {
 	}
 	render(data) {
 		this.innerHTML = `	
-			<section class="flex--col__center">
+			<section class="flex-col--center">
 				<div class="folio-content__text mt4">
 					<h3 class="h3-content_section" 
 						id="${data.delivery.section}">

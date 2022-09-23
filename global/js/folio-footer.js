@@ -9,7 +9,7 @@ export default class FolioFooter extends HTMLElement {
 	constructor() {
 		super();
 		this.innerHTML = `
-			<footer class="folio-footer flex--row">
+			<footer class="folio-footer flex-row">
                 <p>use props</p>
 				<nav class="folio-nav">
 					<ul class="folio-nav__list"></ul>

@@ -7,44 +7,61 @@
         <!-- CDN -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Bree+Serif&family=Comfortaa:wght@700&family=Commissioner:wght@200;400;600&family=DM+Serif+Display&family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&family=Sarabun:wght@400;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
         <!-- Components -->
-        <script src="global/js/folio-header.js" type="module"></script>
+        <script src="global/js/folio-header2.js" type="module"></script>
+        <script src="global/js/folio-footer.js" type="module"></script>
         <script src="pages/home-profile.js" type="module"></script>
+        <script src="pages/home-dcl.js" type="module"></script>
+        <script src="pages/home-flexlabel.js" type="module"></script>
+        <script src="pages/home-webstore.js" type="module"></script>
+        <script src="pages/home-dropship.js" type="module"></script>
+        <script src="pages/home-dsm.js" type="module"></script>
         <!-- Styles -->
         <link href="global/styles/global.css" rel="stylesheet">   
         <title>
-            Martin Duggan Product Designer - Portfolio 2022
+            Martin Duggan // Product Designer // Portfolio 2022
         </title>
     </head>
-    <!-- <body>
-        <p>New portfolio coming soon</p>
-        <folio-header></folio-header>
-        <main class="folio-content">
-            <section class="folio-intro"> 
-                <h1 class="h1">Almost before we knew it, we had left the ground</h1>           
-                <intro-profile></intro-profile>
-                <figure>
-                    <span class="mask">
-                        <img src="https://folio22.s3.amazonaws.com/ profile-color-pattern-sunglasses.jpg" alt="this is a picture of me" />
-                    </span>
-                    <figcaption>This is a picture of me</figcaption>
-                </figure>
-            </section>
-            <section>
-                <p>Intersection Observer lazy load, story format, grid of sample imagery and work</p>
-                <ul>
-                    <li>CommentSold</li>
-                    <li>IngenioRx</li>
-                    <li>Iglu lab testing a/b testing ux engineering pics</li>
-                    <li>Orckid</li>
-                    <li>Amazon</li>
-                    <li>MDD</li>
-                    <li>House of Design</li>
-                    <li>Kunnert+Tierney</li>
+    <body>
+        <p style="
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: 'Lora', serif;
+            background-color: #ffd0ca;
+            margin: 0;
+            padding: 1rem;
+            ">
+            Work in progress !! I have just started my new portfolio - lot's to be done - please come back next week to view more completed work
+        </p>
+        <folio-header2></folio-header2>
+        <main class="folio-home">
+            <home-intro class="flex-row flex-row--center"></home-intro>
+            <section class="folio-home--recent-work">
+                <h2 id="recent-work" 
+                    class="folio-home--subtitle mt3">
+                        Recent work
+                </h2>
+                <ul class="folio-home--projects">
+                    <li>
+                        <home-dcl></home-dcl>
+                    </li>
+                    <li>
+                        <home-flexlabel></home-flexlabel>
+                    </li>
+                    <li>
+                        <home-webstore></home-webstore>
+                    </li>
+                    <li>
+                        <home-dropship></home-dropship>
+                    </li>
+                    <li>
+                        <home-dsm></home-dsm>
+                    </li>
                 </ul>
-
             </section>
         </main>
-    </body> -->
+        <folio-footer></folio-footer>
+    </body>
 </html>

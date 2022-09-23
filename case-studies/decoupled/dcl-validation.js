@@ -5,16 +5,13 @@ export default class DCLvalidation extends HTMLElement {
 	connectedCallback() {
 		this.getModel();
 	}
-	disconnectedCallback() {
-		this.btnFigma.removeEventListener("click", this.showModal);
-	}
+	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
 			fetch("../../content/decoupledLive.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
-					this.getButtons();
 					res();
 				})
 				.catch((error) => rej(error));
@@ -22,7 +19,7 @@ export default class DCLvalidation extends HTMLElement {
 	}
 	render(data) {
 		this.innerHTML = `	
-			<section class="flex--col__center">
+			<section class="flex-col--center">
 				<div class="folio-content__text mt4">
 					<h3 class="h3-content_section" 
 						id="${data.validation.section}">

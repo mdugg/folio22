@@ -1,36 +1,37 @@
-class IntroProfile extends HTMLElement {
+export default class HomeIntro extends HTMLElement {
 	constructor() {
 		super();
-		this.attachShadow({ mode: "open" });
-		this.shadowRoot.innerHTML = `
-			<style>
-				:host {
-					display: flex;
-				}
-				.intro-para {
-					font-family: var(--text-sans);
-					font-size: 1rem;
-					line-height: 1.5;
-				}
-			</style>
-            <article>
-                <p class="intro-para"></p>
+	}
+	connectedCallback() {
+		this.getModel();
+	}
+	disconnectedCallback() {}
+	getModel() {
+		return new Promise((res, rej) => {
+			fetch("../../content/home.json")
+				.then((data) => data.json())
+				.then((json) => {
+					this.render(json);
+					res();
+				})
+				.catch((error) => rej(error));
+		});
+	}
+	render(data) {
+		this.innerHTML = `	
+            <article class="folio-home--intro"> 
+                <div class="folio-home--content">
+                    <h1 class="folio-home--title">${data.intro.headline}</h1>
+                    <p class="mt4">${data.intro.para1}</p>
+                </div>
+                <figure class="folio-home--illus">
+                    <svg class="illus-double-diamond">
+                        <use xlink:href="./global/assets/illus-double-diamond.svg#illus-double-diamond">
+                        </use>
+                    </svg>
+                </figure>    
             </article>
 		`;
 	}
-	connectedCallback() {
-		fetch("../content/profile.json")
-			.then((response) => {
-				return response.json();
-			})
-			.then((data) => {
-				const content = data.intro.para1;
-				this.shadowRoot.querySelector(".intro-para").innerHTML =
-					content;
-			})
-			.catch((error) => {
-				console.error("Error:", error);
-			});
-	}
 }
-window.customElements.define("intro-profile", IntroProfile);
+window.customElements.define("home-intro", HomeIntro);

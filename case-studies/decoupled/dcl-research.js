@@ -2,7 +2,7 @@ export default class DCLresearch extends HTMLElement {
 	constructor() {
 		super();
 		this.innerHTML = `
-            <section class="flex--col__center" data-content="research">
+            <section class="flex-col--center" data-content="research">
 			</section>
 		`;
 	}

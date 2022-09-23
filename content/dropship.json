@@ -1,0 +1,90 @@
+{
+    "meta": {
+        "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
+        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
+        "videoPath": [""]
+    },
+    "intro": {
+        "project": "Dropshipping",
+        "title": "De-risking inventory investment and expanding the categories available for live selling",
+        "subtitle": "More text about webstore admin",
+        "section": "context",
+        "text": [""]
+    },
+    "process": {
+        "section": "process",
+        "sectionTitle": "Defining what to build",
+        "text": [""],
+        "quote": "",
+        "quoteCite": ""
+    },
+    "research": {
+        "section": "research",
+        "sectionTitle": "Understanding the 'current solution'",
+        "textResearch": [""],
+        "ethnoSubTitle": "",
+        "ethnoText": [""],
+        "thumb01Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb01.jpg",
+        "thumb01Alt": "Discount Divas live studio"
+    },
+    "ideation": {
+        "section": "ideation",
+        "sectionTitle": "Consolidate my understanding, explore viewpoints",
+        "problemStatement": "...create a tool ",
+        "text": [""],        
+        "personaImg01": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-maddy.png",
+        "personaImg01Alt": "Persona for Maddy, a grass-roots live seller",
+        "personasFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064"},
+    "wireframing": {
+        "section": "wireframing",
+        "sectionTitle": "'Laddering' the resolutions of the wireframes'",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "appFlowSubTitle": "Application flow chart",
+        "appFlowText": ["Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
+        "appFlowAlt": "Application flow diagram showing functionality and constraints for v1 build",
+        "appFlowLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKNdV9SVBCiKUahEuRt7aJY%2FDecoupled-UX-Flow%3Fnode-id%3D580%253A190",
+        "wiresSubTitle": "Diverge and converge with wireframes",
+        "wiresText": ["Diverge and converge with wireframes / current feature set / refactor / question process"]
+        },
+    "designs": {
+        "section": "designs",
+        "sectionTitle": "User interface design",
+        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback / temporary branding "],
+        "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
+        "designStartAlt": "Alt for design start page",
+        "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
+        "designDashAlt": "Alt for design dash",
+        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1995%253A21909"},
+    "delivery": {
+        "section": "delivery",
+        "sectionTitle": "Collaborating with engineers",
+        "text": [""],
+        "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
+        "imgStyleGuideAlt": "Alt for this image",
+        "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
+    },
+    "validation": {
+        "section": "validation",
+        "sectionTitle": "First version release",
+        "text": [""],
+        "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
+        "imgShutterPostAlt": "Alt text",
+        "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
+        "imgShutterCommentAlt": "Alt text"
+    },
+    "outcomes": {
+        "section": "outcomes",
+        "sectionTitle": "Some results",
+        "text": [""]
+    },
+    "retrospective": {
+        "section": "retrospective",
+        "sectionTitle": "What could I have done better ?",
+        "text": [""],
+        "link": "https://www.videeo.live"
+    },
+    "snippets": {
+        "1": [""]
+    }
+}

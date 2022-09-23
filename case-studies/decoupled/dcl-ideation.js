@@ -29,7 +29,7 @@ export default class DCLideation extends HTMLElement {
 		// console.log(content);
 		// content.innerHTML = `
 		this.innerHTML = `
-            <section class="flex--col__center"> 
+            <section class="flex-col--center"> 
 				<div class="folio-content__text mt4">
 					<div class="h3-content_section" 
 						id="${data.ideation.section}">

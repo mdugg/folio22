@@ -2,7 +2,7 @@ class DCLprocess extends HTMLElement {
 	constructor() {
 		super();
 		this.innerHTML = `
-            <section class="flex--col__center" data-content="process">
+            <section class="flex-col--center" data-content="process">
 			</section>
 		`;
 	}

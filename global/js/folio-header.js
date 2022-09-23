@@ -11,8 +11,8 @@ export default class FolioHeader extends HTMLElement {
 		// this.attachShadow({ mode: "open" });
 		// this.shadowRoot.innerHTML = `
 		this.innerHTML = `
-			<header class="folio-header flex--row">
-				<a href="/" class="folio-header--link flex--row">
+			<header class="folio-header flex-row">
+				<a href="/" class="folio-header--link flex-row">
 					<svg class="md-logotype">
 						<use 
 							xlink:href="../../global/assets/md-logo.svg#md-logo">

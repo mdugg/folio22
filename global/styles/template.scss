@@ -82,3 +82,23 @@
         transform: scaleX(1);
     }
 }
+.folio-sm {
+
+    &--links {
+        display: flex;
+        flex-direction: row;
+    }
+    &--link {
+        margin-left: 2rem;
+    }
+    &--link_icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        fill: var(--folio-grey__light02);
+        transition: var(--transition01);
+    }
+    &--link_icon:hover {
+        fill: var(--folio-turq);
+    }
+
+}

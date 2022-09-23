@@ -2,7 +2,7 @@ export default class DCLretrospective extends HTMLElement {
 	constructor() {
 		super();
 		this.innerHTML = `
-            <section class="flex--col__center" data-content="retrospective">
+            <section class="flex-col--center" data-content="retrospective">
 			</section>
 		`;
 	}
