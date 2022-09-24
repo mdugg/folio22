@@ -7,8 +7,9 @@ export default class FolioHeader2 extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
+		const root = location.href;
 		return new Promise((res, rej) => {
-			fetch("./folio/global/navigation.json")
+			fetch(root + "/folio/global/navigation.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
