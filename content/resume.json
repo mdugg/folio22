@@ -1,0 +1,30 @@
+{
+    "experience": [
+        {
+            "company": "CommentSold",
+            "companyLink": "https://try.commentsold.com",
+            "companyAddress": {
+                "street": "3001 9th Ave SW",
+                "city": "Huntsville", 
+                "state": "Alabama", 
+                "zip": "35805", 
+                "country": "USA"
+            },
+            "dateStart": {
+                "day": "30",
+                "month": ["11", "November", "Nov"],
+                "year": "2020"
+            },
+            "dateEnd": {
+                "day": "29",
+                "month": ["06", "June", "Jun"],
+                "year": "2022"
+            },
+            "workLocation": ["Remote"],
+            "jobTitle": "Lead Product Designer for core SaaS product",
+            "jobSummary": ["Bullet 1", "Bullet 1"],
+            "jobDescription": [""]
+        }
+    ]
+
+}
