@@ -2,13 +2,13 @@
 	"home": {
 		"id": "home",
 		"linkName": "Home",
-		"linkURL": "/",
+		"linkURL": "/folio22/",
 		"type": "page",
 		"published": false
 	},
 	"work": {
 		"linkName": "Recent Work",
-		"linkURL": "/#recent-work",
+		"linkURL": "/folio22/#recent-work",
 		"type": "page",
 		"published": false
 	},
