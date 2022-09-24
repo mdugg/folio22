@@ -4,9 +4,6 @@ export default class FolioHeader2 extends HTMLElement {
 	}
 	connectedCallback() {
 		this.getModel();
-
-		const currentLocation = location.href;
-		console.log(currentLocation);
 	}
 	disconnectedCallback() {}
 	getModel() {
