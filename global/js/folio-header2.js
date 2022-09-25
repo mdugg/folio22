@@ -25,10 +25,9 @@ export default class FolioHeader2 extends HTMLElement {
 	render(data) {
 		this.innerHTML = `	
 			<header class="folio-header flex-row">
-				<a href="/" class="folio-header--link flex-row">
+				<a href="${data.home.linkURL}" class="folio-header--link flex-row">
 					<svg class="md-logotype">
-						<use 
-							xlink:href="../../global/assets/md-logo.svg#md-logo">
+						<use href="../../../global/assets/md-logo.svg#md-logo">
 						</use>
 					</svg>
 				</a>
