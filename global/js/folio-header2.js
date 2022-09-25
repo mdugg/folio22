@@ -26,12 +26,8 @@ export default class FolioHeader2 extends HTMLElement {
 		this.innerHTML = `	
 			<header class="folio-header flex-row">
 				<a href="${data.home.linkURL}" class="folio-header--link flex-row">
-					<svg class="md-logotype">
-						<use href="https://folio22.s3.amazonaws.com/svg/md-logo2.svg">
-						</use>
-					</svg>
 					<object class="md-logotype" type="image/svg+xml" 
-						data="https://folio22.s3.amazonaws.com/svg/md-logo2.svg" >				</object>
+						data="https://folio22.s3.amazonaws.com/svg/md-logo2.svg" ></object>
 				</a>
 				<nav class="folio-nav">
 					<ul class="folio-nav__list">
