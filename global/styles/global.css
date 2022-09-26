@@ -664,14 +664,22 @@ button:hover {
   transform: scaleX(1);
 }
 
+.folio-sm--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .folio-sm--links {
   display: flex;
   flex-direction: row;
 }
 .folio-sm--link {
-  margin-left: 2rem;
+  display: flex;
+  margin-left: 1.5rem;
 }
 .folio-sm--link_icon {
+  display: flex;
   height: 1.5rem;
   width: 1.5rem;
   fill: var(--folio-grey__light02);
