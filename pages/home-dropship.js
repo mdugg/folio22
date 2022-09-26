@@ -7,9 +7,13 @@ export default class HomeDropship extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
-		let fetchDropship = fetch("../../content/dropship.json");
-		let fetchHome = fetch("../../content/home.json");
-		let fetchNav = fetch("../../global/navigation.json");
+		let contentPath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/";
+		let templatePath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/global/";
+		let fetchDropship = fetch(contentPath + "dropship.json");
+		let fetchHome = fetch(contentPath + "home.json");
+		let fetchNav = fetch(templatePath + "navigation.json");
 
 		return Promise.all([fetchDropship, fetchHome, fetchNav])
 			.then((values) => {

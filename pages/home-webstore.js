@@ -7,9 +7,13 @@ export default class HomeWebstore extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
-		let fetchWebstore = fetch("../../content/webstore.json");
-		let fetchHome = fetch("../../content/home.json");
-		let fetchNav = fetch("../../global/navigation.json");
+		let contentPath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/";
+		let templatePath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/global/";
+		let fetchWebstore = fetch(contentPath + "webstore.json");
+		let fetchHome = fetch(contentPath + "home.json");
+		let fetchNav = fetch(templatePath + "navigation.json");
 
 		return Promise.all([fetchWebstore, fetchHome, fetchNav])
 			.then((values) => {

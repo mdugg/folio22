@@ -7,9 +7,13 @@ export default class HomeDSM extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
-		let fetchDSM = fetch("../../content/dsm.json");
-		let fetchHome = fetch("../../content/home.json");
-		let fetchNav = fetch("../../global/navigation.json");
+		let contentPath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/";
+		let templatePath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/global/";
+		let fetchDSM = fetch(contentPath + "dsm.json");
+		let fetchHome = fetch(contentPath + "home.json");
+		let fetchNav = fetch(templatePath + "navigation.json");
 
 		return Promise.all([fetchDSM, fetchHome, fetchNav])
 			.then((values) => {
