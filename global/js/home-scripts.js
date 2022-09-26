@@ -3,7 +3,7 @@
 
 import "./folio-header2.js";
 import "./folio-footer.js";
-import "../../pages/home-profile.js";
+import "../../pages/home-intro.js";
 import "../../pages/home-dcl.js";
 import "../../pages/home-flexlabel.js";
 import "../../pages/home-webstore.js";

@@ -7,9 +7,13 @@ export default class HomeFlexlabel extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
-		let fetchFlex = fetch("../../content/flexlabel.json");
-		let fetchHome = fetch("../../content/home.json");
-		let fetchNav = fetch("../../global/navigation.json");
+		let contentPath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/";
+		let templatePath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/global/";
+		let fetchFlex = fetch(contentPath + "flexlabel.json");
+		let fetchHome = fetch(contentPath + "home.json");
+		let fetchNav = fetch(templatePath + "navigation.json");
 
 		return Promise.all([fetchFlex, fetchHome, fetchNav])
 			.then((values) => {

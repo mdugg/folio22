@@ -7,9 +7,13 @@ export default class HomeDCL extends HTMLElement {
 	}
 	disconnectedCallback() {}
 	getModel() {
-		let fetchDCL = fetch("../../content/decoupledLive.json");
-		let fetchHome = fetch("../../content/home.json");
-		let fetchNav = fetch("../../global/navigation.json");
+		let contentPath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/";
+		let templatePath =
+			"https://raw.githubusercontent.com/mdugg/folio22/main/global/";
+		let fetchDCL = fetch(contentPath + "decoupledLive.json");
+		let fetchHome = fetch(contentPath + "home.json");
+		let fetchNav = fetch(templatePath + "navigation.json");
 
 		return Promise.all([fetchDCL, fetchHome, fetchNav])
 			.then((values) => {

@@ -8,7 +8,9 @@ export default class HomeIntro extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/home.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/home.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
