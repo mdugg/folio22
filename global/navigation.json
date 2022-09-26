@@ -14,13 +14,13 @@
 	},
 	"profile": {
 		"linkName": "Profile",
-		"linkURL": "/content/professional-profile.html",
+		"linkURL": "/folio22/content/professional-profile.html",
 		"type": "page",
 		"published": false
 	},
 	"resume": {
 		"linkName": "Resume",
-		"linkURL": "/pages/martin-duggan-resume.html",
+		"linkURL": "/folio22/pages/martin-duggan-resume.html",
 		"type": "page",
 		"published": false
 	},
@@ -36,28 +36,28 @@
 	},
 	"dropship": {
 		"linkName": "Dropshipping",
-		"linkURL": "/case-studies/dropshipping/index.html",
+		"linkURL": "/folio22/case-studies/dropshipping/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": true
 	},
 	"dcl": {
 		"linkName": "Enterprise Micro-App",
-		"linkURL": "/case-studies/decoupled/index.html",
+		"linkURL": "/folio22/case-studies/decoupled/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": true
 	},
 	"flexlabel": {
 		"linkName": "Flexible Shipping Labels",
-		"linkURL": "/case-studies/flexlabels/index.html",
+		"linkURL": "/folio22/case-studies/flexlabels/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": false
 	},
 	"webstore": {
 		"linkName": "E-commerce Store Editor",
-		"linkURL": "/case-studies/webstore/index.html",
+		"linkURL": "/folio22/case-studies/webstore/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": false
@@ -71,14 +71,14 @@
 	},
 	"pos": {
 		"linkName": "Point-of-Sale Wires",
-		"linkURL": "/case-studies/pos/index.html",
+		"linkURL": "/folio22/case-studies/pos/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": false
 	},
 	"dsm": {
 		"linkName": "Design System Foundational Work",
-		"linkURL": "/case-studies/design-system-work/index.html",
+		"linkURL": "/folio22/case-studies/design-system-work/index.html",
 		"desc": "One-liner about the project",
 		"type": "project",
 		"published": false
