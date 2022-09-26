@@ -36,7 +36,7 @@ export default class HomeDropship extends HTMLElement {
                 </div>
                 <figure class="card-dropship--illus">
 					<svg class="card-dropship--svg">
-						<use xlink:href="../../global/assets/illus-dropship.svg#illus-dropship">
+						<use href="./global/assets/illus-dropship.svg#illus-dropship">
 						</use>
 					</svg>
                 </figure>

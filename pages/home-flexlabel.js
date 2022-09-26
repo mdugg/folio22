@@ -36,7 +36,7 @@ export default class HomeFlexlabel extends HTMLElement {
 					<div class="card-flexlabel--grid">
 						<span class="card-flexlabel--thumb">
 							<svg class="card-flexlabel--logo">
-								<use xlink:href="../../global/assets/logos-sprite.svg#logo-usps-mono">
+								<use href="./global/assets/logos-sprite.svg#logo-usps-mono">
 								</use>
 							</svg>
 						</span>
@@ -52,13 +52,13 @@ export default class HomeFlexlabel extends HTMLElement {
 						</span>
 						<span class="card-flexlabel--thumb">
 							<svg class="card-flexlabel--logo">
-								<use xlink:href="../../global/assets/logos-sprite.svg#logo-ups-mono">
+								<use href="./global/assets/logos-sprite.svg#logo-ups-mono">
 								</use>
 							</svg>
 						</span>
 						<span class="card-flexlabel--thumb">
 							<svg class="card-flexlabel--logo">
-								<use xlink:href="../../global/assets/logos-sprite.svg#logo-fedex-mono">
+								<use href="./global/assets/logos-sprite.svg#logo-fedex-mono">
 								</use>
 							</svg>
 						</span>

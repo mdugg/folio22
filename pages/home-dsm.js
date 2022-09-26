@@ -36,7 +36,7 @@ export default class HomeDSM extends HTMLElement {
                 </div>
 				<figure class="card-dsm--illus">
 					<svg class="card-dsm--svg">
-						<use xlink:href="../../global/assets/illus-dsm.svg#illus-dsm">
+						<use href="./global/assets/illus-dsm.svg#illus-dsm">
 						</use>
 					</svg>
                 </figure>
