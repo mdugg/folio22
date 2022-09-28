@@ -234,5 +234,29 @@
             "subtitle": "Tools",
             "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Slack, Notion"]
         }
+    },
+    "education": {
+        "college": {
+            "collegeName": "",
+            "courseName": "",
+             "dateStart": {
+                "month": ["8", "August", "Aug"],
+                "year": "1997"
+            },
+            "dateEnd": {
+                "month": ["12", "December", "Dec"],
+                "year": "1997"
+            }
+        },
+        "courses": [
+            {
+                "courseProvider": "",
+                "courseName": "",
+                "dateStart": {
+                    "month": ["8", "August", "Aug"],
+                    "year": "1997"
+                }
+            }
+        ]
     }
 }
