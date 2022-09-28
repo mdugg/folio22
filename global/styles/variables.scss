@@ -35,6 +35,8 @@
   // color palette tint
   --folio-tint01: #C4D2CF;
   --folio-tint02: #f3fffe;
+  // gradients
+  --gradient-resume: linear-gradient(65deg, rgba(232,232,232,1) 42%, rgba(181,241,0,1) 100%);;
   // widths
   // 40rem = 640dp
   --width-minor: 30rem;
@@ -63,6 +65,7 @@
   --space8: 8rem;
   // border radius
   --radius01: .5rem;
+  --radius02: 2rem;
   // transitions
   --transition01: all .3s ease-out;
 }

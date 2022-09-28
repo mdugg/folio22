@@ -17,13 +17,222 @@
             },
             "dateEnd": {
                 "day": "29",
-                "month": ["06", "June", "Jun"],
+                "month": ["6", "June", "Jun"],
                 "year": "2022"
             },
-            "workLocation": ["Remote"],
-            "jobTitle": "Lead Product Designer for core SaaS product",
-            "jobSummary": ["Bullet 1", "Bullet 1"],
-            "jobDescription": [""]
+            "workLocation": "Remote, USA",
+            "jobTitle": "Senior Product Designer",
+            "jobSummary": "Leading product design for core SaaS product with regular usage for over 5,000 retailers in livestream e-commerce; processing sales (GMV) of over $1.2bn annually.",
+            "jobResponsibilities": ["Product Design for SaaS products, native mobile apps, and e-commerce platform", "Recruitement: interviewing, assessing, and hiring to build a Product Design team as strategic partner", "Responsible for progressing a Design System to standardize how CommentSold builds software products", "Applying the Design Thinking framework: Discover / Define / Design / Develop / Deliver / Measure / Iterate", "Assisting in generative and evaluative user research", "Contributing to design for e-commerce websites", "Contributing to design for native iOS and Android mobile apps", "Mixed resolution wireframing to rapidly explore different user flow solutions", "Prototyping new features for testing and validating with external customers", "Working within multiple team ops: LeanUX, Basecamp's ShapeUp, Agile, Kanban, Continuous Integration / Continuous Deliver (CI/CD)", "Ethnography research: directly observing users of our software in a warehouse environment", "Researching user feedback on recorded calls from customer support, account strategy, sales, live chat", "Providing UX engineering support for software engineers using Git and Github", "Continuous collaboration with C-Suite, Product Managers, Software Engineers, QA Testing, Commercial and Marketing"]
+        },
+        {
+            "company": "IngenioRx",
+            "companyLink": "https://www.ingenio-rx.com",
+            "companyAddress": {
+                "street": "303 Peachtree St NE",
+                "city": "Atlanta", 
+                "state": "Georgia", 
+                "zip": "30308", 
+                "country": "USA"
+            },
+            "dateStart": {
+                "day": "4",
+                "month": ["12", "December", "Dec"],
+                "year": "2019"
+            },
+            "dateEnd": {
+                "day": "29",
+                "month": ["6", "June", "Jun"],
+                "year": "2022"
+            },
+            "workLocation": "Atlanta, USA",
+            "jobTitle": "Senior Product Designer",
+            "jobSummary": "Lead Product Designer for the Pharmacy Benefits, Eligibility, & Claims application with 15 million member records.",
+            "jobResponsibilities": ["Working as sole Product Designer within the 'core applications' team of approx 50 software developers and cloud engineers", "Highly specialized application users that UI and UX is appropriate for 'clinical rules engine'", "Understanding the 'eligibility' logical data model and designing a navigation system for rapid cross-referencing", "Creating a user interface for successfully process claims from Commercial, Medicare and Medicaid members","Creating a pattern library and pushing it to centralized repository on Abstract", "Creating UX artifacts for designers from other teams within the Anthem company", "Reviewing the internal front-end framework 'Nimbus' and advising on it's suitability for future application builds", "Liaising with DevOps Director to agree on an Angular SPA solution for the application front-end", "Develop a pattern library for development/QA teams to follow", "Presenting UI concepts and wireframes to multi-disciplinary teams", "Communicate efficiently with offshore teams regarding UI architecture", "UX Engineering Angular theming and modular prototyping","Providing front-end UI designs to a centralized repository using Git and Bitbucket", "Building responsive prototypes for mobile", "Collaboration and design direction for Product, Engineering, and QA testing teams", "Participate in story grooming, sprint review and demos, daily scrum", "Participating in continuous integration and continuous delivery (CI/CD) workflow", "Communication and collaboration with product owners on front-end progress", "Liaising with design teams external to Ingenio but within Anthem parent corporation", "Developing research and ideation techniques within a high security environment", "Sourcing brand and UI assets for implementation in Ingenio projects", "Review and apply Anthem/Ingenio brand guidelines", "Building out the design function within Ingenio", "Understanding the pharmacy benefits domain", "Creating DesignOps documentation on Confluence", "UX consultancy for other teams - Pharmacy Home System redesign", "Actively communicating outside of team silos to leverage successful work completed on other internal projects", "Onboarding documentation for new designers", "Facilitating workshops with Product Owners", "Reporting to Director of Engineering"]
+        },
+        {
+            "company": "Iglu Cruise",
+            "companyLink": "https://www.iglucruise.com",
+            "companyAddress": {
+                "street": "165 The Broadway",
+                "city": "Wimbledon", 
+                "county": "London", 
+                "code": "SW19 1NE", 
+                "country": "UK"
+            },
+            "dateStart": {
+                "day": "6",
+                "month": ["3", "March", "Mar"],
+                "year": "2017"
+            },
+            "dateEnd": {
+                "day": "7",
+                "month": ["6", "June", "Jun"],
+                "year": "2019"
+            },
+            "workLocation": "London, UK",
+            "jobTitle": "Senior UX Designer",
+            "jobSummary": "Lead Product Designer for the Pharmacy Benefits, Eligibility, & Claims application with 15 million member records.",
+            "jobResponsibilities": ["Focus on design for online booking and e-commerce across key markets of UK, France, Spain, Italy, Germany", "Optimizing for mobile web conversion", "Quantitative user testing: A/B testing, analytics and user-behaviour tools", "Qualitative lab testing and user testing of prototypes", "Desk research with comparitive analysis and Baymard documentation on successful e-commerce practices", "Reviewing user behavior videos and analytics on abandoned carts", "Multi-discipline collaboration with Product, Development, Commercial and Marketing teams", "Applying the Design Thinking framework: Discover / Define / Design / Develop / Deliver / Measure / Iterate", "Creating new designs to integrate flights and hotels around existing cruise holidays", "Creating interactive browser prototypes", "UX Engineering support for software engineers; providing production-ready HTML", "Recruitement: interviewing, assessing, and hiring for Product Design team", "Fostering diverse skillsets and viewpoints to build the maturity and contribution of Design at Iglu", "Mobile-first responsive design", "Pattern library development", "Supporting design efforts across the e-commerce funnel: search and landing / build your holiday / book your holiday", "Liaising with a UX consultancy team provided by Google on UX and web accessibility best practices", "Vision boarding to provide a longer-term vision for progressive enhancement", "Designing for core KPIs around online bookings, sales volume, reducing support calls to call-center, and net-promoter scores (NPS)", "Design support for email marketing", "Participating in sprint planning and team retrospectives", "Providing regular 1:1 meetings with designers", "- Creating style guides, contributing to pattern libraries, and driving foundational work for a company-wide Design System", "Creating low resolution wireframe concepts", "Creating high resolution user interface designs and standardizing components for re-use in a Design System"]
+        },
+        {
+            "company": "Orckid",
+            "companyLink": "https://www.orckid.com",
+            "companyAddress": {
+                "street": "87 Turnmill Street",
+                "city": "London", 
+                "county": "London", 
+                "code": "EC1M 5QU", 
+                "country": "UK"
+            },
+            "dateStart": {
+                "day": "1",
+                "month": ["5", "May", "May"],
+                "year": "2013"
+            },
+            "dateEnd": {
+                "day": "3",
+                "month": ["3", "March", "Mar"],
+                "year": "2017"
+            },
+            "workLocation": "London, UK",
+            "jobTitle": "Lead Digital Designer",
+            "jobSummary": "Leading Digital Design for the agency's largest clients: British Gas and Centrica. Providing design consultancy and practice for startups and small-to-medium sized companies.",
+            "jobResponsibilities": ["Applying 5 Stages of UX framework: Strategy / Scope / Structure / Skeleton / Surface", "Low resolution wireframing", "High resolution browser prototypes","Screen flows for end-to-end user journeys", "UI designs and style guides for small business websites", "Designing and developing Wordpress CMS themes and custom branding", "Training clients in Wordpress CMS usage", "Lead designer for 'greenfield' web applications projects for MyFamilyCare.co.uk", "Leading responsive design for best practices for all client projects", "Leading client presentations at various stages of project development", "Liaising with offshore team of software engineers in delivering web applications", "Advocating for Agile development, helping the stuido to transition from 'waterfall' processes", "Assisting the agency to evolve from below-the-line advertising and marketing agency to digital studio for web and application development", "Reviewing Google Analytics and advising clients on website optimizations", "Creative work for online advertising", "Creating styleguide documentation", "UI design for iOS apps", "Art Direction, copywriting and designing online campaigns for British Gas and Centrica", "Redesigning Product Detail Pages for Verbatim.com e-commerce site", "Recruitement: interviewing, assessing, and hiring for Digital Design team"]
+        },
+        {
+            "company": "Amazon UK",
+            "companyLink": "https://www.amazon.co.uk",
+            "companyAddress": {
+                "street": "60 Holborn Viaduct",
+                "city": "London", 
+                "county": "London", 
+                "code": "EC1A 2FD", 
+                "country": "UK"
+            },
+            "dateStart": {
+                "day": "16",
+                "month": ["4", "April", "Apr"],
+                "year": "2012"
+            },
+            "dateEnd": {
+                "day": "26",
+                "month": ["4", "April", "Apr"],
+                "year": "2013"
+            },
+            "workLocation": "London, UK",
+            "jobTitle": "Senior Designer",
+            "jobSummary": "Visual Experience Designer for European markets, elevating the standard of creative assets with millions of impressions across UK, Germany, France, Italy, and Spain.",
+            "jobResponsibilities": ["Leading the visual design campaign for Christmas 2012 with a team of 3 other designers", "Contributed to Black Friday and Cyber Monday campaign concepts","Prototyping component designs for gaming category landing pages", "Micro-site design for recruitment", "Collaborating with design teams in Seattle, USA", "Collaborating with commercial and category teams to review analytics that compare YOY campaign performance", "Participated in regular design reviews with a team of 20+ designers", "Presenting designs and concepts to category leaders", "Styleguide development in multiple languages", "Contributing to core landing page redesigns of Amazon.com / .co.uk / .de / .fr / .it / .es","Low resolution wireframing", "Responsive design - mobile, tablet, desktop", "Creative artwork", "Understanding and applying core brand principles of Amazon", "Designs for email marketing", "Art Direction", "Styleguide design", "Landing page design based on analytics","Creating high resolution user-interface designs", "Design for multiple European markets", "Low resolution wireframing", "In-browser prototypes", "Mobile experience"]
+        },
+        {
+            "company": "MDD",
+            "companyLink": "http://martinduggan.com/mdd/",
+            "companyAddress": {
+                "street": "8 Sidney Place",
+                "city": "Cork", 
+                "county": "Cork", 
+                "code": "T23 E7EY", 
+                "country": "Ireland"
+            },
+            "dateStart": {
+                "day": "1",
+                "month": ["6", "June", "Jun"],
+                "year": "2010"
+            },
+            "dateEnd": {
+                "day": "20",
+                "month": ["4", "April", "Apr"],
+                "year": "2012"
+            },
+            "workLocation": "Cork, Ireland",
+            "jobTitle": "Design Consultant",
+            "jobSummary": "Full Design Consultancy for startups and small-medium sized businesses for both online and offline branding and marketing campaigns. I won a contract with German pharmacy chain DocMorris to provide design consultancy for their entrance to the Irish market.",
+            "jobResponsibilities": ["Providing UX and UI design for Youtipit, one of the first Bitcoin startups, based in Germany", "Designing in-store branding across multiple DocMorris Ireland outlets", "Providing UX and UI for a DocMorris web application providing customers access to advice from a pharmacy expert.", "Client procurement and business networking", "Project management and client liaison", "Art Direction", "Visual branding and brand guidelines development", "Brand implementation across web and printed media", "Contract work with other creative agencies in Dublin and London", "Creative artwork for Deutsche Bank UK, Heinekin Ireland, 02 Telecoms UK"]
+        },
+        {
+            "company": "House of Design",
+            "companyLink": "https://houseofdesign.ie",
+            "companyAddress": {
+                "street": "58 Baggot Lane",
+                "city": "Dublin", 
+                "county": "Dublin", 
+                "code": "D04 C1W7", 
+                "country": "Ireland"
+            },
+            "dateStart": {
+                "day": "5",
+                "month": ["1", "January", "Jan"],
+                "year": "1998"
+            },
+            "dateEnd": {
+                "day": "28",
+                "month": ["5", "May", "May"],
+                "year": "2010"
+            },
+            "workLocation": "Dublin, Ireland",
+            "jobTitle": "Senior Designer",
+            "jobSummary": "Over a 10 year period I helped build a stable and profitable creative Design Studio servicing many different sectors of business, corporate, and governmental agencies. I was instrumental in transitioning the studio from design for printed media to fully embracing web technologies and the beginning of UX design practices.",
+            "jobResponsibilities": ["Corporate Identity design and implementation", "Pitch deck creation and presentation to existing and potential clients", "Leading the procurement new public-sector contracts via successful tendering", "Design of printed literature; annual reports for financial institutions", "Packaging design", "Magazine layout", "Design for marketing materials", "Creative artwork; setup for lithographic and screen printing", "Project managing client accounts worth many hundreds of thousands (Euro) annually","Recruitment; interviewing, assessing and hiring designers", "Mentored new designers in the growing discipline of User Experience design", "Monitoring latest developments in the UX industry and advised clients on successful patterns", "Leading the design and build of web-based applications for health, construction, and litho printing", "Illustration and logo design", "Visual branding for small businesses"]
+        },
+        {
+            "company": "Kunnert&Tierney",
+            "companyLink": "https://kunnertandtierney.com",
+            "companyAddress": {
+                "street": "10 Robert Scott House",
+                "city": "Cork", 
+                "county": "Cork", 
+                "code": "T23 YPR2", 
+                "country": "Ireland"
+            },
+            "dateStart": {
+                "day": "4",
+                "month": ["8", "August", "Aug"],
+                "year": "1997"
+            },
+            "dateEnd": {
+                "day": "19",
+                "month": ["12", "December", "Dec"],
+                "year": "1997"
+            },
+            "workLocation": "Dublin, Ireland",
+            "jobTitle": "Junior Designer",
+            "jobSummary": "Working as a Junior Designer under the mentorship of Art Director Christian Kunnert. I assisted this highly-creative boutique studio in identity design and marketing for small businesses.",
+            "jobResponsibilities": ["Assisted senior designers in preparing mockups for clients", "Artwork preparation for lithographic print", "Assisting in film-based product photography of Rolex, Patek Philippe, and bespoke diamond jewellery products for keanes.ie", "Logo design for small businesses", "Creative design for small business marketing", "Typographic layout for informational publications", "Artwork preparation for print"]
         }
-    ]
+    ],
+    "skills": {
+        "discovery": {
+            "subtitle": "Discovery & validation",
+            "points": ["Qualitative user testing", "Quantitative user testing", "Experimentation and variant design testing"]
+        },
+        "ideation": {
+            "subtitle": "Ideation",
+            "points": ["Workshops", "Crazy-8s"]
+        },
+        "wireframe": {
+            "subtitle": "Wireframing",
+            "points": ["mapping customer journeys; task-oriented screen flows", "Crazy-8s"]
+        },
+        "design": {
+            "subtitle": "Design",
+            "points": ["user-centered design principles", "web accessibility", "typography & design principles", "Applying HCI (human computer interaction) and classic design principles", "Digital and manual illustration", "Art Direction"]
+        },
+        "prototyping": {
+            "subtitle": "Prototyping",
+            "points": ["Component build using React & Angular", "Interactive wireframing with Sketch & InvisionApp", "In-browser responsive prototypes"]
+        },
+        "designOps": {
+            "subtitle": "DesignOps",
+            "points": ["Agile, Kanban, Shape-up, LeanUX", "Mentoring designers and improving UX maturity within the organization", "Outcomes focused - KPIs and OKRs"]
+        },
+        "personal": { 
+            "subtitle": "Personal",
+            "points": ["Strong communication skills in working with multi-disciplinary teams", "Strategic thinking, growth mindset", "Highly motivated, strong self starter"]
+        },
+        "tools": {
+            "subtitle": "Tools",
+            "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Slack, Notion"]
+        }
+    }
 }

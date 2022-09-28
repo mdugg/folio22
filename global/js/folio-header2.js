@@ -4,6 +4,7 @@ export default class FolioHeader2 extends HTMLElement {
 	}
 	connectedCallback() {
 		this.getModel();
+		this.activeLink();
 	}
 	disconnectedCallback() {}
 	getModel() {
@@ -21,6 +22,19 @@ export default class FolioHeader2 extends HTMLElement {
 				})
 				.catch((error) => rej(error));
 		});
+	}
+	activeLink() {
+		let currentLocation = window.location.pathname.split("/");
+		let menuItem = document.querySelectorAll(".folio-nav__link");
+		let menuItemLength = menuItem.length;
+		console.log(
+			currentLocation[2] + " / " + menuItem[0] + " / " + menuItemLength
+		);
+		for (let i = 0; i < menuItemLength; i++) {
+			if (menuItemLength[i].href === currentLocation[2]) {
+				menuItem[i].className = "active";
+			}
+		}
 	}
 	render(data) {
 		this.innerHTML = `	
