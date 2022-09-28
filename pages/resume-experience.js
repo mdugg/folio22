@@ -8,10 +8,10 @@ export default class ResumeExperience extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
+			// fetch("../../content/resume.json")
 			fetch(
 				"https://raw.githubusercontent.com/mdugg/folio22/main/content/resume.json"
 			)
-				// fetch("../../content/resume.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
