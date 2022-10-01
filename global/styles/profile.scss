@@ -1,1 +1,81 @@
 // profile
+.folio-profile {
+    font-family: var(--text-sans);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.folio-profile--layout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    border-radius: var(--radius-large);
+    background-color: var(--folio-grey__light06);
+    // background-color: var(--folio-navy);
+}
+// content
+profile-about {
+    grid-column-start: span 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+profile-gallery {
+    grid-column-start: span 6;
+}
+.folio-profile--content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+.folio-home--title {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
+}
+.folio-profile--text {
+    grid-column-start: 5;
+    grid-column-end: 12;
+    grid-template-rows: 1fr 1fr;
+    // color: #fff;
+    font-family: var(--text-sans);
+    line-height: 1.8;
+
+    .h3 {
+        color: var(--folio-turq);
+    }
+
+    .folio-link {
+        // color: #fff;
+    }
+}
+.folio-profile--pic {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+
+    figcaption {
+        // color: #fff;
+        font-family: var(--text-serif);
+        font-size: .875rem;
+        line-height: 1.4;
+        padding: .5rem 0 0 2rem;
+    }
+}
+// gallery
+.folio-profile--gallery {
+
+}
+.profile-travel--photos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: .5rem;
+}

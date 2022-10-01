@@ -34,6 +34,7 @@
   --width-minor: 30rem;
   --width-reading: 40rem;
   --width-projects: 60rem;
+  --space0: 0rem;
   --space025: .25rem;
   --space05: .5rem;
   --space075: .75rem;
@@ -56,6 +57,7 @@
   --space8: 8rem;
   --radius01: .5rem;
   --radius02: 2rem;
+  --radius-large: 4rem;
   --transition01: all .3s ease-out;
 }
 
@@ -402,6 +404,10 @@ button:hover {
 
 .mt8 {
   margin-top: var(--space8) !important;
+}
+
+.mb0 {
+  margin-bottom: var(--space0) !important;
 }
 
 .mb025 {
@@ -1538,6 +1544,79 @@ RESPONSIVE
     padding-left: 1.2rem;
     margin-left: 0;
   }
+}
+.folio-profile {
+  font-family: var(--text-sans);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.folio-profile--layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-radius: var(--radius-large);
+  background-color: var(--folio-grey__light06);
+}
+
+profile-about {
+  grid-column-start: span 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+profile-gallery {
+  grid-column-start: span 6;
+}
+
+.folio-profile--content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+}
+
+.folio-home--title {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 1;
+}
+
+.folio-profile--text {
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-template-rows: 1fr 1fr;
+  font-family: var(--text-sans);
+  line-height: 1.8;
+}
+.folio-profile--text .h3 {
+  color: var(--folio-turq);
+}
+.folio-profile--pic {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+}
+.folio-profile--pic figcaption {
+  font-family: var(--text-serif);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  padding: 0.5rem 0 0 2rem;
+}
+
+.profile-travel--photos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0.5rem;
 }
 
 /*# sourceMappingURL=global.css.map */
