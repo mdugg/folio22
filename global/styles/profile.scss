@@ -72,6 +72,11 @@ profile-gallery {
 // gallery
 .folio-profile--gallery {
 
+    .folio-caption {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
 }
 .profile-travel--photos {
     display: grid;

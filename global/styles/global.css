@@ -143,6 +143,10 @@
   grid-column: span 4;
 }
 
+.col-span-5 {
+  grid-column: span 5;
+}
+
 .justify-self-auto {
   justify-self: auto;
 }
@@ -1610,6 +1614,11 @@ profile-gallery {
   font-size: 0.875rem;
   line-height: 1.4;
   padding: 0.5rem 0 0 2rem;
+}
+
+.folio-profile--gallery .folio-caption {
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
 
 .profile-travel--photos {
