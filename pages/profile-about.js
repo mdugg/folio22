@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/profile.json
+// ../../content/profile.json
+
 export default class ProfileAbout extends HTMLElement {
 	constructor() {
 		super();
@@ -8,7 +11,9 @@ export default class ProfileAbout extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/profile.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/profile.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
