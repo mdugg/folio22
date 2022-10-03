@@ -42,6 +42,8 @@
 // lock scroll of <body> when modal is displaying
 .lock-scroll { overflow: hidden; }
 
+.no-wrap {white-space: nowrap;}
+
 // ARIA
 [aria-hidden="true"] {
     display:none;

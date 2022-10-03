@@ -175,6 +175,10 @@
   overflow: hidden;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 [aria-hidden=true] {
   display: none;
 }
