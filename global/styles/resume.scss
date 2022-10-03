@@ -184,7 +184,7 @@
 }
 .cv-text {
     font-size: .875rem;
-    line-height: 1.4;
+    line-height: 1.6;
     margin: 0;
 }
 .cv-list {
@@ -211,10 +211,11 @@
         height: .75rem;
     }
 }
-
-
-
-
+.cv-logo-college {
+    display: flex;
+    width: 6rem;
+    height: auto;
+}
 
 /*--------------------------
 RESPONSIVE

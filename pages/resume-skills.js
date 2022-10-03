@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/resume.json
+// ../../content/resume.json
+
 export default class ResumeSkills extends HTMLElement {
 	constructor() {
 		super();
@@ -8,7 +11,6 @@ export default class ResumeSkills extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			// fetch("../../content/resume.json")
 			fetch(
 				"https://raw.githubusercontent.com/mdugg/folio22/main/content/resume.json"
 			)
@@ -21,7 +23,6 @@ export default class ResumeSkills extends HTMLElement {
 		});
 	}
 	render(data) {
-		// console.log(data.experience);
 		this.innerHTML = Object.values(data.skills)
 			.map((value) => {
 				return `
