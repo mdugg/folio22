@@ -18,6 +18,13 @@
     fill: var(--folio-turq);
     transition: var(--transition01);
 }
+// footer
+.folio-footer {
+    @extend .folio-header;
+    padding: 1rem;
+    position: relative;
+}
+
 
 // navigation
 .folio-nav {

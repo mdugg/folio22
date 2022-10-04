@@ -634,7 +634,7 @@ button:hover {
   background-color: var(--folio-grey__light06);
 }
 
-.folio-header {
+.folio-header, .folio-footer {
   font-family: var(--text-sans);
   padding: 1rem 8rem;
 }
@@ -650,6 +650,11 @@ button:hover {
 .md-logotype {
   fill: var(--folio-turq);
   transition: var(--transition01);
+}
+
+.folio-footer {
+  padding: 1rem;
+  position: relative;
 }
 
 .folio-nav {
@@ -776,13 +781,13 @@ button:hover {
 }
 
 @media screen and (max-width: 1080px) {
-  .folio-header {
+  .folio-header, .folio-footer {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 @media screen and (max-width: 780px) {
-  .folio-header {
+  .folio-header, .folio-footer {
     justify-content: space-between;
   }
 
@@ -796,7 +801,7 @@ button:hover {
   }
 }
 @media screen and (max-width: 660px) {
-  .folio-header {
+  .folio-header, .folio-footer {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -1255,16 +1260,20 @@ button:hover {
 .home-card--btn {
   overflow: hidden;
   z-index: 1;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  max-width: 18rem;
   font-family: var(--text-sans);
   font-size: 0.875rem;
   font-weight: var(--text-sans-bold);
   color: var(--folio-grey__dark01);
-  line-height: 3rem;
+  line-height: 1;
   text-decoration: none;
   border: 1px solid #fff;
   border-radius: var(--radius-small);
-  padding: 0 2rem;
   transition: var(--transition01);
   position: relative;
 }
@@ -1461,12 +1470,32 @@ button:hover {
   .folio-home--illus {
     height: 20rem;
   }
+
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .home-card--content {
+    padding: 4rem;
+  }
+  .home-card figure {
+    display: none;
+  }
 }
 @media screen and (max-width: 520px) {
   .folio-home--intro {
     padding: 4rem 2rem;
   }
   .folio-home--title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home-card--content {
+    padding: 4rem 2rem;
+  }
+  .home-card.card-dropship .home-card--title {
     font-size: 2.5rem;
   }
 }
