@@ -1,3 +1,5 @@
+// ${nav.webstore.linkURL}
+
 export default class HomeWebstore extends HTMLElement {
 	constructor() {
 		super();
@@ -26,11 +28,16 @@ export default class HomeWebstore extends HTMLElement {
 	}
 	render([webstore, home, nav]) {
 		this.innerHTML = `	
-            <article class="home-card card-webstore"> 
+            <article 
+				class="home-card card-webstore" 
+				id="webstore"
+				data-published="false"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${webstore.intro.project}</h2>
                     <h3 class="home-card--subtitle">${webstore.intro.title}</h3>
-                    <a href="${nav.webstore.linkURL}" class="home-card--btn mt1">View case study</a>
+                    <a href="#webstore" class="home-card--btn webstore mt1">
+						Work-in-progress
+					</a>
                 </div>
                 <figure class="card-webstore--illus">
 					<img class="card-webstore--image" 
@@ -42,3 +49,16 @@ export default class HomeWebstore extends HTMLElement {
 	}
 }
 window.customElements.define("home-webstore", HomeWebstore);
+
+// <small
+// 	style="
+// 		display: flex;
+// 		justify-content: center;
+// 		width: 11rem;
+// 		margin-top: 1rem;
+// 		font-family: 'Inter', sans-serif;
+// 		font-weight: 600;
+// 	"
+// >
+// 	(Work-in-progress)
+// </small>;

@@ -1,3 +1,5 @@
+// ${nav.dsm.linkURL}
+
 export default class HomeDSM extends HTMLElement {
 	constructor() {
 		super();
@@ -26,12 +28,15 @@ export default class HomeDSM extends HTMLElement {
 	}
 	render([dsm, home, nav]) {
 		this.innerHTML = `	
-            <article class="home-card card-dsm"> 
+            <article 
+				class="home-card card-dsm"
+				id="dsm"
+				data-published="false"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${dsm.intro.project}</h2>
                     <h3 class="home-card--subtitle">${dsm.intro.title}</h3>
-                    <a href="${nav.dsm.linkURL}" class="home-card--btn mt1">
-						View case study
+                    <a href="#dsm" class="home-card--btn dsm mt1">
+						Work-in-progress
 					</a>
                 </div>
 				<figure class="card-dsm--illus">

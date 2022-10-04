@@ -30,7 +30,9 @@ export default class HomeDCL extends HTMLElement {
                 <div class="home-card--content">
                     <h2 class="home-card--title">${dcl.intro.project}</h2>
                     <h3 class="home-card--subtitle">${dcl.intro.title}</h3>
-                    <a href="${nav.dcl.linkURL}" class="home-card--btn mt1">View case study</a>
+                    <a href="${nav.dcl.linkURL}" class="home-card--btn dcl mt1">
+						View case study
+					</a>
                 </div>
                 <figure class="card-dcl--illus">
 					<span class="card-dcl--thumb">

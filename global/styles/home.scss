@@ -8,22 +8,19 @@
     &--intro {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        gap: 1rem;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 1rem;
+        row-gap: 0;
         width: calc(100% - 8rem);
         min-height: 80vh;
-        border-radius: 4rem;
+        padding: 6rem;
+        border-radius: var(--radius-large);
         background-color: var(--folio-grey__light06);
     }
-    &--content {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        font-family: var(--text-sans);
-        line-height: 1.8;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     &--title {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        align-self: end;
         font-size: 4rem;
         color: var(--folio-primary);
         font-family: var(--display-serif);
@@ -37,9 +34,21 @@
         line-height: 1;
         text-align: center;
     }
+    &--text {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        align-self: center;        
+        font-family: var(--text-sans);
+        line-height: 1.8;
+    }
     &--illus {
         grid-column-start: 7;
-        grid-column-end: 12;
+        grid-column-end: 13;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: stretch;
+        height: 100%;
+        width: 100%;
     }
     &--recent-work {
         width: 100%;
@@ -85,7 +94,7 @@
         line-height: 3rem;
         text-decoration: none;
         border: 1px solid #fff;
-        border-radius: var(--radius01);
+        border-radius: var(--radius-small);
         padding: 0 2rem;
         transition: var(--transition01);
         position: relative;
@@ -105,8 +114,25 @@
         width: 100%;
     }
 }
-.home-card--btn:after {
-    background-color: var(--color-dcl-accent);
+.home-card--btn {
+    &.dcl:after {
+        background-color: var(--color-dcl-accent);
+    }
+    &.flexlabel:after {
+        background-color: var(--color-flexlabel-accent);
+    }
+    &.webstore:after {
+        background-color: var(--color-webstore-accent);
+    }
+    &.dropship:after {
+        background-color: var(--color-dropship-accent);
+    }
+    &.dsm {
+        color: var(--color-dsm-text);
+    }
+    &.dsm:after {
+        background-color: var(--color-dsm-accent);
+    }
 }
 
 .card-dcl {
@@ -129,7 +155,7 @@
         z-index: 10;
         width: 25rem;
         box-shadow: 0 0 1rem rgba(0,0,0,.1);
-        border-radius: var(--radius01);
+        border-radius: var(--radius-small);
     }
 }
 .card-flexlabel {
@@ -154,7 +180,7 @@
         height: 8rem;
         width: 8rem;
         background-color: rgba(0,0,0,.2);
-        border-radius: var(--radius01);
+        border-radius: var(--radius-small);
     }
     &--logo {
         max-height: 3rem;
@@ -215,3 +241,87 @@
         fill: var(--color-dsm-text);
     }
 }
+[data-published="false"] {
+
+    .home-card--btn:hover {
+        cursor: not-allowed;
+    }
+
+}
+@media screen and (max-width: 1600px) {
+    .folio-home {
+        &--title {
+            grid-column-end: 9;
+            align-self: center;        
+        }
+        &--text {
+            grid-column-start: 1;
+            grid-column-end: 6;
+            align-self: center;        
+        }
+        &--illus {
+            grid-column-start: 6;
+            grid-column-end: 13;
+            grid-row-start: 2;
+        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .folio-home {
+        &--title {
+            grid-column-end: 13;
+        }
+    }
+}
+@media screen and (max-width: 1080px) {
+    .folio-home {
+        &--intro {
+            display: flex;
+            flex-direction: column;
+            padding: 4rem;
+            border-radius: var(--radius-mid);
+        }
+    }
+}
+@media screen and (max-width: 1080px) {
+    .folio-home {
+        &--intro,
+        &--recent-work {
+            width: calc(100% - 4rem);
+        }
+        &--title {
+            margin-bottom: 4rem;
+        }
+        &--text {
+            margin-bottom: 2rem;
+        }
+        &--illus {
+            height: 20rem;
+        }
+    }
+}
+@media screen and (max-width: 660px) {
+    .folio-home {
+        &--intro,
+        &--recent-work {
+            width: calc(100% - 2rem);
+        }
+        &--title {
+            font-size: 3rem;
+        }
+        &--illus {
+            height: 20rem;
+        }
+    }
+}
+@media screen and (max-width: 520px) {
+    .folio-home {
+        &--intro {
+            padding: 4rem 2rem;
+        }
+        &--title {
+            font-size: 2.5rem;
+        }
+    }
+}
+

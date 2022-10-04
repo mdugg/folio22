@@ -37,7 +37,7 @@
 .justify-self-stretch {justify-self: stretch;}
 
 // border radius
-.border-r01 {border-radius: var(--radius01)}
+.border-r01 {border-radius: var(--radius-small)}
 
 // lock scroll of <body> when modal is displaying
 .lock-scroll { overflow: hidden; }

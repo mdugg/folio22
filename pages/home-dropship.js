@@ -1,3 +1,5 @@
+// ${nav.dropship.linkURL}
+
 export default class HomeDropship extends HTMLElement {
 	constructor() {
 		super();
@@ -26,12 +28,15 @@ export default class HomeDropship extends HTMLElement {
 	}
 	render([dropship, home, nav]) {
 		this.innerHTML = `	
-            <article class="home-card card-dropship"> 
+            <article 
+				class="home-card card-dropship"
+				id="dropship"
+				data-published="false"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${dropship.intro.project}</h2>
                     <h3 class="home-card--subtitle">${dropship.intro.title}</h3>
-                    <a href="${nav.dropship.linkURL}" class="home-card--btn mt1">
-						View case study
+                    <a href="#dropship" class="home-card--btn dropship mt1">
+						Work-in-progress
 					</a>
                 </div>
                 <figure class="card-dropship--illus">

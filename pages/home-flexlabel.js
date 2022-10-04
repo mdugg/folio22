@@ -1,3 +1,5 @@
+// ${nav.flexlabel.linkURL}
+
 export default class HomeFlexlabel extends HTMLElement {
 	constructor() {
 		super();
@@ -26,11 +28,16 @@ export default class HomeFlexlabel extends HTMLElement {
 	}
 	render([flex, home, nav]) {
 		this.innerHTML = `	
-            <article class="home-card card-flexlabel"> 
+            <article 
+				class="home-card card-flexlabel"
+				id="flexlabel"
+				data-published="false"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${flex.intro.project}</h2>
                     <h3 class="home-card--subtitle">${flex.intro.title}</h3>
-                    <a href="${nav.flexlabel.linkURL}" class="home-card--btn mt1">View case study</a>
+                    <a href="#flexlabel" class="home-card--btn flexlabel mt1">
+						Work-in-progress
+					</a>
                 </div>
                 <figure class="card-flexlabel--illus">
 					<div class="card-flexlabel--grid">

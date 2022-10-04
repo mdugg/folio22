@@ -23,10 +23,14 @@ export default class HomeIntro extends HTMLElement {
 	render(data) {
 		this.innerHTML = `	
             <article class="folio-home--intro"> 
-                <div class="folio-home--content">
-                    <h1 class="folio-home--title">${data.intro.headline}</h1>
-                    <p class="mt4">${data.intro.para1}</p>
-                </div>
+				<h1 class="folio-home--title">${data.intro.headline}</h1>
+				<div class="folio-home--text">
+					${Object.values(data.intro.text)
+						.map((value) => {
+							return `<p class="mt0 mb1"> ${value} </p>`;
+						})
+						.join("")}
+				</div>
                 <figure class="folio-home--illus">
                     <svg class="illus-double-diamond">
                         <use xlink:href="./global/assets/illus-double-diamond.svg#illus-double-diamond">

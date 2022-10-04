@@ -17,9 +17,13 @@
   --color-dcl: #B5F100;
   --color-dcl-accent: #adff8a;
   --color-flexlabel: #20d3c1;
+  --color-flexlabel-accent: #00ffe5;
   --color-webstore: #45bee6;
+  --color-webstore-accent: #00e2ff;
   --color-dropship: #ffc500;
+  --color-dropship-accent: #ffe300;
   --color-dsm: #2a3e5a;
+  --color-dsm-accent: #8617e3;
   --color-dsm-text: #ffd3d3;
   // color palette grayscale
   --folio-grey__dark01: #000;
@@ -65,8 +69,8 @@
   --space7: 7rem;
   --space8: 8rem;
   // border radius
-  --radius01: .5rem;
-  --radius02: 2rem;
+  --radius-small: .5rem;
+  --radius-mid: 2rem;
   --radius-large: 4rem;
   // transitions
   --transition01: all .3s ease-out;

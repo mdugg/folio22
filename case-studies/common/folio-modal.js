@@ -14,7 +14,7 @@ export default class FolioModal extends HTMLElement {
                     z-index: 100;
                     width: calc(100vw - 8rem);
                     height: calc(100vh - 8rem);
-                    border-radius: var(--radius01);
+                    border-radius: var(--radius-small);
                     transition: var(--transition01);
                 }
                 .folio-modal[aria-hidden='true'] {
