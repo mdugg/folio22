@@ -153,6 +153,30 @@
         transform: rotate(45deg);
     }
 }
+.btn-scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: .875rem;
+    font-weight: var(--text-sans-bold);
+    text-decoration: none;
+    color: (--folio-grey__dark01);
+    transition: var(--transition01);
+
+    &--icon {
+        height: 1.25rem;
+        margin-left: .5rem;
+        transition: var(--transition01);
+    }
+
+    &:hover {
+        color: var(--folio-turq);
+
+        .btn-scroll--icon {
+            fill: var(--folio-turq);
+        }
+    }
+}
 
 @media screen and (max-width: 1080px) {
     .folio-header {
@@ -171,6 +195,10 @@
     }
     .folio-nav--button {
         display: flex;
+    }
+    .btn-scroll {
+        width: 100%;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 660px) {

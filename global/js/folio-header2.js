@@ -1,17 +1,19 @@
-export default class FolioHeader2 extends HTMLElement {
+// ../../global/navigation.json
+// https://raw.githubusercontent.com/mdugg/folio22/main/global/navigation.json
+
+export default class FolioHeader extends HTMLElement {
 	constructor() {
 		super();
 	}
 	connectedCallback() {
 		this.getModel();
-		this.activeLink();
+		// this.activeLink();
 	}
 	disconnectedCallback() {}
 	getModel() {
 		// const root = window.location.origin;
 		// console.log(root);
 		return new Promise((res, rej) => {
-			// fetch("../../global/navigation.json")
 			fetch(
 				"https://raw.githubusercontent.com/mdugg/folio22/main/global/navigation.json"
 			)
@@ -23,19 +25,19 @@ export default class FolioHeader2 extends HTMLElement {
 				.catch((error) => rej(error));
 		});
 	}
-	activeLink() {
-		let currentLocation = window.location.pathname.split("/");
-		let menuItem = document.querySelectorAll(".folio-nav__link");
-		let menuItemLength = menuItem.length;
-		console.log(
-			currentLocation[2] + " / " + menuItem[0] + " / " + menuItemLength
-		);
-		for (let i = 0; i < menuItemLength; i++) {
-			if (menuItemLength[i].href === currentLocation[2]) {
-				menuItem[i].className = "active";
-			}
-		}
-	}
+	// activeLink() {
+	// 	let currentLocation = window.location.pathname.split("/");
+	// 	let menuItem = document.querySelectorAll(".folio-nav__link");
+	// 	let menuItemLength = menuItem.length;
+	// 	console.log(
+	// 		currentLocation[2] + " / " + menuItem[0] + " / " + menuItemLength
+	// 	);
+	// 	for (let i = 0; i < menuItemLength; i++) {
+	// 		if (menuItemLength[i].href === currentLocation[2]) {
+	// 			menuItem[i].className = "active";
+	// 		}
+	// 	}
+	// }
 	render(data) {
 		this.innerHTML = `	
 			<header class="folio-header flex-row">
@@ -128,4 +130,4 @@ export default class FolioHeader2 extends HTMLElement {
 		`;
 	}
 }
-window.customElements.define("folio-header2", FolioHeader2);
+window.customElements.define("folio-header", FolioHeader);
