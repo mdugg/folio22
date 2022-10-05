@@ -26,15 +26,17 @@ export default class ProfileGallery extends HTMLElement {
 		this.innerHTML = `	
             <aside class="folio-profile--gallery">
                 <figure class="profile-travel--photos">
-                    ${Object.values(data.gallery)
+                    ${Object.values(data.gallery.photos)
 						.map((value) => {
 							return `
-                                <img src="${value.url}" alt="${value.alt}">
+                                <img class="photo" 
+									src="${value.url}" 
+									alt="${value.alt}">
                             `;
 						})
 						.join("")}
                         <figcaption class="folio-caption">
-                            One of my many blessings has been the travel I've done with my wife and son, seeing many coutries across Europe and many States within the US
+                            ${data.gallery.caption}
                         </figcaption>
                 </figure>
             </aside>

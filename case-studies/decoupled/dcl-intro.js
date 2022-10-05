@@ -11,7 +11,7 @@ export default class DCLintro extends HTMLElement {
 	connectedCallback() {
 		// let content = this.shadowRoot.querySelector("[data-content='text']");
 		let content = this.querySelector("[data-content='intro']");
-		// const getJSON = new Request("../../content/decoupledLive.json");
+		const getJSON = new Request("../../content/decoupledLive.json");
 
 		fetch(getJSON)
 			.then((response) => response.json())

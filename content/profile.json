@@ -2,7 +2,7 @@
     "profile": {
         "title": "a little about me ...",
         "aboutTitle": "My background",
-        "aboutText" : ["My life's journey has been about visual expression in all its forms; from classical painting to poster designs to human<->computer interfaces on modern devices. I am essentially an artisan, craft person who thinks and works towards achieving results at scale.", "I am Irish and have worked for creative studios in Dublin and London, making the switch from agency life to embed with multi-disciplinary product teams for greater domain expertise and design results. I now live in Atlanta with my wife and son."],
+        "aboutText" : ["My life's journey has been about visual expression in all its forms; from classical painting to poster designs to <span class=\"no-wrap\">human<->computer</span> interfaces on modern devices. I am essentially an artisan, craft person who thinks and works towards achieving results at scale.", "I am Irish and have worked for creative studios in Dublin and London, making the switch from agency life to embed with multi-disciplinary product teams for greater domain expertise and design results. I now live in Atlanta with my wife and son."],
         "practiceTitle": "What I do",
         "practiceText": "I've evolved my practices over time: creative graphic design; branding for new companies and tech startups; web design; UX/UI for web apps; Product Design for SaaS. From UX research to UX engineering - I am engaged by it all and continually learning and applying new techniques that bring success.",
         "teamsTitle": "Working with teams",
@@ -11,109 +11,113 @@
         "outcomesText": "Working on e-commerce and software projects enables me to ideate, iterate, learn and leverage design to achieve greater outputs for business and customers. I am motivated by 'outcomes' instead of 'outputs'. A <a href=\"https://www.nngroup.com/articles/ux-maturity-model/\" target=\"_blank\" class=\"folio-link\">mature Design practice</a> helps achieve business success at scale; far more than only delivering on requests for UI assets.",
         "profilePic": "https://folio22.s3.amazonaws.com/profile/brighton-seo-arrow.jpg",
         "profilePicAlt": "Martin Duggan with team from Iglu at digital marketing event",
-        "profilePicCaption": "That's me <em>(green arrow over my head)</em> with the team from IgluCruise.com at a digital marketing event in Brighton, UK"
+        "profilePicCaption": "That's me <em>(green arrow over my head)</em> with the team from IgluCruise.com at a digital marketing event in Brighton, UK",
+        "galleryCaption": "One of my many blessings has been the travel I've done with my wife and son, seeing many coutries across Europe and many States within the US"
     },
-    "gallery": [
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00004.jpg",
-            "alt": "Toronto at night"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00005.jpg",
-            "alt": "Savannah house with iron railings"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00007.jpg",
-            "alt": "Old police car in Savannah"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00103.jpg",
-            "alt": "Sundown over Rocky mountains of Fraser, Colorado"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00013.jpg",
-            "alt": "Penesecola sunset with pier"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00112.jpg",
-            "alt": "Ancient ruin of Cashel in Tipperary"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00016.jpg",
-            "alt": "Panama City clouds at sunset"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00026.jpg",
-            "alt": "Winter roads in New Mexico"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00025.jpg",
-            "alt": "Beautiful copper door in New Orleans"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00019.jpg",
-            "alt": "Rush hour in New Orleans with a full street car"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00029.jpg",
-            "alt": "American signage, Loveless cafe outside of Nashville"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00036.jpg",
-            "alt": "Overlooking Marseille at dusk"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00040.jpg",
-            "alt": "Building The Spire in London"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00042.jpg",
-            "alt": "London hotel architecture"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00062.jpg",
-            "alt": "Whitley Gap woods of north Georgia in the late autumn"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00065.jpg",
-            "alt": "Gahuti trail of north Georgia"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00075.jpg",
-            "alt": "American classic car design at Gulf Shores Alabama"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00098.jpg",
-            "alt": "Looking towards Estes Park in Colorado"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00079.jpg",
-            "alt": "John's Lane Church in Dublin"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00083.jpg",
-            "alt": "Lord Edward street in Dublin"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00078.jpg",
-            "alt": "Guinnes hop store in Dublin"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00099.jpg",
-            "alt": "Road in the Colorado Rockies"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00102.jpg",
-            "alt": "Fraser, Colorado at sunset during Christmas week"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00116.jpg",
-            "alt": "Brandenburg Gate at Pariser Platz, Berlin"
-        },
-        {
-            "url": "https://folio22.s3.amazonaws.com/travel/travel00118.jpg",
-            "alt": "Siegessäule monument in Berlin"
-        }
-    ],
+    "gallery": {
+        "photos": [
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00004.jpg",
+                "alt": "Toronto at night"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00005.jpg",
+                "alt": "Savannah house with iron railings"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00007.jpg",
+                "alt": "Old police car in Savannah"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00103.jpg",
+                "alt": "Sundown over Rocky mountains of Fraser, Colorado"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00013.jpg",
+                "alt": "Penesecola sunset with pier"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00112.jpg",
+                "alt": "Ancient ruin of Cashel in Tipperary"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00016.jpg",
+                "alt": "Panama City clouds at sunset"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00026.jpg",
+                "alt": "Winter roads in New Mexico"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00025.jpg",
+                "alt": "Beautiful copper door in New Orleans"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00019.jpg",
+                "alt": "Rush hour in New Orleans with a full street car"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00029.jpg",
+                "alt": "American signage, Loveless cafe outside of Nashville"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00036.jpg",
+                "alt": "Overlooking Marseille at dusk"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00040.jpg",
+                "alt": "Building The Spire in London"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00042.jpg",
+                "alt": "London hotel architecture"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00062.jpg",
+                "alt": "Whitley Gap woods of north Georgia in the late autumn"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00065.jpg",
+                "alt": "Gahuti trail of north Georgia"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00075.jpg",
+                "alt": "American classic car design at Gulf Shores Alabama"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00098.jpg",
+                "alt": "Looking towards Estes Park in Colorado"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00079.jpg",
+                "alt": "John's Lane Church in Dublin"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00083.jpg",
+                "alt": "Lord Edward street in Dublin"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00078.jpg",
+                "alt": "Guinnes hop store in Dublin"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00099.jpg",
+                "alt": "Road in the Colorado Rockies"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00102.jpg",
+                "alt": "Fraser, Colorado at sunset during Christmas week"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00116.jpg",
+                "alt": "Brandenburg Gate at Pariser Platz, Berlin"
+            },
+            {
+                "url": "https://folio22.s3.amazonaws.com/travel/travel00118.jpg",
+                "alt": "Siegessäule monument in Berlin"
+            }
+        ],
+        "caption": "One of my many blessings has been the travel I've done with my wife and son, seeing many coutries across Europe and many States within the US"
+    },
     "galleryPath": "https://folio22.s3.amazonaws.com/travel/"
 }

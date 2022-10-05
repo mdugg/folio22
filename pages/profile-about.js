@@ -25,7 +25,7 @@ export default class ProfileAbout extends HTMLElement {
 	render(data) {
 		this.innerHTML = `	
             <article class="folio-profile--content">
-                <h1 class="folio-home--title">
+                <h1 class="folio-profile--title">
                     ${data.profile.title}
                 </h1>
                 <div class="folio-profile--text">
