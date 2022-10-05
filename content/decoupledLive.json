@@ -1,8 +1,8 @@
 {
     "meta": {
-        "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
+        "tags": ["eCommerce", "SaaS", "Responsive design", "Web app"],
         "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
-        "videoPath": ["https://folio22.s3.amazonaws.com/jennaration_live_setup_noir.mp4"]
+        "videoPath": ["https://folio22.s3.amazonaws.com/dcl/jennaration-setup03.mp4"]
     },
     "intro": {
         "project": "Decoupled Live",
@@ -10,13 +10,13 @@
         "subtitle": "A new app to help larger retailers find success with live selling",
         "section": "context",
         "text": ["CommentSold software gives super-powers to individual entrepreneurs who want to scale a grass-roots retail practice to be a small to medium sized business.",
-        "Larger and more established retailers in the US market are also determined to enter the live selling domain. Their needs would be different as they would not utilize the CommentSold 'full-stack' software solution offered to 'grass-roots' retailers.",
-        "To address this opportunity I helped the team build the first iteration of a SaaS product that focused on live selling but could integrate with the existing software stack for large retailers."]
+        "Larger and more established retailers in the US market are also determined to enter the live selling domain. Their needs would be different as they would not utilize the CommentSold 'full-stack' software solution offered to small-sized retailers.",
+        "To address this opportunity I helped the team build the first iteration of a SaaS product that focused on live selling but could integrate with the existing software stack of a large retailer."]
     },
     "process": {
         "section": "process",
         "sectionTitle": "Defining what to build",
-        "text": ["The team already had years of insights from releasing and iterating on the go-live process for smaller retailers.", "The CTO and Product Manager expressed intent via a <a href=\"https://basecamp.com/shapeup\" target=\"_blank\" class=\"folio-link\">Shaping Document<\/a>. It was my role to convert this into a concrete product that had the best chance at success."],
+        "text": ["The team already had years of insights from releasing and iterating on the go-live process for smaller retailers.", "The CTO and Product Manager expressed intent via a <a href=\"https://basecamp.com/shapeup\" target=\"_blank\" class=\"folio-link\">Shaping Document<\/a>. It was my role to convert this into a product that the company could go-to-market with."],
         "quote": "... the roughness leaves room for the team to resolve all the details, while the solution and boundaries act like guard rails.",
         "quoteCite": "Principles of Shaping",
         "shapeUpQuoteURI": "https://basecamp.com/shapeup/1.1-chapter-02#property-3-its-bounded"
@@ -24,9 +24,9 @@
     "research": {
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
-        "textResearch": ["I had compiled general research notes that included the live experience for both retailers and their customers. I had a wealth of knowledge to tap in to for 'desk research', from recorded support calls to invite-only user groups on Facebook.", "I had access to a 'sponsor user' to interview regarding process and pain-points using the current go-live solution."],
+        "textResearch": ["I had compiled general research notes that included the live experience for both retailers and their customers. I had a wealth of knowledge to tap in to for 'desk research', from recorded <strong>support calls</strong> to invite-only user <strong>groups on Facebook</strong>.", "I had access to a <strong>'sponsor user'</strong> to interview regarding process and pain-points using the current go-live solution."],
         "ethnoSubTitle": "Ethnographic research",
-        "ethnoText": ["The Product Team converged in Alabama to visit a selection of top-tier live selling retailers and directly observe their operations.", "This was a golden opportunity for me to see how our software was used from 'front' to 'back' of the shop - from selling through to logistics."],
+        "ethnoText": ["Prior to the kick-off of this project, the Product Team converged in Alabama to visit a selection of top-tier live selling retailers and directly observe their operations.", "This was a golden opportunity for me to see how our software was used from 'front' to 'back' of the shop - from selling through to logistics."],
         "thumb01Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb01.jpg",
         "thumb01Alt": "Discount Divas live studio",
         "thumb02Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb07.jpg",
@@ -36,14 +36,14 @@
         "thumb04Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-jennaration-thumb04.jpg",
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
         "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> where the Product Team observed tasks completed using CommentSold in a real environment.",
-        "compareSubTitle": "Big companies enter the space",
-        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets.", "{link to articles ?? }https://www.amazon.com/live // https://business.instagram.com/shopping // "]
+        "compareSubTitle": "Reviewing the solutions of competitors",
+        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets."]
     },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Consolidate my understanding, explore viewpoints",
         "problemStatement": "...create a tool that helps larger and more established retailers begin to scale up their live selling capabilities?",
-        "text": ["Starting conceptual work with a problem statement gives me a north star, or at least a central starting point which I change and evolve as needed. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I begin with using UX artifacts and frameworks in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
+        "text": ["Starting conceptual work with a problem statement gives me a north star, or at least a central starting point which I change and evolve as needed. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I began with using UX artifacts and frameworks in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
         "personaSubTitle": "A sense of empathy for the 'user'",
         "personaText": ["I use personas as a loose, qualitative tool to help 'think as' users I've directly observed and who could represent a cohort or archetype. Two helpful cohorts at the outset of this project were the successful 'grass-roots' live seller and the influencer hired by a large retailer.", "The range of personas for this product will grow to include strategic partners to logistics staff to the end consumer."],        
         "personaImg01": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-maddy.png",
@@ -52,7 +52,7 @@
         "personaImg02Alt": "Persona for Josh, influencer live selling on Shutterfly channels",
         "personasFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064",
         "jtbdSubTitle": "Shift focus to 'motivations'",
-        "jtbdText": ["Personas are good to achieve a baseline level of empathy, but there is a danger the focus is too much on features and attributes rather than motivations.", "Understanding what 'jobs' a retailer will hire our product for to successfully complete will be a more insightful driver of my design efforts. Hence, the Jobs-To-Be-Done framework is a great tool in determining what to build."], 
+        "jtbdText": ["Personas are good to achieve a baseline level of empathy, but there is a danger the focus is too much on features and attributes rather than <strong>motivations</strong>.", "Understanding what 'jobs' a retailer will hire our product for to successfully complete will be a more insightful driver of my design efforts. Hence, the Jobs-To-Be-Done framework is a great tool in determining what to build."], 
         "jtbdImg": "https://folio22.s3.amazonaws.com/dcl/dcl-jtbd.png",
         "jtbdImgAlt": "Diagram of jobs-to-be-done for the project",
         "jtbdFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2685%253A7063", 
@@ -141,7 +141,7 @@
     "snippets": {
         "1": ["CommentSold uniquely positioned, ahead of the curve, Facebook, Tiktok, Amazon, Instagram, not get same traction, retailers reach out to us"],
         "2": ["MVP communicate intention/ not process or solutions"],
-        "3": ["comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity"],
+        "3": ["comparitive analysis / current solution / discovery / empathy project / ethnography research / sponsor users / Task analysis", "Bambuser / Firework / Feature parity",  "{link to articles ?? }https://www.amazon.com/live // https://business.instagram.com/shopping // "],
         "4": ["All are trying to find their route to success massive popularity across the Chinese and Indian markets, influencers, facebook youtube instagram tiktok amazon. are they successful? any metrics traction market share growing. too top-down hierarchical, not community driven like grass-roots engagement return business customer lifetime value"],
         "5": ["'How might we...' help larger, established retailers achieve success at live selling?"],
         "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],

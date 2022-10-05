@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 class DCLprocess extends HTMLElement {
 	constructor() {
 		super();
@@ -8,6 +11,9 @@ class DCLprocess extends HTMLElement {
 	}
 	connectedCallback() {
 		let content = this.querySelector("[data-content='process']");
+		const getJSON = new Request(
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+		);
 
 		fetch(getJSON)
 			.then((response) => response.json())

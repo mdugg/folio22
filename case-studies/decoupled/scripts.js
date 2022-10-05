@@ -1,3 +1,7 @@
+// load in JSON content for all components
+// ../../content/decoupledLive.json
+// const getJSON = new Request("../../content/decoupledLive.json");
+
 import "../../global/js/folio-header2.js";
 import "../../global/js/folio-footer2.js";
 import "../common/folio-modal.js";

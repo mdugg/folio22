@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLintro extends HTMLElement {
 	constructor() {
 		super();
@@ -11,7 +14,9 @@ export default class DCLintro extends HTMLElement {
 	connectedCallback() {
 		// let content = this.shadowRoot.querySelector("[data-content='text']");
 		let content = this.querySelector("[data-content='intro']");
-		const getJSON = new Request("../../content/decoupledLive.json");
+		const getJSON = new Request(
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+		);
 
 		fetch(getJSON)
 			.then((response) => response.json())

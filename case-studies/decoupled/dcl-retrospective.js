@@ -8,6 +8,7 @@ export default class DCLretrospective extends HTMLElement {
 	}
 	connectedCallback() {
 		let content = this.querySelector("[data-content='retrospective']");
+		const getJSON = new Request("../../content/decoupledLive.json");
 
 		fetch(getJSON)
 			.then((response) => response.json())
