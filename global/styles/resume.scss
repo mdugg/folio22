@@ -83,13 +83,13 @@
 }
 // content
 .cv-content {
+    max-width: var(--width-resume);
     font-family: var(--text-sans);
     font-weight: var(--text-serif-reg);
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: var(--width-projects);
-    margin-top: 3rem;
+    padding: 3rem 10rem 0 10rem;
 }
 .cv-title {
     font-family: var(--display-serif);
@@ -221,38 +221,48 @@
 RESPONSIVE
 --------------------------*/
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1400px) {
 
-    /* mobile navigation */
-    .cv-layout {
-        max-width: 72rem;
+    .cv-content {
+        padding-right: 4rem;
     }
 
 }
+@media only screen and (max-width:1200px) {
 
-@media only screen and (max-width: 960px) {
-
-    .cv-layout {
-        max-width: none;
-        padding: 2.4rem 4rem;
+    .cv-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-
-    .cv-subtitle {
-        .dates {
-            position: relative;
-            top: auto;
-            left: auto;
-            right: auto;
-            text-align: left;
-            margin-bottom: .4rem;
-
-            &::before {
-                left: -2.4rem;
-                right: auto;
-            }
-        }
+    .cv-header--title {
+        padding-left: 0;
     }
+    .cv-experience {
+        padding-right: 4rem;
+    }
+}
+@media only screen and (max-width: 860px) {
 
+    .cv-content {
+        flex-direction: column;
+    }
+    .cv-experience {
+        width: 100%;
+        padding-right: 0;
+    }
+    .cv-skills {
+        width: 100%;
+        margin: 4rem 0;
+    }
+}
+@media only screen and (max-width: 740px) {
+
+    .cv-header--title {
+        width: calc(100% - 10rem);
+    }
+    .cv-header--download {
+        width: 10rem;
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -275,6 +285,48 @@ RESPONSIVE
             font-size: 1.2rem;
             padding-left: 1.2rem;
             margin-left: 0;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    .cv-container {
+        padding: 1rem;
+    }
+    .cv-header--title {
+        width: 100%;
+    }
+    .cv-header--download {
+        display: none;
+    }
+
+    // content
+    .cv-content {
+        padding: 4rem 2rem;
+    }
+    .cv-experience {
+        &:before {
+            display: none;
+        }
+    }
+    .cv-job--title {
+        .dates {
+            display: flex;
+            position: relative;
+            left: 0;
+            font-size: .75rem;
+            margin-bottom: .5rem;
+
+            &:before {
+                top: 4px;
+                right: auto;
+                left: -2rem;
+                width: 1rem;
+                height: .25rem;
+                border-radius: 0;
+            }
         }
     }
 
