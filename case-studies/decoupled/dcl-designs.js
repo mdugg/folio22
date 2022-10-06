@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLdesigns extends HTMLElement {
 	constructor() {
 		super();
@@ -10,7 +13,9 @@ export default class DCLdesigns extends HTMLElement {
 	}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/decoupledLive.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -41,7 +46,7 @@ export default class DCLdesigns extends HTMLElement {
 						alt="${data.designs.designDashAlt}" />
 					<figcaption 
 						class="folio-caption width-minor justify-self-center col-span-2">
-						Caption for the designs, what kind are they
+						${data.designs.designDashCaption}
 					</figcaption>
 				</figure>
 				<button 
@@ -78,7 +83,7 @@ export default class DCLdesigns extends HTMLElement {
 					</div>
 					<figcaption 
 						class="folio-caption width-minor justify-self-center col-span-2">
-						Caption for the responsive layouts
+						${data.designs.mobileLiveDashCaption}
 					</figcaption>
 				</figure>								
 				<button 

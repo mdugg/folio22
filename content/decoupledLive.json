@@ -98,19 +98,21 @@
         "designStartAlt": "Alt for design start page",
         "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
         "designDashAlt": "Alt for design dash",
+        "designDashCaption": "A temporary brand was created while an external agency was finalizing a brand strategy",
         "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1995%253A21909",
-        "subTitleMobile": "Something about mobile",
-        "textMobile": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback"],     
+        "subTitleMobile": "Responsive views",
+        "textMobile": ["Primary usage of the application would be desktop driven. A 'mobile-first' would not be fully appropriate for the inital release, other than to influence an economy of means.", "However, the application would be used on mobile devices so a responsive approach (as opposed to adaptive) would serve well for the first release."],     
         "mobileStart": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-start.png",  
         "mobileStartAlt": "Alt text",  
         "mobileLiveDash": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-live-dash.png",  
         "mobileLiveDashAlt": "Alt text",  
+        "mobileLiveDashCaption": "Responsive views created to help engineers for the frontend build",  
         "mobileFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1523%253A12388"
     },
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
-        "text": ["design hand-off and continued testing / comment harvesting and automated invoicing - 3 streams, testing with products, shopify integrations, product upload CSV, barcode scanning This is a filler sentence to push the full width of the layout more words to run at least one line", "development time, team of engineers, re-using functionality from CommentSold core developer handover - state management, components, styleguide , , facebook commenting, website commenting, admin comments", "my involvement continues / ", "Prototype / Style guides Pattern Library / State management / Figma / Storybook / Walkthroughs", "QA testing"],
+        "text": ["I consulted and collaborated with engineers through every step of the process. 'Design hand-off' implies my work is done at this point. This was not the case and I don't think this approach is efficient.", "My work on the project continued with some light documentation in the form of a <strong>style guide</strong>. This would scale to be a pattern library and feed in to an over-arching design system.", "I also assisted QA in testing on devices. The UI was relatively simple but the application had much complexity under the hood. Syncronizing <strong>comment harvesting</strong> and <strong>automated invoicing</strong> across the Facebook page, Facebook groups, the landing page on the retailer website, and the application dashboard needed much testing and continued design over-sight."],
         "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
         "imgStyleGuideAlt": "Alt for this image",
         "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
@@ -118,16 +120,17 @@
     "validation": {
         "section": "validation",
         "sectionTitle": "First version release",
-        "text": ["tuned in for the first test run with Shutterfly - comment harvesting was working great / final brand videeo live // This is a filler sentence to push the full width of the layout more words to run at least one line", "release and iterate / ready for use / shutterfly / Structured and unstructured feedback / Beta testing / lean startup test and iterate, enough user feedback to proceed with confidence"],
+        "text": ["The application was launched in collaboration with <a href=\"https://www.shutterfly.com\" target=\"_blank\">Shutterfly.com</a>. At this point the application was thoroughly tested and working as expected.", "I tuned in to the first live-selling event to observe and interact with the process. This was an opportunity for me to run through the entire shopping and checkout flow as real customers would do.", "It was also an opportunity for me to observe other customers and how they are engaging, and any questions or confusions they may have."],
         "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
         "imgShutterPostAlt": "Alt text",
         "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
-        "imgShutterCommentAlt": "Alt text"
+        "imgShutterCommentAlt": "Alt text",
+        "imgShutterCaption": "Shutterfly.com conducted their first live-selling event on the new application."
     },
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
-        "text": ["support - CS are the experts, accounts, sales, not just a software solution", "This is a filler sentence to push the full width of the layout more words to run at least one line", "SDK / GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release", "magento / shopify / salesforce"],
+        "text": ["The software product is a crucial aspect of the partnership that CommentSold offers large retailers, along with on-site consultancy and guidance in making live-selling events a success and growing a loyal base of repeat customers.", "I had a crucial role in helping the team realize a first release that was high quality and served needs very well.", "This product is strategically important to the company to stabilize and grow its share of the livestreaming e-commerce vertical.", "The final branding solution accepted from the external agency was 'Videeo.com'."],
         "hbrArticle": "https://hbr.org/2022/09/selling-on-tiktok-and-taobao",
         "linkSite": "https://www.videeo.live",
         "linkApp": "https://videeo.com/login"
@@ -135,7 +138,7 @@
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["{research item} some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing / some of the divergence not necessary - no need add in so many features"],
+        "text": ["CommentSold had many years experience in supporting live selling events with its core software product. For this reason there was high confidence in what features needed to be released in the first iteration.", "Although this may be true, I could have invested more of my time in the 'ideation' stage of this project. In hindsight I could have recruited a small cross-functional unit and facilitated a structured workshop to really explore 'divergent' views.", "I feel this is always an important activity to fight against complacency and ensure my team finds viable innovative options before a competitor does."],
         "link": "https://www.videeo.live"
     },
     "snippets": {
@@ -147,6 +150,10 @@
         "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],
         "7": "Dominate livestream e-commerce in the US market",
         "8": "Bringing livestream e-commerce capabilities to all levels of retail in the US market",
-        "wireframing": ["concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", " Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", "Diverge and converge with wireframes / current feature set / refactor / question process", "Iterations / simplified / Diverge and converge with wireframes / current feature set / refactor / question process"]
+        "wireframing": ["concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", " Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", "Diverge and converge with wireframes / current feature set / refactor / question process", "Iterations / simplified / Diverge and converge with wireframes / current feature set / refactor / question process"],
+        "delivery": ["testing with products, shopify integrations, product upload CSV, barcode scanning This is a filler sentence to push the full width of the layout more words to run at least one line", "development time, team of engineers, re-using functionality from CommentSold core developer handover - state management, components, styleguide , , facebook commenting, website commenting, admin comments", "my involvement continues / ", "Prototype / Style guides Pattern Library / State management / Figma / Storybook / Walkthroughs", "QA testing"],
+        "validation": ["tuned in for the first test run with Shutterfly - comment harvesting was working great / final brand videeo live // This is a filler sentence to push the full width of the layout more words to run at least one line", "release and iterate / ready for use / shutterfly / Structured and unstructured feedback / Beta testing / lean startup test and iterate, enough user feedback to proceed with confidence"],
+        "outcomes": ["support - CS are the experts, accounts, sales, not just a software solution", "This is a filler sentence to push the full width of the layout more words to run at least one line", "SDK / GMV / Incremental improvements / KPIs / Scaling / Stakeholders / improved product release", "magento / shopify / salesforce"],
+        "retrospective": ["{research item} some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing / some of the divergence not necessary - no need add in so many features"]
     }
 }

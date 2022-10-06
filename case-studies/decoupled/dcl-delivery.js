@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLdelivery extends HTMLElement {
 	constructor() {
 		super();
@@ -10,7 +13,9 @@ export default class DCLdelivery extends HTMLElement {
 	}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/decoupledLive.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);

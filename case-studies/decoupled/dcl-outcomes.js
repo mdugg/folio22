@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLoutcomes extends HTMLElement {
 	constructor() {
 		super();
@@ -8,7 +11,9 @@ export default class DCLoutcomes extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/decoupledLive.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);

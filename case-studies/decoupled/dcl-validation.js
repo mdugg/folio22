@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLvalidation extends HTMLElement {
 	constructor() {
 		super();
@@ -8,7 +11,9 @@ export default class DCLvalidation extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/decoupledLive.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -41,7 +46,7 @@ export default class DCLvalidation extends HTMLElement {
 						alt="${data.validation.imgShutterCommentAlt}" />
 					<figcaption 
 						class="folio-caption width-minor justify-self-center col-span-2">
-						${data.wireframing.wires01liveCaption}
+						${data.validation.imgShutterCaption}
 					</figcaption>
 				</figure>
 			</section>
