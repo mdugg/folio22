@@ -58,6 +58,15 @@ export default class DCLdesigns extends HTMLElement {
 					</svg>
 						View Designs
 				</button>
+				<figure class="folio-grid p2 border-r01 back-grey__light06 mt2">
+					<img 
+						src="${data.designs.designLOTW}" 
+						alt="${data.designs.designLOTWAlt}" />
+					<figcaption 
+						class="folio-caption width-minor justify-self-center col-span-2">
+						${data.designs.designLOTWCaption}
+					</figcaption>
+				</figure>
 				<div class="folio-content__text mt3">
 					<h3 class="h3 mb025">${data.designs.subTitleMobile}</h3>
 					${Object.values(data.designs.textMobile)

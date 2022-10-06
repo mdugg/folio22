@@ -2,6 +2,12 @@
 // ../../content/decoupledLive.json
 // const getJSON = new Request("../../content/decoupledLive.json");
 
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
+// let getContent =
+// 	"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json";
+
 import "../../global/js/folio-header2.js";
 import "../../global/js/folio-footer2.js";
 import "../common/folio-modal.js";
