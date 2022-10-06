@@ -23,7 +23,7 @@
     },
     "research": {
         "section": "research",
-        "sectionTitle": "Understanding the 'current solution'",
+        "sectionTitle": "Understanding existing solutions",
         "textResearch": ["I had compiled general research notes that included the live experience for both retailers and their customers. I had a wealth of knowledge to tap in to for 'desk research', from recorded <strong>support calls</strong> to invite-only user <strong>groups on Facebook</strong>.", "I had access to a <strong>'sponsor user'</strong> to interview regarding process and pain-points using the current go-live solution."],
         "ethnoSubTitle": "Ethnographic research",
         "ethnoText": ["Prior to the kick-off of this project, the Product Team converged in Alabama to visit a selection of top-tier live selling retailers and directly observe their operations.", "This was a golden opportunity for me to see how our software was used from 'front' to 'back' of the shop - from selling through to logistics."],
@@ -35,29 +35,29 @@
         "thumb03Alt": "Jennaration Boutique go-live space",
         "thumb04Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-jennaration-thumb04.jpg",
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
-        "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> where the Product Team observed tasks completed using CommentSold in a real environment.",
+        "thumbsCaption": "Live studio setup for <a href=\"https://discountdivas.com\" target=\"_blank\">Discount Divas<\/a> and <a href=\"https://jennarationboutique.com\" target=\"_blank\">Jennaration Boutique<\/a> where I observed tasks completed using CommentSold in a real environment.",
         "compareSubTitle": "Reviewing the solutions of competitors",
-        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial comparative analysis of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets."]
+        "compareText": ["The wild success of livestream e-commerce across <a href=\"https://www.indianretailer.com/article/technology/innovation/live-commerce-the-future-of-online-shopping-has-arrived.a7006/\" class=\"folio-link\" target=\"_blank\">India<\/a> and <a href=\"https://technode.com/2019/11/13/livestreams-on-taobao-live-earn-rmb-20-billion-in-sales-on-singles-day/\" class=\"folio-link\" target=\"_blank\">China<\/a> has won the attention of big tech companies and big retailers alike.", "I conducted some initial <strong>comparative analysis</strong> of UX/UI task flows on these platforms. There were common patterns emerging but also a sense that each company has not yet achieved success at the scale seen in other markets."]
     },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Consolidate my understanding, explore viewpoints",
         "problemStatement": "...create a tool that helps larger and more established retailers begin to scale up their live selling capabilities?",
-        "text": ["Starting conceptual work with a problem statement gives me a north star, or at least a central starting point which I change and evolve as needed. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I began with using UX artifacts and frameworks in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
-        "personaSubTitle": "A sense of empathy for the 'user'",
-        "personaText": ["I use personas as a loose, qualitative tool to help 'think as' users I've directly observed and who could represent a cohort or archetype. Two helpful cohorts at the outset of this project were the successful 'grass-roots' live seller and the influencer hired by a large retailer.", "The range of personas for this product will grow to include strategic partners to logistics staff to the end consumer."],        
+        "text": ["Starting conceptual work with a <strong>problem statement</strong> gives me a north star, or at least a central starting point which I change and evolve as to suit new learnings. Baked into this are the various constraints, from team members available to collaborate with to delivery dates due to SLA contracts signed.", "On this project I was the sole designer, so I began with using <strong>UX artifacts</strong> and <strong>frameworks</strong> in a simple way to help me converge my understanding of what's needed and what's problematic in this domain."],        
+        "personaSubTitle": "A sense of empathy for the user",
+        "personaText": ["I use <strong>personas</strong> as a loose, qualitative tool to help 'think as' users I've directly observed and who could represent a cohort or archetype. Two helpful cohorts at the outset of this project were the successful <strong>'grass-roots'</strong> live seller and the influencer hired by a <strong>large retailer</strong>.", "The range of personas for this product will grow to include strategic partners to logistics staff to the end consumer."],        
         "personaImg01": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-maddy.png",
         "personaImg01Alt": "Persona for Maddy, a grass-roots live seller",
         "personaImg02": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-josh.png",
         "personaImg02Alt": "Persona for Josh, influencer live selling on Shutterfly channels",
         "personasFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064",
         "jtbdSubTitle": "Shift focus to 'motivations'",
-        "jtbdText": ["Personas are good to achieve a baseline level of empathy, but there is a danger the focus is too much on features and attributes rather than <strong>motivations</strong>.", "Understanding what 'jobs' a retailer will hire our product for to successfully complete will be a more insightful driver of my design efforts. Hence, the <strong>Jobs-To-Be-Done framework</strong> is a great tool in design thinking."], 
+        "jtbdText": ["Personas are good to achieve a baseline level of empathy, but there is a danger the focus is too much on features and attributes rather than <strong>motivations</strong>.", "Understanding what 'jobs' a retailer will <strong>hire</strong> our product for to successfully complete will be a more insightful driver of my design efforts. Hence, the <strong>Jobs-To-Be-Done framework</strong> is a great tool in design thinking."], 
         "jtbdImg": "https://folio22.s3.amazonaws.com/dcl/dcl-jtbd.png",
         "jtbdImgAlt": "Diagram of jobs-to-be-done for the project",
         "jtbdFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2685%253A7063", 
         "heuristicsSubTitle": "Initial review based on principles",
-        "heuristicsText": ["A heuristics review of the existing go-live flow brought a structured analysis and perspective before considering the 'solutions' space. Both <a href=\"https://www.nngroup.com/articles/ten-usability-heuristics\" class=\"folio-link\" target=\"_blank\">NNGroup<\/a> and <a href=\"https://lawsofux.com/en/\" class=\"folio-link\" target=\"_blank\">Laws of UX<\/a> are very useful tools for this purpose."],  
+        "heuristicsText": ["A <strong>heuristics</strong> review of the existing go-live flow brought a structured analysis and perspective before considering the 'solutions' space. Both <a href=\"https://www.nngroup.com/articles/ten-usability-heuristics\" class=\"folio-link\" target=\"_blank\">NNGroup<\/a> and <a href=\"https://lawsofux.com/en/\" class=\"folio-link\" target=\"_blank\">Laws of UX<\/a> are very useful tools for this purpose."],  
         "heuristicsImg": "https://folio22.s3.amazonaws.com/dcl/dcl-heuristics.png",
         "heuristicsImgAlt": "Heuristics analysis of an existing UI",
         "heuristicsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2419%253A6861"
@@ -67,7 +67,7 @@
         "sectionTitle": "Exploring core views and flows",
         "text": ["After time spent <a href=\"https://www.nngroup.com/videos/ideation-one-person-ux-team/\" class=\"folio-link\" target=\"_blank\">laddering</a> during ideation, it was time to visualize efficient UI and task flows."],
         "appFlowSubTitle": "Application flow chart",
-        "appFlowText": ["I worked closely with the engineers and product managers to work out the scope and constraints for the first release. I helped the team visualize how the app data flow would work and where UI was needed to manage."],
+        "appFlowText": ["I worked closely with the engineers and product managers to work out the scope and <strong>constraints</strong> for the first release. I helped the team visualize how the app data flow would work and where UI was needed to manage."],
         "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
         "appFlowAlt": "Application flow diagram showing functionality and constraints for v1 build",
         "appFlowLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKNdV9SVBCiKUahEuRt7aJY%2FDecoupled-UX-Flow%3Fnode-id%3D580%253A190",
@@ -104,7 +104,7 @@
         "designLOTWAlt": "Live-on-the-web widget design",
         "designLOTWCaption": "The embedded widget that streams the live event on the retailer's website",
         "subTitleMobile": "Responsive views",
-        "textMobile": ["Primary usage of the application would be desktop driven. A 'mobile-first' would not be fully appropriate for the inital release, other than to influence an economy of means.", "However, the application would be used on mobile devices so a responsive approach (as opposed to adaptive) would serve well for the first release."],     
+        "textMobile": ["Primary usage of the application would be desktop driven. A 'mobile-first' approach would not be appropriate for the inital release, other than to influence an economy of means.", "However, the application would be used on mobile devices so a responsive approach (as opposed to adaptive) would serve well for the first release."],     
         "mobileStart": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-start.png",  
         "mobileStartAlt": "Design for the start page mobile view",  
         "mobileLiveDash": "https://folio22.s3.amazonaws.com/dcl/dcl-mobile-live-dash.png",  
@@ -115,7 +115,7 @@
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
-        "text": ["I consulted and collaborated with engineers through every step of the process. 'Design hand-off' implies my work is done at this point. This was not the case and I don't think this approach is efficient.", "My work on the project continued with some light documentation in the form of a <strong>style guide</strong>. This would scale to be a pattern library and feed in to an over-arching design system.", "I also assisted QA in testing on devices. The UI was relatively simple but the application had much complexity under the hood. Syncronizing <strong>comment harvesting</strong> and <strong>automated invoicing</strong> across the Facebook page, Facebook groups, the landing page on the retailer website, and the application dashboard needed much testing and continued design over-sight."],
+        "text": ["I consulted and collaborated with engineers through every step of the process. 'Design hand-off' implies my work is done at this point. This was not the case and I don't think this approach is efficient.", "My work on the project continued with some light documentation in the form of a <strong>style guide</strong>. This would scale to be a pattern library and in time feed in to an over-arching design system.", "I also assisted QA in testing on devices. The UI was relatively simple but the application had much complexity under the hood. Syncronizing <strong>comment harvesting</strong> and <strong>automated invoicing</strong> across the Facebook page, Facebook groups, the landing page on the retailer website, and the application dashboard needed much testing and continued design over-sight."],
         "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
         "imgStyleGuideAlt": "Components for a styleguide",
         "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
@@ -123,7 +123,7 @@
     "validation": {
         "section": "validation",
         "sectionTitle": "First version release",
-        "text": ["The application was launched in collaboration with <a href=\"https://www.shutterfly.com\" target=\"_blank\">Shutterfly.com</a>. At this point the application was thoroughly tested and working as expected.", "I tuned in to the first live-selling event to observe and interact with the process. This was an opportunity for me to run through the entire shopping and checkout flow as real customers would do.", "It was also an opportunity for me to observe other customers and how they are engaging, and any questions or confusions they may have."],
+        "text": ["The application was launched in collaboration with <a href=\"https://www.shutterfly.com\" class=\"folio-link\" target=\"_blank\">Shutterfly.com</a>. At this point the application was thoroughly tested and working as expected.", "I tuned in to the first live-selling event to observe and interact with the process. This was an opportunity for me to run through the entire shopping and <strong>checkout flow</strong> as real customers would do.", "It was also an opportunity for me to observe other customers and how they were engaging, and any questions or confusions they had."],
         "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
         "imgShutterPostAlt": "Shutterfly Facebook post for live event",
         "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
@@ -132,8 +132,8 @@
     },
     "outcomes": {
         "section": "outcomes",
-        "sectionTitle": "Some results",
-        "text": ["The software product is a crucial aspect of the partnership that CommentSold offers large retailers, along with on-site consultancy and guidance in making live-selling events a success and growing a loyal base of repeat customers.", "I had a crucial role in helping the team realize a first release that was high quality and served needs very well.", "This product is strategically important to the company to stabilize and grow its share of the livestreaming e-commerce vertical.", "The final branding solution accepted from the external agency was 'Videeo.com'."],
+        "sectionTitle": "Expanding market share",
+        "text": ["The software product is a crucial aspect of the partnership that CommentSold offers large retailers, along with on-site consultancy and guidance in making live-selling events a success and growing a loyal base of repeat customers.", "I had a crucial role in helping the team realize a first release that was high quality and got great initial feedback.", "This product is strategically important to the company to stabilize and grow its share of the livestreaming e-commerce vertical.", "The final branding solution accepted from the external agency was <strong>'Videeo.com'</strong>."],
         "hbrArticle": "https://hbr.org/2022/09/selling-on-tiktok-and-taobao",
         "linkSite": "https://www.videeo.live",
         "linkApp": "https://videeo.com/login"
@@ -141,7 +141,7 @@
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["CommentSold had many years experience in supporting live selling events with its core software product. For this reason there was high confidence in what features needed to be released in the first iteration.", "Although this may be true, I could have invested more of my time in the 'ideation' stage of this project. In hindsight I could have recruited a small cross-functional unit and facilitated a structured workshop to really explore 'divergent' views.", "I feel this is always an important activity to fight against complacency and ensure my team finds viable innovative options before a competitor does."],
+        "text": ["CommentSold had many years experience in supporting live selling events with its core software product. For this reason there was high confidence in assumptions around what features needed to be released in the first iteration.", "I could have spent more time at the 'ideation' stage of this project. I missed an opportunity to recruit a small cross-functional unit and facilitate a structured workshop to greater explore 'divergent' views.", "I feel this is always an important step to fight against complacency and ensure my team finds viable innovative options before a competitor does."],
         "link": "https://www.videeo.live"
     },
     "snippets": {
