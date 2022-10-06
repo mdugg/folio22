@@ -45,8 +45,8 @@ export default class DCLdelivery extends HTMLElement {
 						src="${data.delivery.imgStyleGuide}" 
 						alt="${data.delivery.imgStyleGuideAlt}" />
 					<figcaption 
-						class="folio-caption width-minor justify-self-center col-span-2">
-						Caption for the style guide to grow to become pattern library
+						class="folio-caption width-minor justify-self-center">
+						${data.delivery.imgStyleGuideCaption}
 					</figcaption>
 				</figure>
 				<button 

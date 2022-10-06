@@ -45,7 +45,7 @@ export default class DCLdesigns extends HTMLElement {
 						src="${data.designs.designDash}" 
 						alt="${data.designs.designDashAlt}" />
 					<figcaption 
-						class="folio-caption width-minor justify-self-center col-span-2">
+						class="folio-caption width-minor justify-self-center">
 						${data.designs.designDashCaption}
 					</figcaption>
 				</figure>
@@ -63,7 +63,7 @@ export default class DCLdesigns extends HTMLElement {
 						src="${data.designs.designLOTW}" 
 						alt="${data.designs.designLOTWAlt}" />
 					<figcaption 
-						class="folio-caption width-minor justify-self-center col-span-2">
+						class="folio-caption width-minor justify-self-center">
 						${data.designs.designLOTWCaption}
 					</figcaption>
 				</figure>

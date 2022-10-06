@@ -363,6 +363,16 @@ button:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 480px) {
+  .h1, .home-card--title, .folio-home--subtitle {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .h2, .home-card--subtitle {
+    font-size: 1.5rem;
+  }
+}
 .mt0 {
   margin-top: 0;
 }
@@ -1002,23 +1012,57 @@ header-video {
 }
 .dcl-brands .brand-amazon {
   height: 2rem;
+  width: 6rem;
 }
 .dcl-brands .brand-instagram {
   height: 3rem;
+  width: 4rem;
 }
 .dcl-brands .brand-facebook {
   height: 3rem;
+  width: 4rem;
 }
 .dcl-brands .brand-tiktok {
   height: 3rem;
+  width: 4rem;
 }
 .dcl-brands .brand-youtube {
   height: 3rem;
+  width: 4rem;
 }
 .dcl-brands .brand-ebay {
   height: 2rem;
+  width: 6rem;
 }
 
+@media screen and (max-width: 1080px) {
+  .folio-grid,
+.folio-content__figma {
+    width: calc(100% - 2rem);
+  }
+}
+@media screen and (max-width: 860px) {
+  .folio-content__text {
+    width: calc(100% - 4rem);
+  }
+}
+@media screen and (max-width: 760px) {
+  .folio-grid--2col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button[data-figma] {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .dcl-brands {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
 .folio-modal {
   overflow: hidden;
   display: flex;

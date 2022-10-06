@@ -164,20 +164,62 @@ header-video {
     }
     .brand-amazon {
         height: 2rem;
+        width: 6rem;
     }
     .brand-instagram {
         height: 3rem;
+        width: 4rem;
     }
     .brand-facebook {
         height: 3rem;
+        width: 4rem;
     }
     .brand-tiktok {
         height: 3rem;
+        width: 4rem;
     }
     .brand-youtube {
         height: 3rem;
+        width: 4rem;
     }
     .brand-ebay {
         height: 2rem;
+        width: 6rem;
     }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .folio-grid,
+    .folio-content__figma {
+        width: calc(100% - 2rem);
+    }
+
+}
+@media screen and (max-width: 860px) {
+
+    .folio-content__text {
+        width: calc(100% - 4rem);
+    }
+
+}
+@media screen and (max-width: 760px) {
+
+    .folio-grid--2col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button[data-figma] {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 560px) {
+
+    .dcl-brands {
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+
 }

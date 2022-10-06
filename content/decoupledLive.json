@@ -117,7 +117,8 @@
         "sectionTitle": "Collaborating with engineers",
         "text": ["I consulted and collaborated with engineers through every step of the process. 'Design hand-off' implies my work is done at this point. This was not the case and I don't think this approach is efficient.", "My work on the project continued with some light documentation in the form of a <strong>style guide</strong>. This would scale to be a pattern library and in time feed in to an over-arching design system.", "I also assisted QA in testing on devices. The UI was relatively simple but the application had much complexity under the hood. Syncronizing <strong>comment harvesting</strong> and <strong>automated invoicing</strong> across the Facebook page, Facebook groups, the landing page on the retailer website, and the application dashboard needed much testing and continued design over-sight."],
         "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
-        "imgStyleGuideAlt": "Components for a styleguide",
+        "imgStyleGuideAlt": "Initial style guide components",
+        "imgStyleGuideCaption": "Starting with a styleguide which will evolve to become a pattern library",
         "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
     },
     "validation": {
