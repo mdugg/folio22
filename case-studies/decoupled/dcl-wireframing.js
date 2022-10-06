@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLwireframing extends HTMLElement {
 	constructor() {
 		super();
@@ -10,7 +13,9 @@ export default class DCLwireframing extends HTMLElement {
 	}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/decoupledLive.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -82,7 +87,7 @@ export default class DCLwireframing extends HTMLElement {
 						<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 						</use>
 					</svg>
-						View v1 wires
+						Early version wires
 				</button>
 				<div class="folio-content__text mt2">
 					<h3 class="h3 mb025">${data.wireframing.wires02SubTitle}</h3>
@@ -101,7 +106,7 @@ export default class DCLwireframing extends HTMLElement {
 						alt="${data.wireframing.wires02liveAlt}" />
 					<figcaption 
 						class="folio-caption width-minor justify-self-center col-span-2">
-						${data.wireframing.wires01liveCaption}
+						${data.wireframing.wires02Caption}
 					</figcaption>
 				</figure>
 				<button 

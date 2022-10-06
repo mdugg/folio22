@@ -64,36 +64,36 @@
     },
     "wireframing": {
         "section": "wireframing",
-        "sectionTitle": "'Laddering' the resolutions of the wireframes'",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "sectionTitle": "Exploring core views and flows",
+        "text": ["After time spent <a href=\"https://www.nngroup.com/videos/ideation-one-person-ux-team/\" class=\"folio-link\" target=\"_blank\">laddering</a> during ideation, it was time to visualize efficient UI and task flows."],
         "appFlowSubTitle": "Application flow chart",
-        "appFlowText": ["Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "appFlowText": ["I worked closely with the engineers and product managers to work out the scope and constraints for the first release. I helped the team visualize how the app data flow would work and where UI was needed to manage."],
         "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
         "appFlowAlt": "Application flow diagram showing functionality and constraints for v1 build",
         "appFlowLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKNdV9SVBCiKUahEuRt7aJY%2FDecoupled-UX-Flow%3Fnode-id%3D580%253A190",
         "wiresSubTitle": "Diverge and converge with wireframes",
-        "wiresText": ["Diverge and converge with wireframes / current feature set / refactor / question process"],
+        "wiresText": ["The engineers were busy with architectural work to support an application that will need to scale. Features and functionalities were not fully decided on at this point. My wireframing helped the team envisage what would be suffient to launch as a <strong>minimum-viable-product</strong>"],
         "wires01dash": "https://folio22.s3.amazonaws.com/dcl/wires-v1-dash.png",
         "wires01dashAlt": "Alt for dash",
         "wires01setup": "https://folio22.s3.amazonaws.com/dcl/wires-v1-setup.png",
         "wires01setupAlt": "Alt for setup",
         "wires01live": "https://folio22.s3.amazonaws.com/dcl/wires-v1-live.png",
         "wires01liveAlt": "Alt for live",
-        "wires01liveCaption": "Caption about v1 wires divergent",
+        "wires01liveCaption": "Early iteration of wireframes, mid-resolution",
         "wiresFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2031%253A5859",
-        "wires02SubTitle": "Wireframes iterations",
-        "wires02Text": ["Iterations / simplified / Diverge and converge with wireframes / current feature set / refactor / question process"],
+        "wires02SubTitle": "Wireframe iterations",
+        "wires02Text": ["I collaborated intensively with the team to cycle through iterations, increasing the resolution and zooming in on a feasible set of features and UX."],
         "wires02dash": "https://folio22.s3.amazonaws.com/dcl/dcl-wires-v2-setup.png",
         "wires02dashAlt": "Alt for dash",
         "wires02live": "https://folio22.s3.amazonaws.com/dcl/dcl-wires-v2-live.png",
         "wires02liveAlt": "Alt for live",
-        "wires02liveCaption": "Caption about v1 wires divergent",
+        "wires02Caption": "Resolution increases after much collaboration",
         "wires02FigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3216%253A8122"
     },
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback / temporary branding "],
+        "text": ["The core task flows and the underlying architecture of the application were agreed upon team-wide. This is the stage where I increased the resolution to include aesthetic principles and choices so the team can really start to get a sense of a release-able product."],
         "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
         "designStartAlt": "Alt for design start page",
         "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
@@ -135,7 +135,7 @@
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing / some of the divergence not necessary - no need add in so many features"],
+        "text": ["{research item} some more time on ideation / workshop, product strategy / This is a filler sentence to push the full width of the layout more words to run at least one line", "Knowledge / scope / impact / leadership / communication", "add to strategy, use UX tools, delve beyond what CommentSold core platform already offers / not just iterating on existing / some of the divergence not necessary - no need add in so many features"],
         "link": "https://www.videeo.live"
     },
     "snippets": {
@@ -146,6 +146,7 @@
         "5": ["'How might we...' help larger, established retailers achieve success at live selling?"],
         "6": ["begin with problem statement / constraints / converge all understandings / working alone / software solution only part of this / consultancy team using tools training culture", "Some text about ideation", "Jobs-To-Be-Done (JTBD) / Common user scenarios", "Divergent Convergent", "frameworks Heuristics analysis Heuristic review", "Personas - lightweight - qualitative - statistical"],
         "7": "Dominate livestream e-commerce in the US market",
-        "8": "Bringing livestream e-commerce capabilities to all levels of retail in the US market"
+        "8": "Bringing livestream e-commerce capabilities to all levels of retail in the US market",
+        "wireframing": ["concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", " Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens", "Diverge and converge with wireframes / current feature set / refactor / question process", "Iterations / simplified / Diverge and converge with wireframes / current feature set / refactor / question process"]
     }
 }
