@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400" rel="stylesheet">
+        <!-- Scripts -->
+        <!-- <script src="../../global/js/preload.js"></script> -->
+        <!-- Components -->
+        <script src="./scripts.js" type="module"></script>
+        <!-- Styles --> 
+        <link href="../../global/styles/global.css" rel="stylesheet">   
+        <title>
+            Webstore Editor - Martin Duggan Product Designer - Portfolio 2022
+        </title>
+    </head>
+    <body class="theme-webstore">  
+        <folio-header></folio-header>
+        <main class="folio-content">
+            <header-video></header-video>
+            <ws-intro></ws-intro>
+            <ws-process></ws-process>
+            <ws-research></ws-research>
+            <ws-ideation></ws-ideation>
+            <ws-wireframing></ws-wireframing>
+            <ws-designs></ws-designs>
+            <ws-delivery></ws-delivery>
+            <ws-validation></ws-validation>
+            <ws-outcomes></ws-outcomes>
+            <ws-retrospective></ws-retrospective>
+        </main>
+        <folio-footer></folio-footer>
+        <folio-modal>
+            <figure slot="spinner" class="spinner-container" aria-hidden="true">
+                <span class="spinner"> </span>
+                <figcaption class="spinner-caption">
+                    Loading Figma ...
+                </figcaption>
+            </figure>
+        </folio-modal>
+</body>
+</html>

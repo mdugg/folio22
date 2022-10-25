@@ -6,22 +6,22 @@
     },
     "intro": {
         "project": "Webstore Editor",
-        "title": "Empowering retailers to customize their e-commerce website",
+        "title": "Empowering retailers to customize their <span class=\"no-wrap\">e-commerce</span> website",
         "subtitle": "More text about webstore admin",
         "section": "context",
-        "text": [""]
+        "text": ["The 5,000+ retail shops using CommentSold SaaS product are provided with an <span class=\"no-wrap\">e-commerce</span> website and native app.", "Both the editing tools and website were clearly below the standard of competitor solutions.", "Some of our most successful retailers were using Shopify’s e-comm storefront and editing tools and relegating CommentSold to more basic automation around live-selling."]
     },
     "process": {
         "section": "process",
         "sectionTitle": "Defining what to build",
-        "text": [""],
+        "text": ["The team knew that our solution had to improve for both retailers and their end customers.", "We needed to release a meaningful iteration to win back shops that left and give new shops the best chance at success.", "Basecamp’s ‘Shape Up’ framework helped Product, Design and Engineering in co-ordinating on objectives and constraints."],
         "quote": "",
         "quoteCite": ""
     },
     "research": {
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
-        "textResearch": [""],
+        "text": ["The editing tools gave retailers some customization control but were not to the standard of competitors.", "Features were added as requests were received and a holistic review was really needed."],
         "ethnoSubTitle": "",
         "ethnoText": [""],
         "thumb01Path": "https://folio22.s3.amazonaws.com/dcl/live-setup-divas-thumb01.jpg",
@@ -30,15 +30,18 @@
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Consolidate my understanding, explore viewpoints",
-        "problemStatement": "...create a tool ",
-        "text": [""],        
+        "problemStatement": "...create a tool",
+        "text": ["PixelUnion, an agency that specializes in Shopify templates, was hired to build out the core e-commerce storefront - landing pages, product search, product detail pages.", "Existing and new APIs had to capture all relevant logic and data of live-selling and product life-cycle and be accurately rendered in these templates.", "We quickly realized that including the checkout flow in this iteration would increase scope too much.", "My task was to lead Product Design for the editing tools of the new Webstore on the CommentSold platform.", "PixelUnion did make some suggestions for the editor that would be a simple extension of existing tools.", "I saw opportunity for a better user experience and pushed to explore alternatives.", "Before getting in to solutions, crafting a ‘HMW…’ question helps me think about the problem space.", "It’s easy to drift off course and not fully action the right insights or problems.", "It’s also important the ‘HMW…’ is broad enough to allow for sufficient exploration of ideas at the early stage of the project.", "Typically, I initiate this process and invite contribution from the team so it guides the ideas that follow.", "A significant part of the problem I had to consider was Shopify’s dominance in this e-comm space.", "Many of our top retailers wanted to drop Shopify and just use CommentSold. The standard of both our Webstore and editing tools were just not sufficient to compete.", "It was important for me to review Shopify’s solution for editing tools and try achieve a significant step forward within our the time and budget constraints."], 
+        "hmw": "...empower newly onboarded and existing retailers to easily and regularly customize their Webstore so as to fully leverage it as a marketing and selling tool ?",       
         "personaImg01": "https://folio22.s3.amazonaws.com/dcl/dcl-persona-maddy.png",
         "personaImg01Alt": "Persona for Maddy, a grass-roots live seller",
         "personasFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D2557%253A7064"},
     "wireframing": {
         "section": "wireframing",
         "sectionTitle": "'Laddering' the resolutions of the wireframes'",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "concepts - iterations - wires low resolution", "diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
+        "text": ["At this stage of the project I had an abundance of references - feature requests from Shops, existing features on the admin, JSON config files, notes from interviews with Shop owners.", "There were many suggestions from within the team of additional features we could add. I needed a simple overview of what’s already built, what we’re keeping for v2, and what’s going to be new.", "A simple sticky on a (virtual) whiteboard served the purpose of a quick and easy overview."],
+        "heuristics": ["It is helpful to conduct a quick audit of the current solution based on general principles of interaction design.", "Each issue is ranked on a level of importance and urgency to fix. This is a good reference throughout the lifecycle of the project to ensure I catch glaring UX issues before the next version ships."],
+        "wireframes": ["From early wireframes I was drawn to the idea of users immediately seeing the ‘results’ of editing.", "I presented some early mock-ups to the CTO, VP Engineering and Product Manager; all of them saw the idea as viable and worth pursuing.", "I also initially drafted wireframes as mobile-first, since checkout from the iOS and Android apps was the core funnel.", "Although the end-result was not mobile-first, the new editor and webstore templates were fully responsive."],
         "appFlowSubTitle": "Application flow chart",
         "appFlowText": ["Application flow chart text diverge converge / scope / constraints / Laddering / User flows / information architecture / core screens"],
         "appFlow": "https://folio22.s3.amazonaws.com/dcl/dcl-app-flow.png",
@@ -50,7 +53,8 @@
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": ["This is a filler sentence to push the full width of the layout more words to run at least one line", "User interface design", "Collaboration Content strategy Critiques", "Mobile / Convergent / Presentations and critiques / Stakeholder feedback / temporary branding "],
+        "text": ["Most of my time was used in designing task flows for the many editor tools.", "Each tool had its own interaction, but all tools had to have a strong consistency in styling and interaction.", "I continued to increase the resolution from low-res wireframes to high-res polished designs.", "There was daily collaboration with Product, Engineering, and QA in shaping the design to the point where the team was fully confident in what the next major release was going be.", "Scope, features, ideas all shifted and changed throughout this stage, but having that visual expression was crucial in all decision making."],
+        "flow": ["Many of our top retailers were already using Webstore v1 and had hired external agencies to customize our core template to meet their marketing needs.", "We had consulted with a lot of these shops before beginning the project. It was crucial to enable shops to switch between v1 and v2 as they see fit.", "This had many implications on the different features and UI for both the editor and Webstore. I had to problem-solve using diagrams so the team could clearly understand how shops could fulfill this need.", "I created an application flow diagram showing how shops can toggle between v1 and v2.", "Along with the flow diagram I created screenflow options and recorded walkthroughs of prototypes so we could fine-tune a solution."],
         "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
         "designStartAlt": "Alt for design start page",
         "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
@@ -59,7 +63,8 @@
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
-        "text": [""],
+        "text": ["There was a lot of shifting and changing scope on this project.", "The CommentSold platform is feature rich and there are a lot of nuanced considerations - like First-Person-First-Served (FPFS) and comment-harvesting from Facebook - all had some influence on the Webstore and editing tools.", "A lot of communication had to take place between internal and external teams to ensure the tooling and templates and edge-cases were all syncronized.", "My admin editor designs were also crucial in guiding PixelUnion on developing components to be customizable."],
+        "release": ["I collaborated on this project from end-to-end; the initial scoping and framing of the problem space to the QA testing and release plan.", "We tested with a small selection of shops from different cohorts - newly onboarded to top sellers by volume.", "As all our shops were aware and awaiting the release, we couldn’t be seen to be giving competitive advantage to the selected few.", "I put together a basic framework for releasing this project and future projects also."],
         "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
         "imgStyleGuideAlt": "Alt for this image",
         "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
@@ -67,7 +72,7 @@
     "validation": {
         "section": "validation",
         "sectionTitle": "First version release",
-        "text": [""],
+        "text": ["CommentSold had several Facebook Groups available for different cohorts of retailers based on volume of sales.", "This was a great way to get regular feedback from end-users at each major step of the project."],
         "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
         "imgShutterPostAlt": "Alt text",
         "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
@@ -76,12 +81,12 @@
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
-        "text": [""]
+        "text": ["Within 60 days of general release, all of the key metrics were showing v2 to be successful.", "Some YOY metrics were skewed due to COVID, but still pointed to high confidence that v2 would continue to out-perform v1.", "Quantitative feedback was very positive across all cohorts.", "New shops were automatically onboarded with v2 Webstore."]
     },
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": [""],
+        "text": ["Here's a temporary sentence to expand the width of the container element which is HTML by the way and these are a lot of words that don't make a sensible sentece."],
         "link": "https://www.videeo.live"
     },
     "snippets": {

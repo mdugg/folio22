@@ -5,9 +5,12 @@ export default class HeaderVideo extends HTMLElement {
 		// this.shadowRoot.innerHTML = `
 		this.innerHTML = `
             <figure class="header-video dcl" data-content="video">
-				<video class="header-video__content" 
+				<video 
+					class="header-video__content" 
 					autoplay loop>
-					<source src="https://folio22.s3.amazonaws.com/dcl/jennaration-setup03.mp4" type="video/mp4">
+						<source 
+							src="https://folio22.s3.amazonaws.com/dcl/video-jennaration-60pc.mp4" 
+							type="video/mp4">
 				</video>
 			</figure>
 		`;

@@ -233,7 +233,7 @@
         },
         "tools": {
             "subtitle": "Tools",
-            "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Slack, Notion"]
+            "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Slack, Notion, Trello"]
         }
     },
     "education": {
