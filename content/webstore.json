@@ -7,16 +7,22 @@
     "intro": {
         "project": "Webstore Editor",
         "title": "Empowering retailers to customize their <span class=\"no-wrap\">e-commerce</span> website",
-        "subtitle": "More text about webstore admin",
+        "subtitle": "Loosing high-performing shops to competitors",
         "section": "context",
-        "text": ["The 5,000+ retail shops using CommentSold SaaS product are provided with an <span class=\"no-wrap\">e-commerce</span> website and native app.", "Both the editing tools and website were clearly below the standard of competitor solutions.", "Some of our most successful retailers were using Shopify’s e-comm storefront and editing tools and relegating CommentSold to more basic automation around live-selling."]
+        "text": ["All retailers using CommentSold are provided with an <span class=\"no-wrap\">e-commerce</span> website and native app as part of their plan.", "We were starting to lose some of our highest-earning shops to competitors because the website and editing tools were below par.", "Along with this, hundreds of new shops were being onboarded each month with a solution that is below competitor standards."]
     },
     "process": {
         "section": "process",
-        "sectionTitle": "Defining what to build",
-        "text": ["The team knew that our solution had to improve for both retailers and their end customers.", "We needed to release a meaningful iteration to win back shops that left and give new shops the best chance at success.", "Basecamp’s ‘Shape Up’ framework helped Product, Design and Engineering in co-ordinating on objectives and constraints."],
-        "quote": "",
-        "quoteCite": ""
+        "sectionTitle": "Setting up for success",
+        "text": ["The team knew that our solution had to improve for both retailers and their end customers.", "We needed to release a meaningful iteration to win back shops that left and give new shops the best chance at success.", "A <a href=\"https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux\" target=\"_blank\" class=\"folio-link no-wrap\">Lean UX</a> approach to the project was taken; the teams weren't working to 'requirements' and 'deliverables' but collaborated around a core problem statement and a set of assumptions.", "I created some Lean UX artifacts to help the cross-functional teams as guiding references over project lifecycle."],
+        "diagramMVP": "https://folio22.s3.amazonaws.com/webstore/mvp-pyramid.png",
+        "diagramMVPalt": "Diagram of MVP pyramid",
+        "diagramMVPcaption": "The Minimum Viable Product (MVP) had to satisfy many levels of user needs",
+        "diagramMVPFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FI1ksiK2HeHBcyMH1nam81Y%2FFolio22-Webstore-Editor%3Fnode-id%3D78%253A8031",
+        "diagramLeanUX": "https://folio22.s3.amazonaws.com/webstore/lean-ux-canvas.png",
+        "diagramLeanUXalt": "Diagram of Lean UX canvas",
+        "diagramLeanUXcaption": "The Lean UX canvas is very helpful for a cross-functional team to focus on “why",
+        "diagramLeanUXFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FI1ksiK2HeHBcyMH1nam81Y%2FFolio22-Webstore-Editor%3Fnode-id%3D77%253A7284"
     },
     "research": {
         "section": "research",

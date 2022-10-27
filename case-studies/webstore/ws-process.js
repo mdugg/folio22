@@ -37,6 +37,40 @@ export default class WSprocess extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<figure class="mt1">
+						<img src="${data.process.diagramMVP}" 
+						alt="${data.process.diagramMVPalt}">
+						<figcaption 
+							class="folio-caption mt1 justify-self-center">
+							${data.process.diagramMVPcaption}
+						</figcaption>
+					</figure>
+					<button 
+						data-figma="${data.process.diagramMVPFigmaLink}"
+						class="btn-primary width-reading mt2">
+							<svg class="icon-figma">
+								<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+								</use>
+							</svg>
+								View MVP pyramid
+					</button>
+					<figure class="mt4">
+						<img src="${data.process.diagramLeanUX}" 
+						alt="${data.process.diagramLeanUXalt}">
+						<figcaption 
+							class="folio-caption mt1 justify-self-center">
+							${data.process.diagramLeanUXcaption}
+						</figcaption>
+					</figure>
+					<button 
+						data-figma="${data.process.diagramLeanUXFigmaLink}"
+						class="btn-primary width-reading mt2">
+							<svg class="icon-figma">
+								<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+								</use>
+							</svg>
+								View Lean UX canvas
+					</button>
                 </div>
 			</section>
 		`;
