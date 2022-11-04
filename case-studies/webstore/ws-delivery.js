@@ -36,6 +36,9 @@ export default class WSdelivery extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<h3 class="h3 mt3 mb025">
+						reverting from classic to new - screen flow and walkthrough
+					</h3>
                 </div>
 			</section>
 		`;

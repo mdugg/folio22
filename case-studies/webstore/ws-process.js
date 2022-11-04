@@ -6,6 +6,7 @@ export default class WSprocess extends HTMLElement {
 		super();
 	}
 	connectedCallback() {
+		// this.attachShadow({ mode: "open" });
 		this.getModel();
 	}
 	disconnectedCallback() {
@@ -31,12 +32,15 @@ export default class WSprocess extends HTMLElement {
                         id="${data.process.section}">
                             ${data.process.section}
                     </div>	
-                    <h2 class="h2 mt025">${data.process.sectionTitle}</h2>	
+                    <h2 class="h2 mt025">
+						${data.process.sectionTitle}
+					</h2>	
                     ${Object.values(data.process.text)
 						.map((value) => {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<slot name="test-slot"></slot>
 					<figure class="mt1">
 						<img src="${data.process.diagramMVP}" 
 						alt="${data.process.diagramMVPalt}">

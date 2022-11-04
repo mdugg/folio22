@@ -10,6 +10,9 @@
 .style__normal {font-style: normal;}
 .style__bold {font-style: bold;}
 
+// border
+.border-light {border: 1px solid var(--folio-grey__light06);}
+
 // display
 .flex-row {display:flex; flex-direction: row;}
 .flex-row--center {justify-content: center;}
