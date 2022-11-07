@@ -81,6 +81,10 @@
   width: 100%;
 }
 
+.width-full {
+  width: 100%;
+}
+
 .size1 {
   font-size: 1rem;
 }
@@ -1039,6 +1043,43 @@ header-video {
   width: 6rem;
 }
 
+.webstore-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.webstore-stats-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.webstore-stats-item .text, .webstore-stats-item .text-half {
+  width: 65%;
+  font-family: var(--text-sans);
+  font-size: 1.5rem;
+  font-weight: var(--text-sans-bold);
+  color: #fff;
+  line-height: 1.2;
+}
+.webstore-stats-item .icon, .webstore-stats-item .icon-half {
+  width: 30%;
+  padding-left: 5%;
+  fill: #fff;
+  font-family: var(--display-serif);
+  font-size: 3rem;
+  color: #fff;
+}
+.webstore-stats-item .text-half {
+  width: 50%;
+}
+.webstore-stats-item .icon-half {
+  width: 50%;
+}
+
 @media screen and (max-width: 1080px) {
   .folio-grid,
 .folio-content__figma {
@@ -1644,7 +1685,7 @@ header-video {
   border-left: 1px solid var(--folio-grey__light04);
   transition: var(--transition01);
 }
-.cv-header--download .icon {
+.cv-header--download .icon, .cv-header--download .webstore-stats-item .icon-half, .webstore-stats-item .cv-header--download .icon-half {
   fill: var(--folio-turq);
   height: 2rem;
   margin-bottom: 1rem;
@@ -1654,7 +1695,7 @@ header-video {
   color: var(--folio-grey__dark01);
   background-color: var(--folio-primary);
 }
-.cv-header--download:hover .icon {
+.cv-header--download:hover .icon, .cv-header--download:hover .webstore-stats-item .icon-half, .webstore-stats-item .cv-header--download:hover .icon-half {
   fill: var(--folio-grey__dark01);
 }
 
@@ -1730,7 +1771,7 @@ header-video {
   border-radius: 50%;
   content: "";
 }
-.cv-job--title .icon {
+.cv-job--title .icon, .cv-job--title .webstore-stats-item .icon-half, .webstore-stats-item .cv-job--title .icon-half {
   height: 1rem;
   fill: var(--folio-turq);
   margin-right: 0.2rem;
@@ -1778,7 +1819,7 @@ header-video {
 .cv-list .item:before {
   display: none;
 }
-.cv-list .icon {
+.cv-list .icon, .cv-list .webstore-stats-item .icon-half, .webstore-stats-item .cv-list .icon-half {
   fill: var(--folio-primary);
   position: absolute;
   top: 0.2rem;
@@ -2072,6 +2113,21 @@ profile-gallery {
   .folio-profile--gallery {
     display: none;
   }
+}
+.theme-webstore .header-video {
+  background-color: var(--color-webstore);
+}
+.theme-webstore .project {
+  color: var(--color-webstore);
+}
+.theme-webstore .h3-content_section:before {
+  background-color: var(--color-webstore);
+}
+.theme-webstore .folio-pullquote {
+  border-left-color: var(--color-webstore);
+}
+.theme-webstore .webstore-stats-item {
+  background-color: var(--color-webstore);
 }
 
 /*# sourceMappingURL=global.css.map */

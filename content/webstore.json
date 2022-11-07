@@ -28,7 +28,7 @@
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
         "text": ["The editing tools gave retailers some customization control but were not to the standard of competitors.", "Features were added as requests were received and a holistic review was really needed."],
-        "webstoreClassic": "https://folio22.s3.amazonaws.com/webstore/classic-webstore.png",
+        "webstoreClassic": "https://folio22.s3.amazonaws.com/webstore/classic-webstore-home.jpg",
         "webstoreClassicAlt": "Example of existing webstore design",
         "webstoreClassicCaption": "The existing webstore design was not a competitive offering for our retailers",
         "heuristic": "https://folio22.s3.amazonaws.com/webstore/heuristics-admin2.png",
@@ -59,6 +59,9 @@
         "wirePixelUnionCaption": "Pixel Union wireframe of editor",
         "titleWireframes": "Title for wireframes",
         "textWireframes": ["From early wireframes I was drawn to the idea of users immediately seeing the ‘results’ of editing.", "I presented some early mock-ups to the CTO, VP Engineering and Product Manager; all of them saw the idea as viable and worth pursuing.", "I also initially drafted wireframes as mobile-first, since checkout from the iOS and Android apps was the core funnel.", "Although the end-result was not mobile-first, the new editor and webstore templates were fully responsive."],
+        "whiteboard": "https://folio22.s3.amazonaws.com/webstore/whiteboard-merge-classic-new.png",
+        "whiteboardAlt": "Whiteboard alt",
+        "whiteboardCaption": "Caption Whiteboard",
         "wireAllTools": "https://folio22.s3.amazonaws.com/webstore/wires-editor-all-tools.png",
         "wireAllToolsAlt": "Alt text for image",
         "wireMobile": "https://folio22.s3.amazonaws.com/webstore/wires-editor-mobile.png",
@@ -76,30 +79,41 @@
         "section": "designs",
         "sectionTitle": "User interface design",
         "text": ["Most of my time was used in designing task flows for the many editor tools.", "Each tool had its own interaction, but all tools had to have a strong consistency in styling and interaction.", "I continued to increase the resolution from low-res wireframes to high-res polished designs.", "There was daily collaboration with Product, Engineering, and QA in shaping the design to the point where the team was fully confident in what the next major release was going be.", "Scope, features, ideas all shifted and changed throughout this stage, but having that visual expression was crucial in all decision making."],
+        "design": "https://folio22.s3.amazonaws.com/webstore/design-all-tools.jpg",
+        "designAlt": "Alt text for image",
+        "designCaption": "Caption text for image",
+        "designsFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FI1ksiK2HeHBcyMH1nam81Y%2FFolio22-Webstore-Editor%3Fnode-id%3D4%253A3203",
+        "toolsTitle": "Title for the tools",
+        "toolsText": ["A long sentence to hold out the width of the layout and some more words that don't make sense."],
+        "tools": "https://folio22.s3.amazonaws.com/webstore/components-tools.png",
+        "toolsAlt": "Alt text for tools",
+        "toolsCaption": "Caption text for tools",
+        "toolsFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FI1ksiK2HeHBcyMH1nam81Y%2FFolio22-Webstore-Editor%3Fnode-id%3D13%253A10246",
         "flowTitle": "Title for flowchart",
         "flow": ["Many of our top retailers were already using Webstore v1 and had hired external agencies to customize our core template to meet their marketing needs.", "We had consulted with a lot of these shops before beginning the project. It was crucial to enable shops to switch between v1 and v2 as they see fit.", "This had many implications on the different features and UI for both the editor and Webstore. I had to problem-solve using diagrams so the team could clearly understand how shops could fulfill this need.", "I created an application flow diagram showing how shops can toggle between v1 and v2.", "Along with the flow diagram I created screenflow options and recorded walkthroughs of prototypes so we could fine-tune a solution."],
         "designStart": "https://folio22.s3.amazonaws.com/dcl/design-start.png",
         "designStartAlt": "Alt for design start page",
         "designDash": "https://folio22.s3.amazonaws.com/dcl/design-live-dash.png",
         "designDashAlt": "Alt for design dash",
-        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1995%253A21909"},
+        "designsFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D1995%253A21909",
+        "designsPxU": "https://folio22.s3.amazonaws.com/webstore/pxu-designs.png",
+        "designsPxUAlt": "Alt for designs",
+        "designsPxUCaption": "Caption for designs"
+    },
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
         "text": ["There was a lot of shifting and changing scope on this project.", "The CommentSold platform is feature rich and there are a lot of nuanced considerations - like First-Person-First-Served (FPFS) and comment-harvesting from Facebook - all had some influence on the Webstore and editing tools.", "A lot of communication had to take place between internal and external teams to ensure the tooling and templates and edge-cases were all syncronized.", "My admin editor designs were also crucial in guiding PixelUnion on developing components to be customizable."],
         "release": ["I collaborated on this project from end-to-end; the initial scoping and framing of the problem space to the QA testing and release plan.", "We tested with a small selection of shops from different cohorts - newly onboarded to top sellers by volume.", "As all our shops were aware and awaiting the release, we couldn’t be seen to be giving competitive advantage to the selected few.", "I put together a basic framework for releasing this project and future projects also."],
-        "imgStyleGuide": "https://folio22.s3.amazonaws.com/dcl/dcl-style-guide-cropped.png",
-        "imgStyleGuideAlt": "Alt for this image",
-        "figmaStyleGuide": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBr1YJTU9Hy5VOr8e0bHr5K%2FFolio22-Decoupled-Live%3Fnode-id%3D3278%253A16699"
+        "screenflowFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FI1ksiK2HeHBcyMH1nam81Y%2FFolio22-Webstore-Editor%3Fnode-id%3D28%253A7993"
     },
     "validation": {
         "section": "validation",
         "sectionTitle": "First version release",
         "text": ["CommentSold had several Facebook Groups available for different cohorts of retailers based on volume of sales.", "This was a great way to get regular feedback from end-users at each major step of the project."],
-        "imgShutterPost": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-post.jpg",
-        "imgShutterPostAlt": "Alt text",
-        "imgShutterComment": "https://folio22.s3.amazonaws.com/dcl/dcl-shutterfly-fb-comments.jpg",
-        "imgShutterCommentAlt": "Alt text"
+        "facebookPost": "https://folio22.s3.amazonaws.com/webstore/facebook-groups-buzz.jpg",
+        "facebookPostAlt": "Alt text",
+        "facebookPostCaption": "Caption for the Facebook post"
     },
     "outcomes": {
         "section": "outcomes",
@@ -109,10 +123,9 @@
     "retrospective": {
         "section": "retrospective",
         "sectionTitle": "What could I have done better ?",
-        "text": ["Here's a temporary sentence to expand the width of the container element which is HTML by the way and these are a lot of words that don't make a sensible sentece."],
-        "link": "https://www.videeo.live"
+        "text": ["Here's a temporary sentence to expand the width of the container element which is HTML by the way and these are a lot of words that don't make a sensible sentece."]
     },
     "snippets": {
-        "1": ["Empowering our retailers to customize their primary marketing tools - their fully responsive e-commerce website"]
+        "1": [""]
     }
 }

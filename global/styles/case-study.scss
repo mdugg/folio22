@@ -187,6 +187,45 @@ header-video {
         width: 6rem;
     }
 }
+// Webstore specific
+.webstore-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.webstore-stats-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2rem;
+
+    .text {
+        width: 65%;
+        font-family: var(--text-sans);
+        font-size: 1.5rem;
+        font-weight: var(--text-sans-bold);
+        color: #fff;
+        line-height: 1.2;
+    }
+    .icon {
+        width: 30%;  
+        padding-left: 5%;  
+        fill: #fff;
+        font-family: var(--display-serif);
+        font-size: 3rem;
+        color: #fff;
+    }
+    .text-half {
+        @extend .text;
+        width: 50%;
+    }
+    .icon-half {
+        @extend .icon;
+        width: 50%;
+    }
+}
 
 @media screen and (max-width: 1080px) {
 

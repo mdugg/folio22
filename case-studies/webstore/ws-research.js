@@ -37,7 +37,7 @@ export default class WSresearch extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
-					<figure class="mt2 mb2 p1 border-r01 back-grey__light06">
+					<figure class="mt2 mb2">
 						<img src="${data.research.webstoreClassic}" 
 							alt="${data.research.webstoreClassicAlt}">
 						<figcaption class="folio-caption mt1 justify-self-center">

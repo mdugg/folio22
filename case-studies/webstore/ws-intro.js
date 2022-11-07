@@ -28,7 +28,7 @@ export default class WSintro extends HTMLElement {
 			<section class="flex-col--center">
                 <div class="folio-content__text mt4">
                     <div class="folio-project__tag mb05">
-                        <span class="color-turq__text mr05">Project: </span> 
+                        <span class="project mr05">Project: </span> 
                         <span> ${data.intro.project} </span>
                     </div>
                     <h1 class="h1"> ${data.intro.title} </h1>

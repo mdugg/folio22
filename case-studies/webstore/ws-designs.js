@@ -31,12 +31,57 @@ export default class WSdesigns extends HTMLElement {
                         id="${data.designs.section}">
                             ${data.designs.section}
                     </div>	
-                    <h2 class="h2 mt025">${data.designs.sectionTitle}</h2>	
+                    <h2 class="h2 mt025">
+						${data.designs.sectionTitle}
+					</h2>	
                     ${Object.values(data.designs.text)
 						.map((value) => {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+				</div>
+				<figure class="folio-grid p2 border-r01 back-grey__light06">
+					<img class="border" 
+						src="${data.designs.design}" 
+						alt="${data.designs.designAlt}">
+					<figcaption class="folio-caption justify-self-center">
+						${data.designs.designCaption}
+					</figcaption>
+				</figure>
+				<button data-figma="${data.designs.designsFigma}"
+					class="btn-primary width-reading mt2">
+						<svg class="icon-figma">
+							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+							</use>
+						</svg>
+							View designs
+				</button>
+				<div class="folio-content__text mt2">
+					<h3 class="h3 mt3 mb025">
+						${data.designs.toolsTitle}
+					</h3>	
+					${Object.values(data.designs.toolsText)
+						.map((value) => {
+							return "<p>" + value + "</p>";
+						})
+						.join("")}	
+				</div>		
+				<figure class="folio-grid">
+					<img src="${data.designs.tools}" 
+						alt="${data.designs.toolsAlt}">
+					<figcaption class="folio-caption justify-self-center">
+						${data.designs.toolsCaption}
+					</figcaption>
+				</figure>
+				<button data-figma="${data.wireframing.appFlowFigma}"
+					class="btn-primary width-reading mt2">
+						<svg class="icon-figma">
+							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+							</use>
+						</svg>
+							View app flow
+				</button>					
+				<div class="folio-content__text mt2">		
 					<h3 class="h3 mt3 mb025">
 						${data.wireframing.titlePixelUnion}
 					</h3>	
@@ -44,10 +89,23 @@ export default class WSdesigns extends HTMLElement {
 						.map((value) => {
 							return "<p>" + value + "</p>";
 						})
-						.join("")}		
+						.join("")}	
+					<figure class="">
+						<img src="${data.designs.designsPxU}" 
+							alt="${data.designs.designsPxUAlt}">
+						<figcaption class="folio-caption justify-self-center mt1">
+							${data.designs.designsPxUCaption}
+						</figcaption>
+					</figure>		
                 </div>
 			</section>
 		`;
+	}
+	getButtons() {
+		this.btnFigma = this.querySelectorAll(".btn-primary");
+		this.btnFigma.forEach((btn) => {
+			btn.addEventListener("click", this.showModal.bind(this));
+		});
 	}
 	showModal(btn) {
 		// get

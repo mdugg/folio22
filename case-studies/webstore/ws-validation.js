@@ -36,6 +36,13 @@ export default class WSvalidation extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<figure class="">
+						<img src="${data.validation.facebookPost}" 
+							alt="${data.validation.facebookPostAlt}">
+						<figcaption class="folio-caption justify-self-center mt1">
+							${data.validation.facebookPostCaption}
+						</figcaption>
+					</figure>	
                 </div>
 			</section>
 		`;

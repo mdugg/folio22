@@ -60,23 +60,24 @@ export default class WSwireframing extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}	
-					<figure class="mt2 mb2">
-						<img class="border-light"
-							src="${data.wireframing.wireAllTools}" 
-							alt="${data.wireframing.wireAllToolsAlt}">
-						<figcaption class="folio-caption mt1 justify-self-center">
-							${data.wireframing.wiresCaption}
-						</figcaption>
-					</figure>					
-					<button data-figma="${data.wireframing.wiresFigma}"
-						class="btn-primary width-reading">
-							<svg class="icon-figma">
-								<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
-								</use>
-							</svg>
-								View wireframes
-					</button>	
-					<h3 class="h3 mt3 mb025">
+				</div>
+				<figure class="folio-grid p2 border-r01 back-grey__light06">
+					<img src="${data.wireframing.wireAllTools}" 
+						alt="${data.wireframing.wireAllToolsAlt}">
+					<figcaption class="folio-caption justify-self-center">
+						${data.wireframing.wiresCaption}
+					</figcaption>
+				</figure>					
+				<button data-figma="${data.wireframing.wiresFigma}"
+					class="btn-primary width-reading mt2">
+						<svg class="icon-figma">
+							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+							</use>
+						</svg>
+							View wireframes
+				</button>	
+				<div class="folio-content__text mt4">	
+					<h3 class="h3 mt2 mb025">
 						${data.wireframing.titleAppFlow}
 					</h3>
 					${Object.values(data.wireframing.textAppFlow)
@@ -84,12 +85,19 @@ export default class WSwireframing extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}		
+					<figure class="">
+						<img src="${data.wireframing.whiteboard}" 
+							alt="${data.wireframing.whiteboardAlt}">
+						<figcaption class="folio-caption mt1 justify-self-center">
+							${data.wireframing.whiteboardCaption}
+						</figcaption>
+					</figure>
                 </div>
-				<figure class="folio-content__figma">
+				<figure class="folio-content__figma mt1">
 					<img src="${data.wireframing.appFlow}" 
 						alt="${data.wireframing.appFlowCaption}">
 					<figcaption class="folio-caption mt1 justify-self-center">
-						Heuristics analysis of existing webstore editor
+						App flow
 					</figcaption>
 				</figure>
 				<button data-figma="${data.wireframing.appFlowFigma}"
