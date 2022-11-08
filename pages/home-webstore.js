@@ -30,13 +30,12 @@ export default class HomeWebstore extends HTMLElement {
 		this.innerHTML = `	
             <article 
 				class="home-card card-webstore" 
-				id="webstore"
-				data-published="false"> 
+				id="webstore"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${webstore.intro.project}</h2>
                     <h3 class="home-card--subtitle">${webstore.intro.title}</h3>
-                    <a href="#webstore" class="home-card--btn webstore mt1">
-						Work-in-progress
+                    <a href="${nav.webstore.linkURL}" class="home-card--btn webstore mt1">
+						View case study
 					</a>
                 </div>
                 <figure class="card-webstore--illus">
