@@ -46,7 +46,8 @@
         "cardSort": "https://folio22.s3.amazonaws.com/webstore/card-sorting-features-cropped.png",
         "cardSortAlt": "Card sorting of features",
         "cardSortCaption": "Card sorting of features for 'classic' and new webstore editor",
-        "cardSortFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FH4y0XL1ji8HemtpXL6E58m%2Ffolio22-Webstore-Editor-card-sorting%3Fnode-id%3D31%253A440"}, 
+        "cardSortFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FH4y0XL1ji8HemtpXL6E58m%2Ffolio22-Webstore-Editor-card-sorting%3Fnode-id%3D31%253A440"
+        }, 
     "wireframing": {
         "section": "wireframing",
         "sectionTitle": "'Laddering' the resolutions of the wireframes'",
