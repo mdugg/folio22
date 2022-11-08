@@ -37,7 +37,7 @@ export default class WSwireframing extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
-					<h3 class="h3 mt3 mb025">
+					<h3 class="h3 mt2 mb025">
 						${data.wireframing.titlePixelUnion}
 					</h3>	
 					${Object.values(data.wireframing.textPixelUnion)
@@ -76,8 +76,8 @@ export default class WSwireframing extends HTMLElement {
 						</svg>
 							View wireframes
 				</button>	
-				<div class="folio-content__text mt4">	
-					<h3 class="h3 mt2 mb025">
+				<div class="folio-content__text mt3">	
+					<h3 class="h3 mb025">
 						${data.wireframing.titleAppFlow}
 					</h3>
 					${Object.values(data.wireframing.textAppFlow)
@@ -93,21 +93,6 @@ export default class WSwireframing extends HTMLElement {
 						</figcaption>
 					</figure>
                 </div>
-				<figure class="folio-content__figma mt1">
-					<img src="${data.wireframing.appFlow}" 
-						alt="${data.wireframing.appFlowCaption}">
-					<figcaption class="folio-caption mt1 justify-self-center">
-						App flow
-					</figcaption>
-				</figure>
-				<button data-figma="${data.wireframing.appFlowFigma}"
-					class="btn-primary width-reading mt2">
-						<svg class="icon-figma">
-							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
-							</use>
-						</svg>
-							View app flow
-				</button>	
 			</section>
 		`;
 	}
@@ -156,4 +141,20 @@ window.customElements.define("ws-wireframing", WSwireframing);
 			${data.wireframing.wiresCaption}
 		</figcaption>
 	</figure>
+
+	<figure class="folio-content__figma mt1">
+		<img src="${data.wireframing.appFlow}" 
+			alt="${data.wireframing.appFlowCaption}">
+		<figcaption class="folio-caption mt1 justify-self-center">
+			App flow
+		</figcaption>
+	</figure>
+	<button data-figma="${data.wireframing.appFlowFigma}"
+		class="btn-primary width-reading mt2">
+			<svg class="icon-figma">
+				<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
+				</use>
+			</svg>
+				View app flow
+	</button>	
 */

@@ -59,7 +59,7 @@ export default class WSresearch extends HTMLElement {
 							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 							</use>
 						</svg>
-							View Heuristics
+							View heuristics analysis
 				</button>
 			</section>
 		`;

@@ -56,7 +56,7 @@ export default class WSdesigns extends HTMLElement {
 						</svg>
 							View designs
 				</button>
-				<div class="folio-content__text mt2">
+				<div class="folio-content__text mt1">
 					<h3 class="h3 mt3 mb025">
 						${data.designs.toolsTitle}
 					</h3>	
@@ -73,19 +73,19 @@ export default class WSdesigns extends HTMLElement {
 						${data.designs.toolsCaption}
 					</figcaption>
 				</figure>
-				<button data-figma="${data.wireframing.appFlowFigma}"
+				<button data-figma="${data.designs.toolsFigma}"
 					class="btn-primary width-reading mt2">
 						<svg class="icon-figma">
 							<use xlink:href="../../global/assets/logos-sprite.svg#logo-figma-color">
 							</use>
 						</svg>
-							View app flow
+							View patterns for tools
 				</button>					
 				<div class="folio-content__text mt2">		
 					<h3 class="h3 mt3 mb025">
-						${data.wireframing.titlePixelUnion}
+						${data.designs.designsPxUTitle}
 					</h3>	
-					${Object.values(data.designs.flow)
+					${Object.values(data.designs.designsPxUText)
 						.map((value) => {
 							return "<p>" + value + "</p>";
 						})

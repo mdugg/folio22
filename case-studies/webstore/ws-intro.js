@@ -32,7 +32,7 @@ export default class WSintro extends HTMLElement {
                         <span> ${data.intro.project} </span>
                     </div>
                     <h1 class="h1"> ${data.intro.title} </h1>
-                    <div class="h3-content_section mt15" 
+                    <div class="h3-content_section mt3" 
                         id="${data.intro.section}">
                             ${data.intro.section}
                     </div>	
