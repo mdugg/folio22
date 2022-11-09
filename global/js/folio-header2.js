@@ -41,7 +41,8 @@ export default class FolioHeader extends HTMLElement {
 	render(data) {
 		this.innerHTML = `	
 			<header class="folio-header flex-row">
-				<a href="${data.home.linkURL}" class="folio-header--link flex-row">
+				<a href="${data.home.linkURL}" 
+					class="folio-header--link flex-row">
 					<svg 
 						class="md-logotype" 
 						xmlns="http://www.w3.org/2000/svg" 
@@ -54,28 +55,32 @@ export default class FolioHeader extends HTMLElement {
 				<nav class="folio-nav">
 					<ul class="folio-nav__list">
                         <li class="folio-nav__item">
-                            <a class="folio-nav__link" href="${data.home.linkURL}">
+                            <a class="folio-nav__link nav-home" 
+								href="${data.home.linkURL}">
                                 <span>
                                     ${data.home.linkName}
                                 </span>	
                             </a>
                         </li>
                         <li class="folio-nav__item">
-                            <a class="folio-nav__link" href="${data.work.linkURL}">
+                            <a class="folio-nav__link nav-work" 
+								href="${data.work.linkURL}">
                                 <span>
                                     ${data.work.linkName}
                                 </span>	
                             </a>
                         </li>
                         <li class="folio-nav__item">
-                            <a class="folio-nav__link" href="${data.profile.linkURL}">
+                            <a class="folio-nav__link nav-profile" 
+								href="${data.profile.linkURL}">
                                 <span>
                                     ${data.profile.linkName}
                                 </span>	
                             </a>
                         </li>
                         <li class="folio-nav__item">
-                            <a class="folio-nav__link" href="${data.resume.linkURL}">
+                            <a class="folio-nav__link nav-resume" 
+								href="${data.resume.linkURL}">
                                 <span>
                                     ${data.resume.linkName}
                                 </span>	
@@ -120,12 +125,56 @@ export default class FolioHeader extends HTMLElement {
 					</li>
 				</ul>
 				<button class="folio-nav--button">
-					<svg class="folio-nav--bars" viewBox="0 0 100 100" onclick="this.classList.toggle('active')">
-						<path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-						<path class="line middle" d="m 30,50 h 40" />
-						<path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+					<svg class="folio-nav--bars" 
+						viewBox="0 0 100 100" 
+						onclick="this.classList.toggle('active')">
+							<path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+							<path class="line middle" d="m 30,50 h 40" />
+							<path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
 						</svg>
 				</button>
+				<section class="mobile-nav--overlay">
+					<nav class="mobile-nav">
+						<ul class="mobile-nav--list">
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.home.linkURL}">
+                                    ${data.home.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.profile.linkURL}">
+                                    ${data.profile.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.resume.linkURL}">
+                                    ${data.resume.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.dcl.linkURL}">
+                                    ${data.dcl.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.flexlabel.linkURL}">
+                                    ${data.flexlabel.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
+								<a class="mobile-nav--link"
+									href="${data.linkedin.linkURL}">
+                                    ${data.linkedin.linkName}
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
 			</header>
 		`;
 	}
