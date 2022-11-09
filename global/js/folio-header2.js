@@ -16,7 +16,9 @@ export default class FolioHeader extends HTMLElement {
 		// const root = window.location.origin;
 		// console.log(root);
 		return new Promise((res, rej) => {
-			fetch("../../global/navigation.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/global/navigation.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
