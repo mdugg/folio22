@@ -1,7 +1,45 @@
+// mixins
+@mixin nav-active--mobile {
+    &:before {
+        display: block;
+        height: 1rem;
+        width: 1rem;
+        border-radius: .5rem;
+        background-color: var(--folio-turq);
+        margin-right: 1rem;
+        content: '';
+    }
+}
 
+// navigation
+.theme-home {
+    .mobile-nav--link.nav-home {
+        @include nav-active--mobile;
+    }
+}
+// resume
+.theme-resume {
+    .mobile-nav--link.nav-resume {
+        @include nav-active--mobile;
+    }
+}
+// profile
+.theme-profile {
+    .mobile-nav--link.nav-profile {
+        @include nav-active--mobile;
+    }
+}
+// decoupled live
+.theme-dcl {
+    .mobile-nav--link.nav-dcl {
+        @include nav-active--mobile;
+    }
+}
 // webstore
 .theme-webstore {
-
+    .mobile-nav--link.nav-webstore {
+        @include nav-active--mobile;
+    }
     .header-video {
         background-color: var(--color-webstore);
     }

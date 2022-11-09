@@ -9,17 +9,18 @@ export default class FolioHeader extends HTMLElement {
 		this.getModel();
 		// this.activeLink();
 	}
-	disconnectedCallback() {}
+	disconnectedCallback() {
+		this.getMobileNavBtn.removeEventListener("click", this.showMobileNav);
+	}
 	getModel() {
 		// const root = window.location.origin;
 		// console.log(root);
 		return new Promise((res, rej) => {
-			fetch(
-				"https://raw.githubusercontent.com/mdugg/folio22/main/global/navigation.json"
-			)
+			fetch("../../global/navigation.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
+					this.getMobileNavBtn();
 					res();
 				})
 				.catch((error) => rej(error));
@@ -126,8 +127,7 @@ export default class FolioHeader extends HTMLElement {
 				</ul>
 				<button class="folio-nav--button">
 					<svg class="folio-nav--bars" 
-						viewBox="0 0 100 100" 
-						onclick="this.classList.toggle('active')">
+						viewBox="0 0 100 100">
 							<path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
 							<path class="line middle" d="m 30,50 h 40" />
 							<path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
@@ -137,39 +137,46 @@ export default class FolioHeader extends HTMLElement {
 					<nav class="mobile-nav">
 						<ul class="mobile-nav--list">
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
+								<a class="mobile-nav--link nav-home"
 									href="${data.home.linkURL}">
                                     ${data.home.linkName}
 								</a>
 							</li>
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
+								<a class="mobile-nav--link nav-profile"
 									href="${data.profile.linkURL}">
                                     ${data.profile.linkName}
 								</a>
 							</li>
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
+								<a class="mobile-nav--link nav-resume"
 									href="${data.resume.linkURL}">
                                     ${data.resume.linkName}
 								</a>
 							</li>
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
+								<span class="label">Case study</span>
+								<a class="mobile-nav--link nav-dcl"
 									href="${data.dcl.linkURL}">
                                     ${data.dcl.linkName}
 								</a>
 							</li>
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
-									href="${data.flexlabel.linkURL}">
-                                    ${data.flexlabel.linkName}
+								<span class="label">Case study</span>
+								<a class="mobile-nav--link nav-webstore"
+									href="${data.webstore.linkURL}">
+                                    ${data.webstore.linkName}
 								</a>
 							</li>
 							<li class="mobile-nav--item">
-								<a class="mobile-nav--link"
-									href="${data.linkedin.linkURL}">
+								<a class="mobile-nav--link nav-linkedin"
+									href="${data.linkedin.linkURL}"
+									target="_blank">
                                     ${data.linkedin.linkName}
+									<svg class="icon"
+										viewBox="0 0 512 512">
+										<path d="M392 320c-13.25 0-24 10.75-24 24v112c0 4.406-3.594 8-8 8h-304c-4.406 0-8-3.594-8-8v-304c0-4.406 3.594-8 8-8h112C181.3 144 192 133.3 192 120S181.3 96 168 96h-112C25.13 96 0 121.1 0 152v304C0 486.9 25.13 512 56 512h304c30.88 0 56-25.12 56-56v-112C416 330.8 405.3 320 392 320zM488 0H320c-13.25 0-24 10.75-24 24S306.8 48 320 48h110.1L183 295c-9.375 9.375-9.375 24.56 0 33.94C187.7 333.7 193.8 336 200 336s12.28-2.344 16.97-7.031L464 81.94V192c0 13.25 10.75 24 24 24S512 205.3 512 192V24C512 10.75 501.3 0 488 0z"/>
+									</svg>
 								</a>
 							</li>
 						</ul>
@@ -177,6 +184,23 @@ export default class FolioHeader extends HTMLElement {
 				</section>
 			</header>
 		`;
+	}
+	getMobileNavBtn() {
+		this.btnMobileNav = this.querySelector(".folio-nav--button");
+		this.btnMobileNav.addEventListener(
+			"click",
+			this.showMobileNav.bind(this)
+		);
+	}
+	showMobileNav() {
+		// dom traversal
+		this.body = document.querySelector("body");
+		this.btnBars = this.querySelector(".folio-nav--bars");
+		this.mobileNav = this.querySelector(".mobile-nav--overlay");
+		// dom manipulation
+		this.body.classList.toggle("lock-scroll");
+		this.btnBars.classList.toggle("active");
+		this.mobileNav.classList.toggle("visible");
 	}
 }
 window.customElements.define("folio-header", FolioHeader);

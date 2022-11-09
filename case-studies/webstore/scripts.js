@@ -1,6 +1,6 @@
 import "../../global/js/folio-header2.js";
 import "../../global/js/folio-footer2.js";
-import "../common/folio-modal.js";
+import "../../global/js/folio-modal.js";
 import "./header-video.js";
 import "./ws-intro.js";
 import "./ws-process.js";
