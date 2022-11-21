@@ -255,12 +255,15 @@
         },
         "courses": [
             {
-                "courseProvider": "",
-                "courseProviderLogo": "",
-                "courseName": "",
-                "dateStart": {
-                    "month": ["8", "August", "Aug"],
-                    "year": "1997"
+                "provider": "IDEO U",
+                "providerLogo": "https://folio22.s3.amazonaws.com/resume/ideoU.png",
+                "providerLogoAlt": "IDEO U logo",
+                "logoID": "ideo",
+                "name": "Designing Strategy",
+                "link": "https://www.ideou.com/products/designing-strategy",
+                "date": {
+                    "month": ["10", "October", "Oct"],
+                    "year": "2022"
                 }
             }
         ]

@@ -1834,6 +1834,24 @@ header-video {
   height: auto;
 }
 
+.cv-courses {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card .logo {
+  margin-bottom: 0.5rem;
+}
+.course-card .logo .ideo {
+  height: 2rem;
+  width: auto;
+}
+.course-card .details {
+  display: block;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
 /*--------------------------
 RESPONSIVE
 --------------------------*/

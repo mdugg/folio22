@@ -216,6 +216,24 @@
     width: 6rem;
     height: auto;
 }
+.cv-courses {
+    display: flex;
+    flex-direction: column;
+}
+.course-card {
+    .logo {
+        margin-bottom: .5rem;
+        .ideo {
+            height: 2rem;
+            width: auto;
+        }
+    }
+    .details {
+        display: block;
+        font-size: .875rem;
+        margin-top: .5rem;
+    }
+}
 
 /*--------------------------
 RESPONSIVE
