@@ -1,0 +1,14 @@
+import "../../global/js/folio-header2.js";
+import "../../global/js/folio-footer2.js";
+import "../../global/js/folio-modal.js";
+// import "./flex-header.js";
+// import "./flex-intro.js";
+// import "./flex-process.js";
+// import "./flex-research.js";
+// import "./flex-ideation.js";
+// import "./flex-wireframing.js";
+// import "./flex-designs.js";
+// import "./flex-delivery.js";
+// import "./flex-validation.js";
+// import "./flex-outcomes.js";
+// import "./flex-retrospective.js";
