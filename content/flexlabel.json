@@ -1,7 +1,7 @@
 {
     "intro": {
         "project": "Flexible Shipping Labels",
-        "title": "Winning major efficiencies in the pick, pack, and ship fulfillment workflow",
+        "title": "Winning major efficiencies in the fulfillment workflow",
         "subtitle": "",
         "section": "context",
         "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "]
@@ -31,12 +31,12 @@
     "delivery": {
         "section": "delivery",
         "sectionTitle": "Collaborating with engineers",
-        "text": [""]
+        "text": ["testing the settings dependencies component for interaction and wording / early prototypes shared to facebook groups / First version release "]
     },
     "validation": {
         "section": "validation",
-        "sectionTitle": "testing the settings dependencies component for interaction and wording / early prototypes shared to facebook groups / First version release ",
-        "text": [""]
+        "sectionTitle": "testing the settings dependencies",
+        "text": ["testing the settings dependencies component for interaction and wording / early prototypes shared to facebook groups / First version release "]
     },
     "outcomes": {
         "section": "outcomes",
@@ -45,10 +45,10 @@
     },
     "retrospective": {
         "section": "retrospective",
-        "sectionTitle": "issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views",
-        "text": [""]
+        "sectionTitle": "issues around local pickup",
+        "text": ["issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views"]
     },
     "snippets": {
-        "1": [""]
+        "1": ["Winning major efficiencies in the pick, pack, and ship fulfillment workflow"]
     }
 }
