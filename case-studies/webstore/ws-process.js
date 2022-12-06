@@ -14,7 +14,9 @@ export default class WSprocess extends HTMLElement {
 	}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/webstore.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/webstore.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);

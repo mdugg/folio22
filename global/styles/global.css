@@ -2256,4 +2256,26 @@ profile-gallery {
   background-color: var(--color-webstore);
 }
 
+.theme-flexlabel .mobile-nav--link.nav-flexlabel:before {
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--folio-turq);
+  margin-right: 1rem;
+  content: "";
+}
+.theme-flexlabel .header-video {
+  background-color: var(--color-flexlabel);
+}
+.theme-flexlabel .project {
+  color: var(--color-flexlabel);
+}
+.theme-flexlabel .h3-content_section:before {
+  background-color: var(--color-flexlabel);
+}
+.theme-flexlabel .folio-pullquote {
+  border-left-color: var(--color-flexlabel);
+}
+
 /*# sourceMappingURL=global.css.map */

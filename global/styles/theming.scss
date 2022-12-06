@@ -56,3 +56,21 @@
         background-color: var(--color-webstore);
     }
 }
+// flexlabel
+.theme-flexlabel {
+    .mobile-nav--link.nav-flexlabel {
+        @include nav-active--mobile;
+    }
+    .header-video {
+        background-color: var(--color-flexlabel);
+    }
+    .project {
+        color: var(--color-flexlabel);
+    }
+    .h3-content_section:before {
+        background-color: var(--color-flexlabel);
+    }
+    .folio-pullquote {
+        border-left-color: var(--color-flexlabel);
+    }
+}
