@@ -1,41 +1,32 @@
 {
-    "meta": {
-        "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
-        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
-        "videoPath": [""]
-    },
     "intro": {
         "project": "Flexible Shipping Labels",
         "title": "Winning major efficiencies in the pick, pack, and ship fulfillment workflow",
-        "subtitle": "buying shipping labels upfront at beginning of each day / scenario of shop could spend $100,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff",
+        "subtitle": "",
         "section": "context",
-        "text": [""]
+        "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "]
     },
-    "process": {
-        "section": "process",
-        "sectionTitle": "Defining what to build",
-        "text": ["complex user problems"]
-    },
+    "process": {},
     "research": {
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
-        "text": ["IDEO testing notes / interview shop owners / purchasing power / reduce error rate / survey existing solution / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / "]
+        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff"]
     },
     "ideation": {
         "section": "ideation",
-        "sectionTitle": "Consolidate my understanding, explore viewpoints",
+        "sectionTitle": "Optimizing a workflow",
         "problemStatement": "...inneficient error prone process of shipping",
-        "text": [""]
+        "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"]
     },
     "wireframing": {
         "section": "wireframing",
         "sectionTitle": "'Laddering' the resolutions of the wireframes'",
-        "text": ["settings / heuristics / global vs component "]
+        "text": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component "]
         },
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": [" "]
+        "text": [" new dashboard / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order"]
     },
     "delivery": {
         "section": "delivery",
@@ -44,17 +35,17 @@
     },
     "validation": {
         "section": "validation",
-        "sectionTitle": "First version release",
+        "sectionTitle": "testing the settings dependencies component for interaction and wording / early prototypes shared to facebook groups / First version release ",
         "text": [""]
     },
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
-        "text": [""]
+        "text": ["https://commentsold.canny.io/changelog?labels=fulfillment / help center https://help.commentsold.com/hc/en-us/categories/6797806930708-Orders-Fulfillment / time saved / money saved / errors down / admin time refunding "]
     },
     "retrospective": {
         "section": "retrospective",
-        "sectionTitle": "What could I have done better ?",
+        "sectionTitle": "What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views",
         "text": [""]
     },
     "snippets": {
