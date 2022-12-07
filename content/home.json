@@ -30,10 +30,11 @@
     },
     "webstore": {
         "thumb01": "https://folio22.s3.amazonaws.com/webstore/home-illus02-thumb.jpg",
-        "thumb01Alt": "Thumb alt"
+        "thumb01Alt": "Webstore editor UI"
     },
     "dropship": {
-        "": ""
+        "illusImg": "https://folio22.s3.amazonaws.com/illustration-dropship.png",
+        "illusImgAlt": "Dropship workflow diagram"
     },
     "dsm": {
         "": ""
