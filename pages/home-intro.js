@@ -34,13 +34,14 @@ export default class HomeIntro extends HTMLElement {
 						.join("")}
 				</div>
                 <figure class="folio-home--illus">
-                    <svg class="illus-double-diamond">
-                        <use xlink:href="./global/assets/illus-double-diamond.svg#illus-double-diamond">
-                        </use>
-                    </svg>
+					<img src="${data.intro.illusImg}" alt="${data.intro.illusImgAlt}" />
                 </figure>    
             </article>
 		`;
 	}
 }
 window.customElements.define("home-intro", HomeIntro);
+
+// <svg class="illus-double-diamond">
+// 		<use xlink:href="./global/assets/illus-double-diamond.svg#illus-double-diamond"></use>
+// </svg>;

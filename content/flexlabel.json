@@ -4,13 +4,35 @@
         "title": "Winning major efficiencies in the fulfillment workflow",
         "subtitle": "",
         "section": "context",
-        "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "]
+        "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "],
+        "thumb01Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb01.jpg",
+        "thumb01Alt": "Discount Divas live studio",
+        "thumb01Caption": "Discount Divas live studio",
+        "thumb02Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb02.jpg",
+        "thumb02Alt": "Discount Divas live studio lighting equipment",
+        "thumb02Caption": "Discount Divas live studio lighting equipment",
+        "thumb03Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb03.jpg",
+        "thumb03Alt": "Jennaration Boutique go-live space",
+        "thumb03Caption": "Jennaration Boutique go-live space",
+        "thumb04Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb04.jpg",
+        "thumb04Alt": "Jennaration Boutique workspace for go-live",
+        "thumb04Caption": "Jennaration Boutique workspace for go-live"
     },
-    "process": {},
+    "process": {
+            "section": "process",
+            "sectionTitle": "complex workflow, many edge cases'",
+            "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment"],
+            "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
+            "flowImgAlt": "Low resolution journey map",
+            "flowImgCaption": "Low resolution"
+    },
     "research": {
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
-        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff"]
+        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff / Usable Equitable - diverse abilities / Enjoyable - research / Useful"],
+        "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
+        "diagramImgAlt": "Low resolution journey map",
+        "diagramImgCaption": "Low resolution"
     },
     "ideation": {
         "section": "ideation",

@@ -12,9 +12,7 @@ export default class flexProcess extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch(
-				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
-			)
+			fetch("../../content/flexlabel.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -40,6 +38,12 @@ export default class flexProcess extends HTMLElement {
 						})
 						.join("")}
                 </div>
+				<figure class="folio-content__figma">
+					<img src="${data.process.flowImg}" alt="${data.process.flowImgAlt}">
+					<figcaption class="folio-caption width-minor justify-self-center">
+						${data.process.flowImgCaption}
+					</figcaption>
+				</figure>	
 			</section>
 		`;
 	}

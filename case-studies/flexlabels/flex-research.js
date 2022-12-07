@@ -12,9 +12,7 @@ export default class flexResearch extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch(
-				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
-			)
+			fetch("../../content/flexlabel.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -40,6 +38,12 @@ export default class flexResearch extends HTMLElement {
 						})
 						.join("")}
                 </div>
+				<figure class="folio-content__figma">
+					<img src="${data.research.diagramImg}" alt="${data.research.diagramImgAlt}">
+					<figcaption class="folio-caption width-minor justify-self-center">
+						${data.research.diagramImgCaption}
+					</figcaption>
+				</figure>					
 			</section>
 		`;
 	}
