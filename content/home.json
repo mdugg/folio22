@@ -8,7 +8,7 @@
     "dcl": {
         "video": "https://folio22.s3.amazonaws.com/dcl/live-selling-maddy-compressed.mp4",
         "thumb": "https://folio22.s3.amazonaws.com/dcl/design-live-dash-thumb.jpg",
-        "thumbAlt": "Alt text"
+        "thumbAlt": "Dashboard design for the Decoupled Live project"
     },
     "flexlabel": {
         "thumb01": "https://folio22.s3.amazonaws.com/flex/home-card-thumb01.jpg",
@@ -16,11 +16,17 @@
         "thumb02": "https://folio22.s3.amazonaws.com/flex/home-card-thumb02.jpg",
         "thumb02Alt": "Thumb alt",
         "thumb03": "https://folio22.s3.amazonaws.com/flex/home-card-thumb03.jpg",
-        "thumb03Alt": "Thumb alt",
+        "thumb03Alt": "Fulfillment in progress",
         "thumb04": "https://folio22.s3.amazonaws.com/flex/home-card-thumb04.jpg",
-        "thumb04Alt": "Thumb alt",
+        "thumb04Alt": "Packing staff reviewing pick slip",
         "thumb05": "https://folio22.s3.amazonaws.com/flex/home-card-thumb05.jpg",
-        "thumb05Alt": "Thumb alt"
+        "thumb05Alt": "Packer at work station",
+        "uspsLogo": "https://folio22.s3.amazonaws.com/logo-brands/logo-usps-mono.png",
+        "uspsLogoAlt": "USPS logo",
+        "fedexLogo": "https://folio22.s3.amazonaws.com/logo-brands/logo-fedex-mono.png",
+        "fedexLogoAlt": "Fedex logo",
+        "upsLogo": "https://folio22.s3.amazonaws.com/logo-brands/logo-usp-mono.png",
+        "upsLogoAlt": "UPS logo"
     },
     "webstore": {
         "thumb01": "https://folio22.s3.amazonaws.com/webstore/home-illus02-thumb.jpg",
