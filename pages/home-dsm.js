@@ -39,7 +39,7 @@ export default class HomeDSM extends HTMLElement {
 						Work-in-progress
 					</a>
                 </div>
-				<figure class="card-dropship--illus">
+				<figure class="card-dsm--illus">
 					<img src="${home.dsm.illusImg}" alt="${home.dsm.illusImgAlt}" />
                 </figure>  
             </article>
