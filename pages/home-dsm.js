@@ -39,14 +39,17 @@ export default class HomeDSM extends HTMLElement {
 						Work-in-progress
 					</a>
                 </div>
-				<figure class="card-dsm--illus">
-					<svg class="card-dsm--svg">
-						<use href="./global/assets/illus-dsm.svg#illus-dsm">
-						</use>
-					</svg>
-                </figure>
+				<figure class="card-dropship--illus">
+					<img src="${home.dsm.illusImg}" alt="${home.dsm.illusImgAlt}" />
+                </figure>  
             </article>
 		`;
 	}
 }
 window.customElements.define("home-dsm", HomeDSM);
+
+// <figure class="card-dsm--illus">
+// 	<svg class="card-dsm--svg">
+// 		<use href="./global/assets/illus-dsm.svg#illus-dsm"></use>
+// 	</svg>
+// </figure>

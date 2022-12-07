@@ -37,7 +37,8 @@
         "illusImgAlt": "Dropship workflow diagram"
     },
     "dsm": {
-        "": ""
+        "illusImg": "https://folio22.s3.amazonaws.com/home-illus-dsm.png",
+        "illusImgAlt": "Design system illustration"
     },
     "snippets": {
         "1": "about this portfolio // This portfolio showcases selected work from my time with CommentSold, applying my skills in Product Design and User Experience. I live with my family in Atlanta, Georgia but I am from Ireland. artisan lead strategy product technical",
