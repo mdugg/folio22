@@ -40,7 +40,7 @@ export default class HomeDropship extends HTMLElement {
 					</a>
                 </div>
 				<figure class="folio-home--illus">
-					<img src="${dropship.intro.illusImg}" alt="${dropship.intro.illusImgAlt}" />
+					<img src="${home.dropship.illusImg}" alt="${home.dropship.illusImgAlt}" />
                 </figure>  
             </article>
 		`;
