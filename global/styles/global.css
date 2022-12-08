@@ -1517,12 +1517,15 @@ header-video {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 1rem;
 }
 .card-dropship--svg {
   width: 95%;
   height: 95%;
   fill: #fff;
+}
+.card-dropship--img {
+  width: 95%;
+  height: auto;
 }
 
 .card-dsm {
@@ -1541,7 +1544,7 @@ header-video {
 }
 .card-dsm--img {
   width: 80%;
-  height: 80%;
+  height: auto;
 }
 
 [data-published=false] .home-card--btn:hover {
