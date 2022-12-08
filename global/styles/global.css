@@ -1539,6 +1539,10 @@ header-video {
   height: 80%;
   fill: var(--color-dsm-text);
 }
+.card-dsm--img {
+  width: 80%;
+  height: 80%;
+}
 
 [data-published=false] .home-card--btn:hover {
   cursor: not-allowed;
