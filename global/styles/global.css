@@ -1352,6 +1352,10 @@ header-video {
   align-self: stretch;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .folio-home--recent-work {
   width: 100%;
@@ -1589,9 +1593,6 @@ header-video {
   }
   .folio-home--text {
     margin-bottom: 2rem;
-  }
-  .folio-home--illus {
-    height: 20rem;
   }
 }
 @media screen and (max-width: 660px) {
