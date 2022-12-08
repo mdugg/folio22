@@ -41,47 +41,27 @@ export default class flexIntro extends HTMLElement {
 						.join("")}
                 </div>
 				<div class="folio-grid folio-grid--2col mt2">
-					<figure>
-						<span class="border-r01 mask flex-row">
-							<img 
-								src="${data.intro.thumb01Path}" 
-								alt="${data.intro.thumb01Alt}" />
-						</span>
-						<figcaption class="folio-caption mt025">
-							${data.intro.thumb01Caption}
-						</figcaption>
-					</figure>
 					<figure>	
 						<span class="border-r01 mask flex-row">
 							<img 
-								src="${data.intro.thumb02Path}"
-								alt="${data.intro.thumb02Alt}" />
+								src="${data.intro.thumb06Path}"
+								alt="${data.intro.thumb06Alt}" />
 						</span>
 						<figcaption class="folio-caption mt025">
-							${data.intro.thumb02Caption}
+							${data.intro.thumb06Caption}
 						</figcaption>
 					</figure>
 					<figure>
 						<span class="border-r01 mask flex-row">
 							<img 
-								src="${data.intro.thumb03Path}" 
-								alt="${data.intro.thumb03Alt}" />
+								src="${data.intro.thumb05Path}" 
+								alt="${data.intro.thumb05Alt}" />
 						</span>
 						<figcaption class="folio-caption mt025">
-							${data.intro.thumb03Caption}
+							${data.intro.thumb05Caption}
 						</figcaption>
 					</figure>
-					<figure>
-						<span class="border-r01 mask flex-row">
-							<img 
-								src="${data.intro.thumb04Path}" 
-								alt="${data.intro.thumb04Alt}" />
-						</span>
-						<figcaption class="folio-caption mt025">
-							${data.intro.thumb04Caption}
-						</figcaption>
-					</figure>
-				</div>
+				</div>				
 			</section>
 		`;
 	}

@@ -1048,6 +1048,11 @@ header-video {
   width: 6rem;
 }
 
+.theme-dcl .logo-videeo {
+  height: 5rem;
+  margin: 2rem 0;
+}
+
 .webstore-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;

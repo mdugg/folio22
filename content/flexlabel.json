@@ -5,9 +5,32 @@
         "subtitle": "",
         "section": "context",
         "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "],
+        "thumb05Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb05.jpg",
+        "thumb05Alt": "Shipment bins full of packaged orders",
+        "thumb05Caption": "Volume of orders shipped daily",
+        "thumb06Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb06.jpg",
+        "thumb06Alt": "Warehouse bins and rows",
+        "thumb06Caption": "'Back-of-the-shop' problem"
+    },
+    "process": {
+            "section": "process",
+            "sectionTitle": "complex workflow, many edge cases'",
+            "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment / diagramming / "],
+            "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
+            "flowImgAlt": "Low resolution journey map",
+            "flowImgCaption": "Low resolution",
+            "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
+            "diagramImgAlt": "Work computer next to packaging",
+            "diagramImgCaption": "A fulfillment workstation with application open, label printing machine, and packaging to-hand",
+            "diagramMVPFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJwXFaSTdfwj7FeS2oGK8VK%2FFlexlabel-flow-diagrams%3Fnode-id%3D35%253A2912%26t%3DoM5ttXugOhvVgbs9-1"
+    },
+    "research": {
+        "section": "research",
+        "sectionTitle": "Understanding the 'current solution'",
+        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff / Usable Equitable - diverse abilities / Enjoyable - research / Useful"],
         "thumb01Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb01.jpg",
-        "thumb01Alt": "Discount Divas live studio",
-        "thumb01Caption": "Discount Divas live studio",
+        "thumb01Alt": "Work computer next to packaging",
+        "thumb01Caption": "A fulfillment workstation with application, label printing, and packaging to-hand",
         "thumb02Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb02.jpg",
         "thumb02Alt": "Discount Divas live studio lighting equipment",
         "thumb02Caption": "Discount Divas live studio lighting equipment",
@@ -18,27 +41,13 @@
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
         "thumb04Caption": "Jennaration Boutique workspace for go-live"
     },
-    "process": {
-            "section": "process",
-            "sectionTitle": "complex workflow, many edge cases'",
-            "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment"],
-            "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
-            "flowImgAlt": "Low resolution journey map",
-            "flowImgCaption": "Low resolution"
-    },
-    "research": {
-        "section": "research",
-        "sectionTitle": "Understanding the 'current solution'",
-        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff / Usable Equitable - diverse abilities / Enjoyable - research / Useful"],
-        "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
-        "diagramImgAlt": "Low resolution journey map",
-        "diagramImgCaption": "Low resolution"
-    },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Optimizing a workflow",
-        "problemStatement": "...inneficient error prone process of shipping",
-        "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"]
+        "problemStatement": "hmw..get closest to $0 error-rate for label purchasing while supporting a new and 'legacy' workflow",
+        "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"],
+        "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
+        "diagramImgAlt": "Work computer next to packaging"
     },
     "wireframing": {
         "section": "wireframing",

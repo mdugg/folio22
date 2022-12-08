@@ -38,12 +38,48 @@ export default class flexResearch extends HTMLElement {
 						})
 						.join("")}
                 </div>
-				<figure class="folio-content__figma">
-					<img src="${data.research.diagramImg}" alt="${data.research.diagramImgAlt}">
-					<figcaption class="folio-caption width-minor justify-self-center">
-						${data.research.diagramImgCaption}
-					</figcaption>
-				</figure>					
+				<div class="folio-grid folio-grid--2col mt2">
+					<figure>
+						<span class="border-r01 mask flex-row">
+							<img 
+								src="${data.research.thumb01Path}" 
+								alt="${data.research.thumb01Alt}" />
+						</span>
+						<figcaption class="folio-caption mt025">
+							${data.research.thumb01Caption}
+						</figcaption>
+					</figure>
+					<figure>	
+						<span class="border-r01 mask flex-row">
+							<img 
+								src="${data.research.thumb02Path}"
+								alt="${data.research.thumb02Alt}" />
+						</span>
+						<figcaption class="folio-caption mt025">
+							${data.research.thumb02Caption}
+						</figcaption>
+					</figure>
+					<figure>
+						<span class="border-r01 mask flex-row">
+							<img 
+								src="${data.research.thumb03Path}" 
+								alt="${data.research.thumb03Alt}" />
+						</span>
+						<figcaption class="folio-caption mt025">
+							${data.research.thumb03Caption}
+						</figcaption>
+					</figure>
+					<figure>
+						<span class="border-r01 mask flex-row">
+							<img 
+								src="${data.research.thumb04Path}" 
+								alt="${data.research.thumb04Alt}" />
+						</span>
+						<figcaption class="folio-caption mt025">
+							${data.research.thumb04Caption}
+						</figcaption>
+					</figure>
+				</div>				
 			</section>
 		`;
 	}
