@@ -44,7 +44,7 @@
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Optimizing a workflow",
-        "problemStatement": "hmw..get closest to $0 error-rate for label purchasing while supporting a new and 'legacy' workflow",
+        "hmwProblemStatement": "get closest to $0 error-rate for label purchasing while supporting a new and 'legacy' workflow",
         "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"],
         "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
         "diagramImgAlt": "Work computer next to packaging"

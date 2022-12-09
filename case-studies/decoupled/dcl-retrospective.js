@@ -1,3 +1,6 @@
+// https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json
+// ../../content/decoupledLive.json
+
 export default class DCLretrospective extends HTMLElement {
 	constructor() {
 		super();
@@ -8,7 +11,9 @@ export default class DCLretrospective extends HTMLElement {
 	}
 	connectedCallback() {
 		let content = this.querySelector("[data-content='retrospective']");
-		const getJSON = new Request("../../content/decoupledLive.json");
+		const getJSON = new Request(
+			"https://raw.githubusercontent.com/mdugg/folio22/main/content/decoupledLive.json"
+		);
 
 		fetch(getJSON)
 			.then((response) => response.json())
