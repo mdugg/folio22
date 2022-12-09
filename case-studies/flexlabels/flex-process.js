@@ -9,7 +9,9 @@ export default class flexProcess extends HTMLElement {
 		// this.attachShadow({ mode: "open" });
 		this.getModel();
 	}
-	disconnectedCallback() {}
+	disconnectedCallback() {
+		this.btnFigma.removeEventListener("click", this.showModal);
+	}
 	getModel() {
 		return new Promise((res, rej) => {
 			fetch("../../content/flexlabel.json")
@@ -39,12 +41,6 @@ export default class flexProcess extends HTMLElement {
 						})
 						.join("")}
                 </div>
-				<figure class="folio-content__figma">
-					<img src="${data.process.flowImg}" alt="${data.process.flowImgAlt}">
-					<figcaption class="folio-caption width-minor justify-self-center">
-						${data.process.flowImgCaption}
-					</figcaption>
-				</figure>	
 				<div class="folio-content__text mt2">	
                     ${Object.values(data.process.text)
 						.map((value) => {
@@ -52,6 +48,9 @@ export default class flexProcess extends HTMLElement {
 						})
 						.join("")}
                 </div>
+				<figure class="folio-pullquote mt2 mb3">
+					<strong>scope matrix</strong>
+				</figure>
 				<figure class="folio-content__figma">
 					<img src="${data.process.diagramImg}" alt="${data.process.diagramImgAlt}">
 					<figcaption class="folio-caption justify-self-center">
@@ -69,7 +68,7 @@ export default class flexProcess extends HTMLElement {
 								<path fill="#F24E1E" d="M0 9.5C0 12.0196 1.00089 14.4359 2.78249 16.2175C4.56408 17.9991 6.98044 19 9.5 19H19V0H9.5C6.98044 0 4.56408 1.00089 2.78249 2.78249C1.00089 4.56408 0 6.98044 0 9.5Z" />
 								<path fill="#A259FF" d="M0 28.5C0 31.0196 1.00089 33.4359 2.78249 35.2175C4.56408 36.9991 6.98044 38 9.5 38H19V19H9.5C6.98044 19 4.56408 20.0009 2.78249 21.7825C1.00089 23.5641 0 25.9804 0 28.5Z" />
 							</svg>
-								View MVP pyramid
+								View flow diagram
 					</button>
 				</div>
 			</section>

@@ -13,16 +13,13 @@
         "thumb06Caption": "'Back-of-the-shop' problem"
     },
     "process": {
-            "section": "process",
-            "sectionTitle": "complex workflow, many edge cases'",
-            "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment / diagramming / "],
-            "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
-            "flowImgAlt": "Low resolution journey map",
-            "flowImgCaption": "Low resolution",
-            "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
-            "diagramImgAlt": "Work computer next to packaging",
-            "diagramImgCaption": "A fulfillment workstation with application open, label printing machine, and packaging to-hand",
-            "diagramMVPFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJwXFaSTdfwj7FeS2oGK8VK%2FFlexlabel-flow-diagrams%3Fnode-id%3D35%253A2912%26t%3DoM5ttXugOhvVgbs9-1"
+        "section": "process",
+        "sectionTitle": "complex workflow, many edge cases'",
+        "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment / diagramming / "],
+        "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
+        "diagramImgAlt": "Work computer next to packaging",
+        "diagramImgCaption": "A fulfillment workstation with application open, label printing machine, and packaging to-hand",
+        "diagramMVPFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJwXFaSTdfwj7FeS2oGK8VK%2FFlexlabel-flow-diagrams%3Fnode-id%3D35%253A2912%26t%3DoM5ttXugOhvVgbs9-1"
     },
     "research": {
         "section": "research",
@@ -39,25 +36,41 @@
         "thumb03Caption": "Jennaration Boutique go-live space",
         "thumb04Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb04.jpg",
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
-        "thumb04Caption": "Jennaration Boutique workspace for go-live"
+        "thumb04Caption": "Jennaration Boutique workspace for go-live",
+        "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-legacy-empty-state.jpg",
+        "ui01Alt": "UI empty state",
+        "ui01Caption": "Legacy UI fulfillment empty state",
+        "ui02Path": "https://folio22.s3.amazonaws.com/flex/ui-legacy-scanned-state.jpg",
+        "ui02Alt": "UI populated state",
+        "ui02Caption": "Legacy UI fulfillment empty state",
+        "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D32%253A7464%26t%3DoiYgMrUd0KhZtpVl-1"
     },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Optimizing a workflow",
         "hmwProblemStatement": "get closest to $0 error-rate for label purchasing while supporting a new and 'legacy' workflow",
         "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"],
-        "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
-        "diagramImgAlt": "Work computer next to packaging"
+        "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
+        "flowImgAlt": "Low resolution journey map",
+        "flowImgCaption": "Low resolution"
     },
     "wireframing": {
         "section": "wireframing",
-        "sectionTitle": "'Laddering' the resolutions of the wireframes'",
-        "text": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component "]
+        "sectionTitle": "Barcode-centric interface",
+        "text": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component / refunding at multiple points / hybrid workflow"],
+        "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-first-package-ready.png",
+        "ui01Alt": "UI empty state",
+        "ui01Caption": "Legacy UI fulfillment empty state",
+        "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D9%253A7058%26t%3DoiYgMrUd0KhZtpVl-1"
         },
     "designs": {
         "section": "designs",
         "sectionTitle": "User interface design",
-        "text": [" new dashboard / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order"]
+        "text": [" new dashboard / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order, prototypes user interviews / component testing / data hierarchy / component states / populated with representative data for prototyping click thru during user interview"],
+        "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-design.jpg",
+        "ui01Alt": "UI empty state",
+        "ui01Caption": "Legacy UI fulfillment empty state",
+        "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D32%253A10291%26t%3DoiYgMrUd0KhZtpVl-1"
     },
     "delivery": {
         "section": "delivery",

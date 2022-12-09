@@ -44,6 +44,12 @@ export default class flexIdeation extends HTMLElement {
 						</blockquote>
 					</figure>
                 </div>
+				<figure class="folio-content__figma">
+					<img src="${data.ideation.flowImg}" alt="${data.ideation.flowImgAlt}">
+					<figcaption class="folio-caption width-minor justify-self-center">
+						${data.ideation.flowImgCaption}
+					</figcaption>
+				</figure>	
 			</section>
 		`;
 	}
