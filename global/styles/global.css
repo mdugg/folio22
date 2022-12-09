@@ -1089,6 +1089,9 @@ header-video {
 }
 .webstore-stats-item .icon-half {
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1;
 }
 
 @media screen and (max-width: 1080px) {
@@ -1100,6 +1103,14 @@ header-video {
 @media screen and (max-width: 860px) {
   .folio-content__text {
     width: calc(100% - 4rem);
+  }
+
+  .webstore-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .webstore-stats-item .icon, .webstore-stats-item .icon-half {
+    max-height: 3rem;
   }
 }
 @media screen and (max-width: 760px) {

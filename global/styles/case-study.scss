@@ -231,6 +231,9 @@ header-video {
     .icon-half {
         @extend .icon;
         width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        line-height: 1;
     }
 }
 
@@ -246,6 +249,14 @@ header-video {
 
     .folio-content__text {
         width: calc(100% - 4rem);
+    }
+    .webstore-stats {
+        grid-template-columns: 1fr;
+    }
+    .webstore-stats-item {
+        .icon {
+            max-height: 3rem;
+        }
     }
 
 }
