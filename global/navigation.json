@@ -4,25 +4,25 @@
 		"linkName": "Home",
 		"linkURL": "/folio22/",
 		"type": "page",
-		"published": false
+		"published": true
 	},
 	"work": {
 		"linkName": "Recent Work",
 		"linkURL": "/folio22/#recent-work",
 		"type": "page",
-		"published": false
+		"published": true
 	},
 	"profile": {
 		"linkName": "Profile",
 		"linkURL": "/folio22/pages/martin-duggan-profile.html",
 		"type": "page",
-		"published": false
+		"published": true
 	},
 	"resume": {
 		"linkName": "Resume",
 		"linkURL": "/folio22/pages/martin-duggan-resume.html",
 		"type": "page",
-		"published": false
+		"published": true
 	},
 	"linkedin": {
 		"linkName": "Linkedin",
@@ -50,7 +50,7 @@
 		"linkName": "Flexible Shipping Labels",
 		"linkURL": "/folio22/case-studies/flexlabels/index.html",
 		"type": "project",
-		"published": false
+		"published": true
 	},
 	"webstore": {
 		"linkName": "Webstore Editor",

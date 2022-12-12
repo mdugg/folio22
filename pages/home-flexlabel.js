@@ -31,11 +31,11 @@ export default class HomeFlexlabel extends HTMLElement {
             <article 
 				class="home-card card-flexlabel"
 				id="flexlabel"
-				data-published="false"> 
+				data-published="true"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${flex.intro.project}</h2>
                     <h3 class="home-card--subtitle">${flex.intro.title}</h3>
-                    <a href="#flexlabel" class="home-card--btn flexlabel mt1">
+                    <a href="${nav.flexlabel.linkURL}" class="home-card--btn flexlabel mt1">
 						Work-in-progress
 					</a>
                 </div>
