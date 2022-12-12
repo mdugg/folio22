@@ -1094,6 +1094,38 @@ header-video {
   line-height: 1;
 }
 
+.flexlabel-wins {
+  border: 1px solid var(--folio-grey__light04);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.flexlabel-win {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.flexlabel-win .icon-star {
+  height: 2rem;
+  fill: #ffce00;
+  margin-right: 1rem;
+}
+.flexlabel-win:last-child {
+  margin-bottom: 0;
+}
+
+.retro-localpickup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retro-localpickup .video {
+  width: 20rem;
+}
+
 @media screen and (max-width: 1080px) {
   .folio-grid,
 .folio-content__figma {

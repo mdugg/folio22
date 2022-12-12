@@ -12,7 +12,9 @@ export default class flexIdeation extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/flexlabel.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -46,7 +48,7 @@ export default class flexIdeation extends HTMLElement {
                 </div>
 				<figure class="folio-content__figma">
 					<img src="${data.ideation.flowImg}" alt="${data.ideation.flowImgAlt}">
-					<figcaption class="folio-caption width-minor justify-self-center">
+					<figcaption class="folio-caption justify-self-center">
 						${data.ideation.flowImgCaption}
 					</figcaption>
 				</figure>	

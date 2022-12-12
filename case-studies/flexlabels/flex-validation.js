@@ -11,7 +11,9 @@ export default class flexValidation extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/flexlabel.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);

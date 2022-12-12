@@ -14,7 +14,9 @@ export default class flexProcess extends HTMLElement {
 	}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/flexlabel.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -41,16 +43,6 @@ export default class flexProcess extends HTMLElement {
 						})
 						.join("")}
                 </div>
-				<div class="folio-content__text mt2">	
-                    ${Object.values(data.process.text)
-						.map((value) => {
-							return "<p>" + value + "</p>";
-						})
-						.join("")}
-                </div>
-				<figure class="folio-pullquote mt2 mb3">
-					<strong>scope matrix</strong>
-				</figure>
 				<figure class="folio-content__figma">
 					<img src="${data.process.diagramImg}" alt="${data.process.diagramImgAlt}">
 					<figcaption class="folio-caption justify-self-center">
@@ -106,3 +98,7 @@ export default class flexProcess extends HTMLElement {
 	}
 }
 window.customElements.define("flex-process", flexProcess);
+
+// <figure class="folio-pullquote mt2 mb3">
+// 	<strong>scope matrix</strong>
+// </figure>;

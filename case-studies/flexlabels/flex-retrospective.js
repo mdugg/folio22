@@ -11,7 +11,9 @@ export default class flexRetrospective extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/flexlabel.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -36,6 +38,15 @@ export default class flexRetrospective extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<figure class="retro-localpickup">	
+						<video controls class="video">
+							<source src="${data.retrospective.videoPath}"
+									type="video/mp4">
+						</video>
+						<figcaption class="folio-caption mt1 justify-self-center">
+							${data.retrospective.videoCaption}
+						</figcaption>
+					</figure>
                 </div>
 			</section>
 		`;

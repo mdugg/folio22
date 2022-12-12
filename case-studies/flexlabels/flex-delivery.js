@@ -11,7 +11,9 @@ export default class flexDelivery extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch("../../content/flexlabel.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/flexlabel.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -36,6 +38,12 @@ export default class flexDelivery extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
+					<figure class="">
+						<img src="${data.delivery.imgPath}" alt="${data.delivery.imgAlt}">
+						<figcaption class="folio-caption mt1 justify-self-center">
+							${data.delivery.imgCaption}
+						</figcaption>
+					</figure>
                 </div>
 			</section>
 		`;

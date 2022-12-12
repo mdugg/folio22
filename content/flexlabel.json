@@ -2,62 +2,62 @@
     "intro": {
         "project": "Flexible Shipping Labels",
         "title": "Winning major efficiencies in the fulfillment workflow",
-        "subtitle": "",
+        "subtitle": "A workflow prone to costly errors",
         "section": "context",
-        "text": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "],
+        "text": ["This project focused on the errors in the packing and shipping aspect of the retail business.", "What drove the urgency in fixing these pain-points was a change in USPS policy that it would enforce accuracy of package weight and sizing. Until this point there was a margin of error being tolerated.", "With a new clamp down, this translated to many thousands of dollars in monthly shipping adjustment charges that were really hard on retailers."],
         "thumb05Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb05.jpg",
         "thumb05Alt": "Shipment bins full of packaged orders",
-        "thumb05Caption": "Volume of orders shipped daily",
+        "thumb05Caption": "Large volume of orders shipped daily to customers",
         "thumb06Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb06.jpg",
         "thumb06Alt": "Warehouse bins and rows",
-        "thumb06Caption": "'Back-of-the-shop' problem"
+        "thumb06Caption": "Researching the pick, pack, and ship workflow"
     },
     "process": {
         "section": "process",
-        "sectionTitle": "complex workflow, many edge cases'",
-        "text": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment / diagramming / "],
+        "sectionTitle": "A complex workflow with many edge cases",
+        "text": ["There was a lot of nuance in the fulfillment workflow that I had to wrap my head around. My task was to help Product and Engineering to envisage a more optimized solution. To add to the complexity, we had to support both legacy and new workflows together, seamlessly."],
         "diagramImg": "https://folio22.s3.amazonaws.com/flex/diagram-workflow.jpg",
         "diagramImgAlt": "Work computer next to packaging",
-        "diagramImgCaption": "A fulfillment workstation with application open, label printing machine, and packaging to-hand",
+        "diagramImgCaption": "Flow diagrams helped center coversations with stakeholders throughout the project lifecycle",
         "diagramMVPFigmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJwXFaSTdfwj7FeS2oGK8VK%2FFlexlabel-flow-diagrams%3Fnode-id%3D35%253A2912%26t%3DoM5ttXugOhvVgbs9-1"
     },
     "research": {
         "section": "research",
         "sectionTitle": "Understanding the 'current solution'",
-        "text": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff / Usable Equitable - diverse abilities / Enjoyable - research / Useful"],
+        "text": ["I participated in many interviews with business owners and ethnographic research to build empathy and understanding of their daily process and needs.", "The legacy workflow only enabled admin staff to purchase labels at the beginning of each fulfillment cycle.", "A key point of discussion was enabling fulfillment staff to purchase labels at the point of packing. In this way there would be greater accuracy and ability to correct errors.", "This change in approach put a lot of purchasing power in the hands of warehouse staff and necessitated trust that they would be economical in their decisions."],
         "thumb01Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb01.jpg",
         "thumb01Alt": "Work computer next to packaging",
         "thumb01Caption": "A fulfillment workstation with application, label printing, and packaging to-hand",
         "thumb02Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb02.jpg",
-        "thumb02Alt": "Discount Divas live studio lighting equipment",
-        "thumb02Caption": "Discount Divas live studio lighting equipment",
+        "thumb02Alt": "Products in a basket with a shipping label",
+        "thumb02Caption": "Example of pre-purchased shipping label with products ready for packing and shipping",
         "thumb03Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb03.jpg",
-        "thumb03Alt": "Jennaration Boutique go-live space",
-        "thumb03Caption": "Jennaration Boutique go-live space",
+        "thumb03Alt": "A shipping label being printed",
+        "thumb03Caption": "Shipping label printer",
         "thumb04Path": "https://folio22.s3.amazonaws.com/flex/fulfillment-thumb04.jpg",
         "thumb04Alt": "Jennaration Boutique workspace for go-live",
-        "thumb04Caption": "Jennaration Boutique workspace for go-live",
+        "thumb04Caption": "Fulfillment staff at work stations with baskets of orders to pack and ship",
         "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-legacy-empty-state.jpg",
         "ui01Alt": "UI empty state",
         "ui01Caption": "Legacy UI fulfillment empty state",
         "ui02Path": "https://folio22.s3.amazonaws.com/flex/ui-legacy-scanned-state.jpg",
         "ui02Alt": "UI populated state",
-        "ui02Caption": "Legacy UI fulfillment empty state",
+        "ui02Caption": "An audit of the UI for the legacy workflow",
         "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D32%253A7464%26t%3DoiYgMrUd0KhZtpVl-1"
     },
     "ideation": {
         "section": "ideation",
         "sectionTitle": "Optimizing a workflow",
-        "hmwProblemStatement": "get closest to $0 error-rate for label purchasing while supporting a new and 'legacy' workflow",
-        "text": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"],
+        "text": ["I workshopped ideas with Product at low resolution to get a handle on a core workflow that would enable fulfillment staff to refund pre-bought labels that were not accurate and purchase new ones on the fly.", "Speed, accuracy, and efficiency is crucial to the new workflow being a success. We needed to rapidly draft many scenarios and edge cases to ensure we were addressing every need.", "Framing a problem statement as a <strong>hmw question</strong> is a key step in helping the team generate ideas."],
+        "hmwProblemStatement": "increase accuracy for purchasing shipping labels based on weight and dimensions, empower fulfillment staff to handle errors , and support both new and 'legacy' workflows",
         "flowImg": "https://folio22.s3.amazonaws.com/flex/journey-map-lores.jpg",
         "flowImgAlt": "Low resolution journey map",
-        "flowImgCaption": "Low resolution"
+        "flowImgCaption": "Low resolution capture of user needs"
     },
     "wireframing": {
         "section": "wireframing",
         "sectionTitle": "Barcode-centric interface",
-        "text": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component / refunding at multiple points / hybrid workflow"],
+        "text": ["The research and ideation gave me a solid foundation from which to begin the wireframing process.", "Typically, I would go through many iterations here, working from low resolution, presenting to stakeholders early and often. Continue to refine flows and resolution.", "The interaction with this UI would primarily come from staff scanning product and functional barcodes. Keyboard and mouse fall-backs had to be included, but primarily I had to think 'barcode'."],
         "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-first-package-ready.png",
         "ui01Alt": "UI empty state",
         "ui01Caption": "Legacy UI fulfillment empty state",
@@ -65,8 +65,8 @@
         },
     "designs": {
         "section": "designs",
-        "sectionTitle": "User interface design",
-        "text": [" new dashboard / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order, prototypes user interviews / component testing / data hierarchy / component states / populated with representative data for prototyping click thru during user interview"],
+        "sectionTitle": "Prototype testing with users",
+        "text": ["I prepared clickable prototypes to walkthrough with shops so we could get early feedback", "The details were important here. I used representative data that told a story for the most common pain-points encountered by shops regularly.", "With each project I ensured the presentation and consistency of the UI was executed at a higher level and was a better representation of the product."],
         "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-design.jpg",
         "ui01Alt": "UI empty state",
         "ui01Caption": "Legacy UI fulfillment empty state",
@@ -74,8 +74,11 @@
     },
     "delivery": {
         "section": "delivery",
-        "sectionTitle": "Collaborating with engineers",
-        "text": ["testing the settings dependencies component for interaction and wording / early prototypes shared to facebook groups / First version release "]
+        "sectionTitle": "Testing with a barcode scanner",
+        "text": ["With complex state-management and many edge cases from both the legacy and new workflow, I setup my workstation to test a beta release with a barcode scanner.", "Along with a thorough QA process, a few shops were recruited to trial the beta version and feedback on any UX or functional issues."],
+        "imgPath": "https://folio22.s3.amazonaws.com/flex/testing-barcode-scanner.jpg",
+        "imgAlt": "Holding a barcode scanner in front of a widescreen",
+        "imgCaption": "Using a barcode scanner to test the UI"
     },
     "validation": {
         "section": "validation",
@@ -85,14 +88,25 @@
     "outcomes": {
         "section": "outcomes",
         "sectionTitle": "Some results",
-        "text": ["https://commentsold.canny.io/changelog?labels=fulfillment / help center https://help.commentsold.com/hc/en-us/categories/6797806930708-Orders-Fulfillment / time saved / money saved / errors down / admin time refunding "]
+        "text": ["When the beta stage was lifted and the new workflow was on general release, it took a few weeks for most shops to test and transition.", "New help center documentation was released and account strategists were on-hand to advise the shops dealing with higher volumes of shipping.", "After a few short months it was clear that the new workflow was out-performing the legacy version and saving retailers a lot of time and money."],
+        "wins": ["USPS adjustment charges reduced to near zero $$$", "Admin time saved processing USPS adjustment charges", "Efficient workflow error-handling reducing debugging time", "Better platform for integrating UPS and Fedex", "Full adoption rate across all shops"]
     },
     "retrospective": {
         "section": "retrospective",
-        "sectionTitle": "issues around local pickup",
-        "text": ["issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views"]
+        "sectionTitle": "Issues around local pickup",
+        "text": ["Local pickup was an important part of the workflow that I didn't fully capture. I would have caught the issues earlier by just asking <strong>why</strong> more."],
+        "videoPath": "https://folio22.s3.amazonaws.com/flex/error-local-pickup-40.mp4",
+        "videoCaption": "Errors with the local pickup flow"
     },
     "snippets": {
-        "1": ["Winning major efficiencies in the pick, pack, and ship fulfillment workflow"]
+        "1": ["Winning major efficiencies in the pick, pack, and ship fulfillment workflow"],
+        "2": ["existing workflow - review all orders and purchase labels in advance, printed and attached to pack slip - / buying shipping labels upfront at beginning of each day / scenario of shop could spend $10,000s labels, hand to fulfill staff / estimates / high error rate / refunds / who had purchasing power / transfer trust and responsibility to fulfill staff / USPS stricter on weight + dimensions / adjustments charges / overages / rules on combine - not combine / strain on intake   "],
+        "3": ["process is to start at low resolution (stickies) and capture a volumn of user flows and potential layouts, product assumptions, user feedback, / use artifacts to capture and share for team alignment / diagramming / "],
+        "4": ["pictures of workstations / IDEO testing notes / interview shop owners / no 'would you ...' questions / do they trust fulfill staff already ? / guerilla / stakeholder interviews, understand existing pain points / shop interviews / research existing solution / label purchasing decisions / staff with admin and purchasing power / daily review and estimation based on combined orders / what is an order - session ? / previous interviews and workshopping with shops / fulfillment rep/ teamed up with Product to interview shop owners and fulfillment staff / Usable Equitable - diverse abilities / Enjoyable - research / Useful"],
+        "5": ["hybrid flow / support both workflows / hybrid workflows / barcode scanner events / logistics / learning from others who do it every day / suit the scale / user flow / real-time / scope / least disruptive / extend for UPS and Fedex ", "minimize errors in shipping label purchasing and maximize the efficiency in dealing with errors in the pick, pack, ship fulfillment flow"],
+        "6": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component / refunding at multiple points / hybrid workflow"],
+        "7": ["representative data to help invision / accuracy of information to really tell a story that would reflect / new dashboard / a lot of state management / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order, prototypes user interviews / component testing / data hierarchy / component states / populated with representative data for prototyping click thru during user interview"],
+        "8": ["adoption / errors", "https://commentsold.canny.io/changelog?labels=fulfillment / help center https://help.commentsold.com/hc/en-us/categories/6797806930708-Orders-Fulfillment / time saved / money saved / errors down / admin time refunding / much better platform to support UPS, Fedex, and Smartlabel (auto-choosing cheapest option based on weight and dimensions)"],
+        "9": ["push beyond happy path", "issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views"]
     }
 }
