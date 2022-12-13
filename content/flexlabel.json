@@ -66,11 +66,24 @@
     "designs": {
         "section": "designs",
         "sectionTitle": "Prototype testing with users",
-        "text": ["I prepared clickable prototypes to walkthrough with shops so we could get early feedback", "The details were important here. I used representative data that told a story for the most common pain-points encountered by shops regularly.", "With each project I ensured the presentation and consistency of the UI was executed at a higher level and was a better representation of the product."],
+        "text": ["I prepared clickable prototypes to walkthrough with shops so we could get early feedback", "The details were important here. I used representative data that told a story for the most common flows used by shops daily.", "With each project I ensured the presentation and consistency of the UI was executed at a higher level and was a better representation of the product."],
         "ui01Path": "https://folio22.s3.amazonaws.com/flex/ui-design.jpg",
         "ui01Alt": "UI empty state",
         "ui01Caption": "Legacy UI fulfillment empty state",
-        "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D32%253A10291%26t%3DoiYgMrUd0KhZtpVl-1"
+        "figmaLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D32%253A10291%26t%3DoiYgMrUd0KhZtpVl-1",
+        "settingsTitle": "Multiple touch-points",
+        "settingsText": ["The fulfillment flow had many feature dependencies across the application. One of these was packaging presets, located within the application settings. This had to be redesigned to support the legacy and new workflows and work as a guardrail against errors. Through <strong>progressive enhancement</strong> I made improvements to the UI to bring up the standard within this settings section."],
+        "settingsPath": "https://folio22.s3.amazonaws.com/flex/ui-package-presets.png",
+        "settingsAlt": "UI design for package presets",
+        "settingsCaption": "UI design for package presets",
+        "settingsFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D18%253A4756%26t%3DBjgICqvBjmMWx529-1",
+        "modalTitle": "Component-level testing",
+        "modalText": ["Some components needed additional focus and testing. For example, I created options for the 'features dependencies' modal that recommended shops activate other features for the best experience.", "I had to work on the wording and UI for this a few times as it was not clear what shops needed to do, based on early user testing on this flow."],
+        "modalPath01": "https://folio22.s3.amazonaws.com/flex/ui-modal-settings01.png",
+        "modalAlt01": "Design for modal options",
+        "modalPath02": "https://folio22.s3.amazonaws.com/flex/ui-modal-settings02.png",
+        "modalAlt02": "Alternate design for modal options",
+        "modalFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D19%253A6395%26t%3DBjgICqvBjmMWx529-1"
     },
     "delivery": {
         "section": "delivery",
@@ -107,6 +120,7 @@
         "6": ["mainly barcode scanning with UI support / package settings / fulfill UI / changes to payments UI / heuristics / global vs component / refunding at multiple points / hybrid workflow"],
         "7": ["representative data to help invision / accuracy of information to really tell a story that would reflect / new dashboard / a lot of state management / visible at a distance - mac air small screens / av items per package / card states / data points / shows progress for both scanning and packaging each order, prototypes user interviews / component testing / data hierarchy / component states / populated with representative data for prototyping click thru during user interview"],
         "8": ["adoption / errors", "https://commentsold.canny.io/changelog?labels=fulfillment / help center https://help.commentsold.com/hc/en-us/categories/6797806930708-Orders-Fulfillment / time saved / money saved / errors down / admin time refunding / much better platform to support UPS, Fedex, and Smartlabel (auto-choosing cheapest option based on weight and dimensions)"],
-        "9": ["push beyond happy path", "issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views"]
+        "9": ["push beyond happy path", "issues around local pickup / needed to screenflow that more / What could I have done better ? tested on smaller screens / spent more time on the scanning UI interaction - confusing / focused views"],
+        "10":  "level / purpose to turn on other features that were dependencies for the new workflow / different copy / enabled and disabled states, current states / combinations / confusing when tested - hard time undersanding"
     }
 }

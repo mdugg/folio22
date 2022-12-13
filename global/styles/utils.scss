@@ -4,7 +4,7 @@
 .width-minor {max-width: var(--width-minor); width: 100%;}
 .width-reading {max-width: var(--width-reading); width: 100%;}
 .width-projects {max-width: var(--width-projects); width: 100%;}
-.width-full {width: 100%;}
+.width-full {width: 100%!important;}
 
 // font
 .size1 {font-size: 1rem;}

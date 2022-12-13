@@ -136,7 +136,7 @@ button:hover {
 }
 
 .width-full {
-  width: 100%;
+  width: 100% !important;
 }
 
 .size1 {
