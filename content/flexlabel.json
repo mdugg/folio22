@@ -78,7 +78,7 @@
         "settingsCaption": "UI design for package presets",
         "settingsFigma": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkyB1udi0ljufvZcqQCsxAn%2FFlexlabels%3Fnode-id%3D18%253A4756%26t%3DBjgICqvBjmMWx529-1",
         "modalTitle": "Component-level testing",
-        "modalText": ["Some components needed additional focus and testing. For example, I created options for the 'features dependencies' modal that recommended shops activate other features for the best experience.", "I had to work on the wording and UI for this a few times as it was not clear what shops needed to do, based on early user testing on this flow."],
+        "modalText": ["Some components needed additional focus and testing. For example, I created options for the 'features dependencies' modal that recommended shops activate other features for the best experience.", "I had to work on the wording and UI for this a few times as it was not clear to shops what they needed to do, based on early user testing on this flow."],
         "modalPath01": "https://folio22.s3.amazonaws.com/flex/ui-modal-settings01.png",
         "modalAlt01": "Design for modal options",
         "modalPath02": "https://folio22.s3.amazonaws.com/flex/ui-modal-settings02.png",
