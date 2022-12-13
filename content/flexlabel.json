@@ -87,7 +87,7 @@
     },
     "outcomes": {
         "section": "outcomes",
-        "sectionTitle": "Some results",
+        "sectionTitle": "Major savings in time and money",
         "text": ["When the beta stage was lifted and the new workflow was on general release, it took a few weeks for most shops to test and transition.", "New help center documentation was released and account strategists were on-hand to advise the shops dealing with higher volumes of shipping.", "After a few short months it was clear that the new workflow was out-performing the legacy version and saving retailers a lot of time and money."],
         "wins": ["USPS adjustment charges reduced to near zero $$$", "Admin time saved processing USPS adjustment charges", "Efficient workflow error-handling reducing debugging time", "Better platform for integrating UPS and Fedex", "Full adoption rate across all shops"]
     },
