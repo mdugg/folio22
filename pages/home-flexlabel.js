@@ -36,7 +36,7 @@ export default class HomeFlexlabel extends HTMLElement {
                     <h2 class="home-card--title">${flex.intro.project}</h2>
                     <h3 class="home-card--subtitle">${flex.intro.title}</h3>
                     <a href="${nav.flexlabel.linkURL}" class="home-card--btn flexlabel mt1">
-						Work-in-progress
+						View case study
 					</a>
                 </div>
                 <figure class="card-flexlabel--illus">
