@@ -38,18 +38,19 @@ export default class flexRetrospective extends HTMLElement {
 							return "<p>" + value + "</p>";
 						})
 						.join("")}
-					<figure class="retro-localpickup">	
-						<video controls class="video">
-							<source src="${data.retrospective.videoPath}"
-									type="video/mp4">
-						</video>
-						<figcaption class="folio-caption mt1 justify-self-center">
-							${data.retrospective.videoCaption}
-						</figcaption>
-					</figure>
                 </div>
 			</section>
 		`;
 	}
 }
 window.customElements.define("flex-retrospective", flexRetrospective);
+
+// <figure class="retro-localpickup">
+// 	<video controls class="video">
+// 		<source src="${data.retrospective.videoPath}"
+// 				type="video/mp4">
+// 	</video>
+// 	<figcaption class="folio-caption mt1 justify-self-center">
+// 		${data.retrospective.videoCaption}
+// 	</figcaption>
+// </figure>

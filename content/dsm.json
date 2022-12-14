@@ -17,6 +17,7 @@
         "offsitePath": "https://folio22.s3.amazonaws.com/dsm/cs-offsite-atlanta.jpg",
         "offsiteAlt": "Team activity with legos"
     },
+    "include": " stakeholder survey / slides / https://folio22.s3.amazonaws.com/dsm/slide23.jpg",
     "section": "Context",
         "sectionTitle": "Disconnected design",
         "text": ["What was designed, what was shipped"],
