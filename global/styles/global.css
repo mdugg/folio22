@@ -2197,6 +2197,7 @@ profile-gallery {
 }
 .mobile-nav--overlay {
   display: none;
+  overflow-y: scroll;
   position: fixed;
   top: 6rem;
   left: 2rem;

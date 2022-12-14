@@ -171,6 +171,13 @@ export default class FolioHeader extends HTMLElement {
 								</a>
 							</li>
 							<li class="mobile-nav--item">
+								<span class="label">Case study</span>
+								<a class="mobile-nav--link nav-flexlabel"
+									href="${data.flexlabel.linkURL}">
+                                    ${data.flexlabel.linkName}
+								</a>
+							</li>
+							<li class="mobile-nav--item">
 								<a class="mobile-nav--link nav-linkedin"
 									href="${data.linkedin.linkURL}"
 									target="_blank">

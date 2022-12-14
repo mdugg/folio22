@@ -1,17 +1,32 @@
 {
-    "meta": {
-        "tags": ["eCommerce", "SaaS", "Responsive design", "Apps"],
-        "role": ["Wireframing", "Prototyping", "Style Guide", "UI", "UX"],
-        "videoPath": [""]
-    },
     "intro": {
         "project": "Design System",
-        "title": "Merging project style guides into pattern libraries and creating a foundation for a CommentSold Design System",
-        "subtitle": "More text about webstore admin",
+        "title": "Setting a foundation for a Design System at CommentSold",
         "section": "context",
-        "text": ["storybook / team presentation at off-site / slides"]
+        "subtitle01": "Hat-tip to Eng Team",
+        "text01": ["The CommentSold core SaaS product gave super-powers to retailers in the livestreaming e-commerce space.", "Without the core product, retailers had little chance of scaling their businesses from $thousands to over a $million in monthly sales.", "The Engineering team did a great job in building a $billion dollar company, but it was obvious that Product Design was neglected."],
+        "subtitle02": "Disconnected design",
+        "text02": ["Each new week brought a raft of new feature releases. As a bootstrapped product using a mixture of frontend libraries and frameworks, these were just magnifying the lack of cohesion and growing complexity.", "With each design project, only a fraction of the design vision would be implemented"],
+        "ui01path": "https://folio22.s3.amazonaws.com/dsm/ui-what-was-designed.jpg",
+        "ui01alt": "New UI design",
+        "ui02path": "https://folio22.s3.amazonaws.com/dsm/ui-what-was-launched.jpg",
+        "ui02alt": "UI that was implemented",
+        "uiCaption": "What was designed vs what was shipped",
+        "subtitle03": "An opportunity to rally the troops",
+        "text03": ["The CommentSold core SaaS product gave super-powers to retailers in the livestreaming e-commerce space.", "Without the core product, retailers had little chance of scaling their businesses from $thousands to over a $million in monthly sales.", "", "storybook / team presentation at off-site / slides"],
+        "offsitePath": "https://folio22.s3.amazonaws.com/dsm/cs-offsite-atlanta.jpg",
+        "offsiteAlt": "Team activity with legos"
     },
+    "section": "Context",
+        "sectionTitle": "Disconnected design",
+        "text": ["What was designed, what was shipped"],
+        "ui01path": "",
+        "ui01alt": "",
+        "ui01caption": "",
+        "ui02path": "",
+        "ui02alt": "",
+        "ui02caption": "",
     "snippets": {
-        "1": [""]
+        "1": ["Merging project style guides into pattern libraries and creating a foundation for a CommentSold Design System"]
     }
 }
