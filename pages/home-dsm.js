@@ -35,7 +35,7 @@ export default class HomeDSM extends HTMLElement {
                 <div class="home-card--content">
                     <h2 class="home-card--title">${dsm.intro.project}</h2>
                     <h3 class="home-card--subtitle">${dsm.intro.title}</h3>
-                    <a href="#dsm" class="home-card--btn dsm mt1">
+                    <a href="${nav.dsm.linkURL}" class="home-card--btn dsm mt1">
 						View case study
 					</a>
                 </div>
