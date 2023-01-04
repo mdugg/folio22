@@ -31,12 +31,12 @@ export default class HomeDSM extends HTMLElement {
             <article 
 				class="home-card card-dsm"
 				id="dsm"
-				data-published="false"> 
+				data-published="true"> 
                 <div class="home-card--content">
                     <h2 class="home-card--title">${dsm.intro.project}</h2>
                     <h3 class="home-card--subtitle">${dsm.intro.title}</h3>
                     <a href="#dsm" class="home-card--btn dsm mt1">
-						Work-in-progress
+						View case study
 					</a>
                 </div>
 				<figure class="card-dsm--illus">

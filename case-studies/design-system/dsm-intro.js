@@ -11,7 +11,9 @@ export default class DsmIntro extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((resolve, reject) => {
-			fetch("../../content/dsm.json")
+			fetch(
+				"https://raw.githubusercontent.com/mdugg/folio22/main/content/dsm.json"
+			)
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -40,8 +42,8 @@ export default class DsmIntro extends HTMLElement {
 						})
 						.join("")}
                 </div>
-                <div class="folio-content__text mt3">
-                    <h2 class="h2 mt0"> ${data.intro.subtitle02} </h2>	
+                <div class="folio-content__text">
+                    <h2 class="h2 mt3"> ${data.intro.subtitle02} </h2>	
                     ${Object.values(data.intro.text02)
 						.map((value) => {
 							return `<p>${value}</p>`;
@@ -54,19 +56,7 @@ export default class DsmIntro extends HTMLElement {
 					<figcaption class="folio-caption width-minor justify-self-center col-span-2">
 						${data.intro.uiCaption}
 					</figcaption>
-				</figure>
-                <div class="folio-content__text mt3">
-                    <h2 class="h2 mt0"> ${data.intro.subtitle03} </h2>	
-                    ${Object.values(data.intro.text03)
-						.map((value) => {
-							return `<p>${value}</p>`;
-						})
-						.join("")}
-                    <figure>
-                        <img src="${data.intro.offsitePath}" 
-                        alt="${data.intro.offsiteAlt}" />
-                    </figure>
-                </div>		
+				</figure>	
 			</section>
 		`;
 	}
