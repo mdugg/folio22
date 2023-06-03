@@ -30,7 +30,11 @@ export default class ResumeExperience extends HTMLElement {
     <article class="cv-experience--card">
         <h3 class="cv-job--title">
             <span class="dates">
-                ${value.dateStart.year} - ${value.dateEnd.year}
+                ${value.dateStart.year} ${
+					value.dateEnd.year !== value.dateStart.year
+						? "- " + value.dateEnd.year
+						: ""
+				}
             </span>
             <span class="company">
                 <a class="folio-link--effect" 
@@ -80,3 +84,5 @@ export default class ResumeExperience extends HTMLElement {
 	}
 }
 window.customElements.define("resume-experience", ResumeExperience);
+
+// ${value.dateStart.year} - ${value.dateEnd.year}

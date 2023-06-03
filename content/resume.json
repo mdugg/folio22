@@ -1,6 +1,31 @@
 {
     "experience": [
         {
+            "company": "Huron Consulting Group",
+            "companyLink": "https://www.huronconsultinggroup.com/industry/healthcare",
+            "companyAddress": {
+                "street": "550 W. Van Buren Street",
+                "city": "Chicago", 
+                "state": "Illinois", 
+                "zip": "60607", 
+                "country": "USA"
+            },
+            "dateStart": {
+                "day": "9",
+                "month": ["1", "January", "Jan"],
+                "year": "2023"
+            },
+            "dateEnd": {
+                "day": "30",
+                "month": ["6", "June", "Jun"],
+                "year": "2023"
+            },
+            "workLocation": "Remote, USA",
+            "jobTitle": "Senior Product Designer",
+            "jobSummary": "Leading product design and data visualization for the Revenue Cycle Insights application. The MVP release was designed for internal insights managers at Huron Healthcare. Immediate future releases will progressively serve an array of personas in revenue cycle management across the US healthcare industry.",
+            "jobResponsibilities": ["UX advisory role for all Huron Healthcare insights and analytics platforms", "Creating data visualization guidelines for AWS Quicksight BI platform and dashboard embeds within RCI web application", "Preparing interactive user-flow prototypes for user interviews and market validation", "Leading the development of a new design system for all Huron Healthcare insights platforms", "Cross-functional collaboration with leadership, product team, onshore and offshore designers, BI and web app developers, and QA", "Delivering Figma training workshops to onshore and offshore teams on building standardized UI pattern libraries and styleguides", "Leading and mentoring an offshore team of designers and contributing to UX sprint planning and management"]
+        },
+        {
             "company": "CommentSold",
             "companyLink": "https://try.commentsold.com",
             "companyAddress": {
@@ -233,7 +258,7 @@
         },
         "tools": {
             "subtitle": "Tools",
-            "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Slack, Notion, Trello"]
+            "points": ["Figma, Sketch, Miro, Adobe XD, Abstract, Zeplin, Invision", "Adobe Photoshop, Illustrator, and InDesign", "HTML, CSS, BEM, LESS, SASS", "JavaScript and DOM APIs", "VS Code, Git, Github, Bitbucket", "Bootstrap, Material Design", "Browserstack, Hotjar, Usertesting.com", "Jira, Confluence, Azure (ADO), Slack, Notion, Trello"]
         }
     },
     "education": {
@@ -257,7 +282,7 @@
             {
                 "provider": "IDEO U",
                 "providerLogo": "https://folio22.s3.amazonaws.com/resume/ideoU.png",
-                "providerLogoAlt": "IDEO U logo",
+                "providerLogoAlt": "IDEO University logo",
                 "logoID": "ideo",
                 "name": "Designing Strategy",
                 "link": "https://www.ideou.com/products/designing-strategy",

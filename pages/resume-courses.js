@@ -25,7 +25,7 @@ export default class ResumeCourses extends HTMLElement {
 	render(data) {
 		this.innerHTML = `
 			<h4 class="cv-section--title mt2 mb1">
-                Courses
+                Recent Courses
             </h4>
 			<ul class="cv-courses">           
 				${data.education.courses
