@@ -52,7 +52,7 @@ export default class ResumeExperience extends HTMLElement {
             </span>
         </h3>
         <h4 class="cv-section--title mt15">
-            Title:
+            Role:
             <strong>${value.jobTitle}</strong>
         </h4>
         <h4 class="cv-section--title mt15">
