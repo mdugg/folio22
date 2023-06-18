@@ -221,7 +221,9 @@
     flex-direction: column;
 }
 .course-card {
+    margin-bottom: 2rem;
     .logo {
+        max-width: 6rem;
         margin-bottom: .5rem;
         .ideo {
             height: 2rem;

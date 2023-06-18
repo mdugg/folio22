@@ -11,9 +11,7 @@ export default class ResumeCourses extends HTMLElement {
 	disconnectedCallback() {}
 	getModel() {
 		return new Promise((res, rej) => {
-			fetch(
-				"https://raw.githubusercontent.com/mdugg/folio22/main/content/resume.json"
-			)
+			fetch("./../content/resume.json")
 				.then((data) => data.json())
 				.then((json) => {
 					this.render(json);
@@ -38,7 +36,7 @@ export default class ResumeCourses extends HTMLElement {
 								 	src="${course.providerLogo}"
 									alt="${course.providerLogoAlt}" />
 							</figure>
-							<a class="link folio-link"
+							<a class="folio-link--effect"
 								href="${course.link}"
 								target="_blank">
 									${course.name}

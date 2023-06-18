@@ -34,7 +34,7 @@ export default class ResumeEducation extends HTMLElement {
                 </figure>
                 <ul class="cv-list">
                     <li class="mt1">
-                        <a class="folio-link" href="${data.education.college.collegeURL}" target="_blank">
+                        <a class="folio-link--effect" href="${data.education.college.collegeURL}" target="_blank">
                             ${data.education.college.collegeName}
                         </a>
                     </li>

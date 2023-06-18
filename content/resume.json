@@ -265,7 +265,7 @@
         "college": {
             "collegeName": "Technological University of the Shannon",
             "collegeURL": "https://www.ait.ie",
-            "collegeLogo": "https://folio22.s3.amazonaws.com/logo-tus-college.png",
+            "collegeLogo": "https://folio22.s3.amazonaws.com/resume/logo-tus-college.png",
             "collegeLogoAlt": "Logo for Technological University of the Shannon",
             "courseName": "Diploma in Design & Visual Communication",
             "courseDesc": "3 year full time course; graduated July 1997 (formerly Regional Technical College Athlone)",
@@ -289,6 +289,18 @@
                 "date": {
                     "month": ["10", "October", "Oct"],
                     "year": "2022"
+                }
+            },
+            {
+                "provider": "Google / Coursera",
+                "providerLogo": "https://folio22.s3.amazonaws.com/resume/google-color.png",
+                "providerLogoAlt": "Google logo",
+                "logoID": "google",
+                "name": "Foundations of User Experience (UX) Design",
+                "link": "https://www.coursera.org/account/accomplishments/verify/7ATHRRGTMGL6",
+                "date": {
+                    "month": ["1", "January", "Jan"],
+                    "year": "2023"
                 }
             }
         ]

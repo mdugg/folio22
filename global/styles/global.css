@@ -525,22 +525,24 @@ button:hover {
   color: var(--folio-grey__dark01);
   text-decoration: none;
 }
-.folio-link--effect:before {
+.folio-link--effect:before, .folio-link--effect:after {
   position: absolute;
   left: 0;
   bottom: -0.4rem;
   width: 100%;
-  height: 100%;
+  height: 2px;
   background-color: var(--folio-turq);
   transform-origin: bottom;
-  transform: scaleY(0.1);
   transition: var(--transition01);
-  opacity: 0.5;
+  opacity: 0.2;
   content: "";
 }
-.folio-link--effect:hover:before {
-  opacity: 0.2;
-  transform: scaleY(1.5);
+.folio-link--effect:after {
+  transform: scaleX(0);
+}
+.folio-link--effect:hover:after {
+  opacity: 1;
+  transform: scaleY(1);
 }
 
 .folio-caption {
@@ -1901,7 +1903,11 @@ header-video {
   flex-direction: column;
 }
 
+.course-card {
+  margin-bottom: 2rem;
+}
 .course-card .logo {
+  max-width: 6rem;
   margin-bottom: 0.5rem;
 }
 .course-card .logo .ideo {
